@@ -2,8 +2,9 @@
 const fs=require('node:fs');const path=require('node:path');const assert=require('node:assert/strict');const {pathToFileURL}=require('node:url');const {chromium}=require('playwright');
 const vm=require('node:vm');
 const root=path.resolve(__dirname,'..');
+const outputPath=path.resolve(process.env.AUDIT_ENDING_OUTPUT||path.join(root,'docs/audit/ending-browser.json'));
 const pageURL=entry=>process.env.AUDIT_URL?new URL(entry,process.env.AUDIT_URL.replace(/\/?$/,'/')).href:pathToFileURL(path.join(root,entry)).href;
-const output={method:'Real browser, fresh origins and UI clicks only. State is read for assertions, never overwritten.',entries:{},failed:[],complete:false};
+const output={method:'Real browser, fresh origins and UI clicks only. State is read for assertions, never overwritten.',remote:process.env.AUDIT_URL||null,entries:{},failed:[],complete:false};
 async function clickRoute(page,route){
  for(const step of route){
   assert.equal(await page.evaluate(()=>state.scene),step.scene,'route prefix diverged');
@@ -25,7 +26,7 @@ async function clickRoute(page,route){
    const endings=JSON.parse(vm.runInContext('JSON.stringify(Object.keys(scenes).filter(id=>id.startsWith("final")&&scenes[id].ending).sort())',context,{timeout:1000}));
    assert.deepEqual(Object.keys(routes.entries[entry].endings).sort(),endings,entry+': routes must cover every production final ending');
   }
-  browser=await chromium.launch({channel:'msedge',headless:true});
+  browser=await chromium.launch({channel:'msedge',headless:true,proxy:process.env.AUDIT_PROXY?{server:process.env.AUDIT_PROXY}:undefined});
   for(const [entry,data] of Object.entries(routes.entries)){
    const results={endings:{},globalCompletion:null,loan:null};output.entries[entry]=results;
    for(const [id,item] of Object.entries(data.endings)){
@@ -67,6 +68,6 @@ async function clickRoute(page,route){
  }finally{
   try{if(browser)await browser.close();}catch(error){
    output.complete=false;output.failed.push(error.stack||String(error));console.error(error);process.exitCode=1;
-  }finally{fs.writeFileSync(path.join(root,'docs/audit/ending-browser.json'),JSON.stringify(output,null,2));}
+  }finally{fs.mkdirSync(path.dirname(outputPath),{recursive:true});fs.writeFileSync(outputPath,JSON.stringify(output,null,2));}
  }
 })().catch(e=>{console.error(e);process.exitCode=1;});

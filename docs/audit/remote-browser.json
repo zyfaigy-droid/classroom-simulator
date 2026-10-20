@@ -1,0 +1,4660 @@
+{
+  "mode": "verify",
+  "channel": "msedge",
+  "remote": "https://zyfaigy-droid.github.io/classroom-simulator/",
+  "checks": [
+    {
+      "name": "runtime asset available index.html",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match index.html",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available 安堃模拟器.html",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match 安堃模拟器.html",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available assets/game.css",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match assets/game.css",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available assets/game.js",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match assets/game.js",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available assets/story-classic.js",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match assets/story-classic.js",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available assets/story-extended.js",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match assets/story-extended.js",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available ankun.png",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match ankun.png",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available 安K粉头盔.jpg",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match 安K粉头盔.jpg",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available 安K课堂实拍.jpg",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match 安K课堂实拍.jpg",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available 《写给安堃表白书》.jpg",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match 《写给安堃表白书》.jpg",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available 《安老师补课班宣传海报》.jpg",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match 《安老师补课班宣传海报》.jpg",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available 《安堃传》.txt",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match 《安堃传》.txt",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available 《安堃先生赞》.txt",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match 《安堃先生赞》.txt",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available 《感动城郊年度人物》.txt",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match 《感动城郊年度人物》.txt",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available 《谁不是地球人》.txt",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match 《谁不是地球人》.txt",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available 《巴拉拉坤魔仙》.docx",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match 《巴拉拉坤魔仙》.docx",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available 《沙漠骆驼·安堃版》.docx",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match 《沙漠骆驼·安堃版》.docx",
+      "pass": true
+    },
+    {
+      "name": "runtime asset available 巴啦啦K魔仙.mp3",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "runtime bytes match 巴啦啦K魔仙.mp3",
+      "pass": true
+    },
+    {
+      "name": "index.html audio is deferred until requested",
+      "pass": true
+    },
+    {
+      "name": "index.html authorized narrative delta only; rules and 2000 graduation samples unchanged",
+      "pass": true
+    },
+    {
+      "name": "index.html all declared scene links valid",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "index.html short-rule route headUpRule",
+      "pass": true
+    },
+    {
+      "name": "index.html counterattack payoff headUpReply",
+      "pass": true
+    },
+    {
+      "name": "index.html short-rule route distanceRule",
+      "pass": true
+    },
+    {
+      "name": "index.html counterattack payoff distanceReply",
+      "pass": true
+    },
+    {
+      "name": "index.html short-rule route romanceRule",
+      "pass": true
+    },
+    {
+      "name": "index.html counterattack payoff romanceReply",
+      "pass": true
+    },
+    {
+      "name": "index.html rule chain returns to original story",
+      "pass": true
+    },
+    {
+      "name": "index.html render start",
+      "pass": true
+    },
+    {
+      "name": "index.html choice start:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render firstClass",
+      "pass": true
+    },
+    {
+      "name": "index.html choice firstClass:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice firstClass:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice firstClass:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice firstClass:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render afterFirstExam",
+      "pass": true
+    },
+    {
+      "name": "index.html choice afterFirstExam:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice afterFirstExam:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice afterFirstExam:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice afterFirstExam:3",
+      "pass": true
+    },
+    {
+      "name": "index.html choice afterFirstExam:4",
+      "pass": true
+    },
+    {
+      "name": "index.html render midtermDrama",
+      "pass": true
+    },
+    {
+      "name": "index.html choice midtermDrama:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice midtermDrama:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice midtermDrama:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render math",
+      "pass": true
+    },
+    {
+      "name": "index.html choice math:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice math:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice math:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render mathIgnoreResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice mathIgnoreResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render mathWhisperResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice mathWhisperResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render watchStudy",
+      "pass": true
+    },
+    {
+      "name": "index.html choice watchStudy:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice watchStudy:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render solve",
+      "pass": true
+    },
+    {
+      "name": "index.html choice solve:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice solve:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice solve:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render caught",
+      "pass": true
+    },
+    {
+      "name": "index.html choice caught:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice caught:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render office",
+      "pass": true
+    },
+    {
+      "name": "index.html choice office:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice office:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice office:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render receipt",
+      "pass": true
+    },
+    {
+      "name": "index.html choice receipt:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice receipt:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render phoneInClass",
+      "pass": true
+    },
+    {
+      "name": "index.html choice phoneInClass:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice phoneInClass:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice phoneInClass:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice phoneInClass:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render lectureFluff",
+      "pass": true
+    },
+    {
+      "name": "index.html choice lectureFluff:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice lectureFluff:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice lectureFluff:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render middleStepQuestion",
+      "pass": true
+    },
+    {
+      "name": "index.html choice middleStepQuestion:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice middleStepQuestion:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice middleStepQuestion:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render classFeeOpaque",
+      "pass": true
+    },
+    {
+      "name": "index.html choice classFeeOpaque:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice classFeeOpaque:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice classFeeOpaque:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render seatByFee",
+      "pass": true
+    },
+    {
+      "name": "index.html choice seatByFee:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice seatByFee:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice seatByFee:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render forcedVoluntaryTutor",
+      "pass": true
+    },
+    {
+      "name": "index.html choice forcedVoluntaryTutor:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice forcedVoluntaryTutor:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice forcedVoluntaryTutor:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render kickOffice",
+      "pass": true
+    },
+    {
+      "name": "index.html choice kickOffice:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice kickOffice:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice kickOffice:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render itemThrow",
+      "pass": true
+    },
+    {
+      "name": "index.html choice itemThrow:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice itemThrow:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice itemThrow:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render verbalDeny",
+      "pass": true
+    },
+    {
+      "name": "index.html choice verbalDeny:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice verbalDeny:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice verbalDeny:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice verbalDeny:3",
+      "pass": true
+    },
+    {
+      "name": "index.html choice verbalDeny:4",
+      "pass": true
+    },
+    {
+      "name": "index.html render rollAside",
+      "pass": true
+    },
+    {
+      "name": "index.html choice rollAside:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice rollAside:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice rollAside:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render girlSarcasm",
+      "pass": true
+    },
+    {
+      "name": "index.html choice girlSarcasm:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice girlSarcasm:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice girlSarcasm:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render scarForget",
+      "pass": true
+    },
+    {
+      "name": "index.html choice scarForget:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice scarForget:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice scarForget:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render leaderCall",
+      "pass": true
+    },
+    {
+      "name": "index.html choice leaderCall:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice leaderCall:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice leaderCall:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render xuScold",
+      "pass": true
+    },
+    {
+      "name": "index.html choice xuScold:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice xuScold:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice xuScold:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice xuScold:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render corridor",
+      "pass": true
+    },
+    {
+      "name": "index.html choice corridor:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice corridor:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice corridor:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice corridor:3",
+      "pass": true
+    },
+    {
+      "name": "index.html choice corridor:4",
+      "pass": true
+    },
+    {
+      "name": "index.html choice corridor:5",
+      "pass": true
+    },
+    {
+      "name": "index.html choice corridor:6",
+      "pass": true
+    },
+    {
+      "name": "index.html choice corridor:7",
+      "pass": true
+    },
+    {
+      "name": "index.html choice corridor:8",
+      "pass": true
+    },
+    {
+      "name": "index.html render studentLoan",
+      "pass": true
+    },
+    {
+      "name": "index.html choice studentLoan:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice studentLoan:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render easterPraise",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterPraise:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterPraise:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render easterBiography",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterBiography:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterBiography:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render easterLoveLetter",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterLoveLetter:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterLoveLetter:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render easterAnnualPerson",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterAnnualPerson:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterAnnualPerson:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render easterCamel",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterCamel:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterCamel:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render easterMagic",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterMagic:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterMagic:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render easterAlienNovel",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterAlienNovel:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterAlienNovel:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render easterTutorPoster",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterTutorPoster:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice easterTutorPoster:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render fee",
+      "pass": true
+    },
+    {
+      "name": "index.html choice fee:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice fee:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice fee:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice fee:3",
+      "pass": true
+    },
+    {
+      "name": "index.html choice fee:4",
+      "pass": true
+    },
+    {
+      "name": "index.html render tutorNotNormal",
+      "pass": true
+    },
+    {
+      "name": "index.html choice tutorNotNormal:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice tutorNotNormal:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice tutorNotNormal:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice tutorNotNormal:3",
+      "pass": true
+    },
+    {
+      "name": "index.html choice tutorNotNormal:4",
+      "pass": true
+    },
+    {
+      "name": "index.html render feePayResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice feePayResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice feePayResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice feePayResult:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice feePayResult:3",
+      "pass": true
+    },
+    {
+      "name": "index.html choice feePayResult:4",
+      "pass": true
+    },
+    {
+      "name": "index.html render feeDelayResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice feeDelayResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice feeDelayResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice feeDelayResult:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice feeDelayResult:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render feeRejectResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice feeRejectResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice feeRejectResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice feeRejectResult:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice feeRejectResult:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render earth",
+      "pass": true
+    },
+    {
+      "name": "index.html choice earth:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice earth:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice earth:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render earthWhisperResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice earthWhisperResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice earthWhisperResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render ac",
+      "pass": true
+    },
+    {
+      "name": "index.html choice ac:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice ac:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice ac:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render pencil",
+      "pass": true
+    },
+    {
+      "name": "index.html choice pencil:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice pencil:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice pencil:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render homeworkCall",
+      "pass": true
+    },
+    {
+      "name": "index.html choice homeworkCall:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice homeworkCall:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice homeworkCall:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice homeworkCall:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render gradingFee",
+      "pass": true
+    },
+    {
+      "name": "index.html choice gradingFee:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice gradingFee:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice gradingFee:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice gradingFee:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render gradingPayResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice gradingPayResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice gradingPayResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render gradingQuestionResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice gradingQuestionResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice gradingQuestionResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render gradingMonitorResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice gradingMonitorResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice gradingMonitorResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice gradingMonitorResult:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render gradingRecordResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice gradingRecordResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render tutorLookUp",
+      "pass": true
+    },
+    {
+      "name": "index.html choice tutorLookUp:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice tutorLookUp:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice tutorLookUp:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render tutorLookResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice tutorLookResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render tutorIgnoreResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice tutorIgnoreResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render tutorQuestionResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice tutorQuestionResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render pantsPull",
+      "pass": true
+    },
+    {
+      "name": "index.html choice pantsPull:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice pantsPull:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice pantsPull:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice pantsPull:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render pantsInterveneResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice pantsInterveneResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice pantsInterveneResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render pantsIgnoreResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice pantsIgnoreResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice pantsIgnoreResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render roast",
+      "pass": true
+    },
+    {
+      "name": "index.html choice roast:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice roast:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice roast:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render roastListenResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice roastListenResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render roastStudyResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice roastStudyResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render roastInterruptResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice roastInterruptResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render exam",
+      "pass": true
+    },
+    {
+      "name": "index.html choice exam:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice exam:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice exam:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render phoneCard",
+      "pass": true
+    },
+    {
+      "name": "index.html choice phoneCard:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice phoneCard:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice phoneCard:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render phonePayResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice phonePayResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice phonePayResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render phoneHasCardResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice phoneHasCardResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice phoneHasCardResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render phoneRejectResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice phoneRejectResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice phoneRejectResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render monitorFee",
+      "pass": true
+    },
+    {
+      "name": "index.html choice monitorFee:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice monitorFee:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice monitorFee:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render monitorSilentResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice monitorSilentResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice monitorSilentResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render monitorWhisperResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice monitorWhisperResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice monitorWhisperResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render monitorCalloutResult",
+      "pass": true
+    },
+    {
+      "name": "index.html choice monitorCalloutResult:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice monitorCalloutResult:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render carUpgrade",
+      "pass": true
+    },
+    {
+      "name": "index.html choice carUpgrade:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice carUpgrade:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice carUpgrade:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice carUpgrade:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render resonance",
+      "pass": true
+    },
+    {
+      "name": "index.html choice resonance:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice resonance:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice resonance:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render photosynthesis",
+      "pass": true
+    },
+    {
+      "name": "index.html choice photosynthesis:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice photosynthesis:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice photosynthesis:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render pkuCredit",
+      "pass": true
+    },
+    {
+      "name": "index.html choice pkuCredit:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice pkuCredit:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice pkuCredit:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render historySelfStudy",
+      "pass": true
+    },
+    {
+      "name": "index.html choice historySelfStudy:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice historySelfStudy:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice historySelfStudy:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render eveningTutor",
+      "pass": true
+    },
+    {
+      "name": "index.html choice eveningTutor:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice eveningTutor:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice eveningTutor:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render officeQuestion",
+      "pass": true
+    },
+    {
+      "name": "index.html choice officeQuestion:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice officeQuestion:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice officeQuestion:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice officeQuestion:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render rankAfterExam",
+      "pass": true
+    },
+    {
+      "name": "index.html choice rankAfterExam:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice rankAfterExam:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice rankAfterExam:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice rankAfterExam:3",
+      "pass": true
+    },
+    {
+      "name": "index.html choice rankAfterExam:4",
+      "pass": true
+    },
+    {
+      "name": "index.html choice rankAfterExam:5",
+      "pass": true
+    },
+    {
+      "name": "index.html render hairCheck",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hairCheck:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hairCheck:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hairCheck:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hairCheck:3",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hairCheck:4",
+      "pass": true
+    },
+    {
+      "name": "index.html render bookConfiscation",
+      "pass": true
+    },
+    {
+      "name": "index.html choice bookConfiscation:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice bookConfiscation:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice bookConfiscation:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice bookConfiscation:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render callParents",
+      "pass": true
+    },
+    {
+      "name": "index.html choice callParents:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice callParents:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice callParents:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render contestClass",
+      "pass": true
+    },
+    {
+      "name": "index.html choice contestClass:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice contestClass:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice contestClass:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render contestQuestion",
+      "pass": true
+    },
+    {
+      "name": "index.html choice contestQuestion:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice contestQuestion:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice contestQuestion:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render seatShowoff",
+      "pass": true
+    },
+    {
+      "name": "index.html choice seatShowoff:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice seatShowoff:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice seatShowoff:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice seatShowoff:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render lateCheck",
+      "pass": true
+    },
+    {
+      "name": "index.html choice lateCheck:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice lateCheck:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice lateCheck:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice lateCheck:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render graduationBoast",
+      "pass": true
+    },
+    {
+      "name": "index.html choice graduationBoast:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice graduationBoast:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice graduationBoast:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice graduationBoast:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render longLaugh",
+      "pass": true
+    },
+    {
+      "name": "index.html choice longLaugh:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice longLaugh:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice longLaugh:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice longLaugh:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render winterTutor",
+      "pass": true
+    },
+    {
+      "name": "index.html choice winterTutor:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice winterTutor:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice winterTutor:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice winterTutor:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render hotelTutor",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hotelTutor:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hotelTutor:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hotelTutor:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render hotelTutorClass",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hotelTutorClass:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hotelTutorClass:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hotelTutorClass:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render hotelTutorRoomCheck",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hotelTutorRoomCheck:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hotelTutorRoomCheck:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hotelTutorRoomCheck:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render hotelTutorSettle",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hotelTutorSettle:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hotelTutorSettle:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice hotelTutorSettle:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render giftWatch",
+      "pass": true
+    },
+    {
+      "name": "index.html choice giftWatch:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice giftWatch:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice giftWatch:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice giftWatch:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render longSleep",
+      "pass": true
+    },
+    {
+      "name": "index.html choice longSleep:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice longSleep:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice longSleep:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice longSleep:3",
+      "pass": true
+    },
+    {
+      "name": "index.html choice longSleep:4",
+      "pass": true
+    },
+    {
+      "name": "index.html render farewellQuote",
+      "pass": true
+    },
+    {
+      "name": "index.html choice farewellQuote:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice farewellQuote:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice farewellQuote:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice farewellQuote:3",
+      "pass": true
+    },
+    {
+      "name": "index.html choice farewellQuote:4",
+      "pass": true
+    },
+    {
+      "name": "index.html render preFinalWeek",
+      "pass": true
+    },
+    {
+      "name": "index.html choice preFinalWeek:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice preFinalWeek:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice preFinalWeek:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice preFinalWeek:3",
+      "pass": true
+    },
+    {
+      "name": "index.html choice preFinalWeek:4",
+      "pass": true
+    },
+    {
+      "name": "index.html render finalCorridor",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalCorridor:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalCorridor:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalCorridor:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalCorridor:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render termDecision",
+      "pass": true
+    },
+    {
+      "name": "index.html choice termDecision:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice termDecision:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice termDecision:2",
+      "pass": true
+    },
+    {
+      "name": "index.html choice termDecision:3",
+      "pass": true
+    },
+    {
+      "name": "index.html render ally",
+      "pass": true
+    },
+    {
+      "name": "index.html choice ally:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice ally:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice ally:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render review",
+      "pass": true
+    },
+    {
+      "name": "index.html choice review:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render finalGood",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalGood:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render finalEarth",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalEarth:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render finalShake",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalShake:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render finalCharm",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalCharm:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render finalDayday",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalDayday:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render finalMirror",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalMirror:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render finalThroat",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalThroat:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render finalBadMind",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalBadMind:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render finalBadMoney",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalBadMoney:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalBadMoney:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render finalBadDignity",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalBadDignity:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalBadDignity:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render finalWeird",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalWeird:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice finalWeird:1",
+      "pass": true
+    },
+    {
+      "name": "index.html render seniorBlessing",
+      "pass": true
+    },
+    {
+      "name": "index.html choice seniorBlessing:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render headUpRule",
+      "pass": true
+    },
+    {
+      "name": "index.html choice headUpRule:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice headUpRule:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice headUpRule:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render headUpReply",
+      "pass": true
+    },
+    {
+      "name": "index.html choice headUpReply:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render distanceRule",
+      "pass": true
+    },
+    {
+      "name": "index.html choice distanceRule:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice distanceRule:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice distanceRule:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render distanceReply",
+      "pass": true
+    },
+    {
+      "name": "index.html choice distanceReply:0",
+      "pass": true
+    },
+    {
+      "name": "index.html render romanceRule",
+      "pass": true
+    },
+    {
+      "name": "index.html choice romanceRule:0",
+      "pass": true
+    },
+    {
+      "name": "index.html choice romanceRule:1",
+      "pass": true
+    },
+    {
+      "name": "index.html choice romanceRule:2",
+      "pass": true
+    },
+    {
+      "name": "index.html render romanceReply",
+      "pass": true
+    },
+    {
+      "name": "index.html choice romanceReply:0",
+      "pass": true
+    },
+    {
+      "name": "index.html reader 《安堃先生赞》.txt",
+      "pass": true
+    },
+    {
+      "name": "index.html reader 《安堃传》.txt",
+      "pass": true
+    },
+    {
+      "name": "index.html reader 《感动城郊年度人物》.txt",
+      "pass": true
+    },
+    {
+      "name": "index.html reader 《谁不是地球人》.txt",
+      "pass": true
+    },
+    {
+      "name": "index.html reader 《沙漠骆驼·安堃版》.docx",
+      "pass": true
+    },
+    {
+      "name": "index.html reader 《巴拉拉坤魔仙》.docx",
+      "pass": true
+    },
+    {
+      "name": "index.html reader 《写给安堃表白书》.jpg",
+      "pass": true
+    },
+    {
+      "name": "index.html reader image 《写给安堃表白书》.jpg",
+      "pass": true
+    },
+    {
+      "name": "index.html reader 《安老师补课班宣传海报》.jpg",
+      "pass": true
+    },
+    {
+      "name": "index.html reader image 《安老师补课班宣传海报》.jpg",
+      "pass": true
+    },
+    {
+      "name": "index.html loan once",
+      "pass": true
+    },
+    {
+      "name": "index.html achievement reload",
+      "pass": true
+    },
+    {
+      "name": "index.html legacy v1 alias and valid strings preserved",
+      "pass": true
+    },
+    {
+      "name": "index.html reset preserves endings",
+      "pass": true
+    },
+    {
+      "name": "index.html clear cancel preserves",
+      "pass": true
+    },
+    {
+      "name": "index.html clear confirm",
+      "pass": true
+    },
+    {
+      "name": "index.html music decodes and plays",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "src": "https://zyfaigy-droid.github.io/classroom-simulator/%E5%B7%B4%E5%95%A6%E5%95%A6K%E9%AD%94%E4%BB%99.mp3"
+      }
+    },
+    {
+      "name": "index.html music pauses",
+      "pass": true
+    },
+    {
+      "name": "index.html corrupted save types sanitized",
+      "pass": true
+    },
+    {
+      "name": "index.html malformed save null",
+      "pass": true
+    },
+    {
+      "name": "index.html malformed save {invalid",
+      "pass": true
+    },
+    {
+      "name": "index.html malformed save {\"achievements\":\"bad\",\"endings\":42}",
+      "pass": true
+    },
+    {
+      "name": "index.html no horizontal overflow 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "index.html reader close visible 1920x1080",
+      "pass": true,
+      "detail": {
+        "x": 1334,
+        "y": 317.25,
+        "width": 58,
+        "height": 40
+      }
+    },
+    {
+      "name": "index.html reader body contained 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "index.html reader Escape 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "index.html no horizontal overflow 1280x720",
+      "pass": true
+    },
+    {
+      "name": "index.html reader close visible 1280x720",
+      "pass": true,
+      "detail": {
+        "x": 1014,
+        "y": 137.25,
+        "width": 58,
+        "height": 40
+      }
+    },
+    {
+      "name": "index.html reader body contained 1280x720",
+      "pass": true
+    },
+    {
+      "name": "index.html reader Escape 1280x720",
+      "pass": true
+    },
+    {
+      "name": "index.html no horizontal overflow 768x1024",
+      "pass": true
+    },
+    {
+      "name": "index.html reader close visible 768x1024",
+      "pass": true,
+      "detail": {
+        "x": 674,
+        "y": 263.75,
+        "width": 58,
+        "height": 40
+      }
+    },
+    {
+      "name": "index.html reader body contained 768x1024",
+      "pass": true
+    },
+    {
+      "name": "index.html reader Escape 768x1024",
+      "pass": true
+    },
+    {
+      "name": "index.html no horizontal overflow 360x800",
+      "pass": true
+    },
+    {
+      "name": "index.html reader close visible 360x800",
+      "pass": true,
+      "detail": {
+        "x": 266,
+        "y": 64,
+        "width": 58,
+        "height": 40
+      }
+    },
+    {
+      "name": "index.html reader body contained 360x800",
+      "pass": true
+    },
+    {
+      "name": "index.html reader Escape 360x800",
+      "pass": true
+    },
+    {
+      "name": "index.html no horizontal overflow 320x568",
+      "pass": true
+    },
+    {
+      "name": "index.html reader close visible 320x568",
+      "pass": true,
+      "detail": {
+        "x": 226,
+        "y": 50.078125,
+        "width": 58,
+        "height": 40
+      }
+    },
+    {
+      "name": "index.html reader body contained 320x568",
+      "pass": true
+    },
+    {
+      "name": "index.html reader Escape 320x568",
+      "pass": true
+    },
+    {
+      "name": "index.html no horizontal overflow 800x360",
+      "pass": true
+    },
+    {
+      "name": "index.html reader close visible 800x360",
+      "pass": true,
+      "detail": {
+        "x": 706,
+        "y": 37.59375,
+        "width": 58,
+        "height": 40
+      }
+    },
+    {
+      "name": "index.html reader body contained 800x360",
+      "pass": true
+    },
+    {
+      "name": "index.html reader Escape 800x360",
+      "pass": true
+    },
+    {
+      "name": "index.html no JavaScript errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "index.html no missing resources",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "index.html older browser clone fallback",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "index.html storage denied still playable",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "index.html Android touch emulation navigation",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html audio is deferred until requested",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html authorized narrative delta only; rules and 2000 graduation samples unchanged",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html all declared scene links valid",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "安堃模拟器.html short-rule route headUpRule",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html counterattack payoff headUpReply",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html short-rule route distanceRule",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html counterattack payoff distanceReply",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html short-rule route romanceRule",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html counterattack payoff romanceReply",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html rule chain returns to original story",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render start",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice start:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render firstClass",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice firstClass:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice firstClass:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice firstClass:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice firstClass:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render afterFirstExam",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice afterFirstExam:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice afterFirstExam:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice afterFirstExam:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice afterFirstExam:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice afterFirstExam:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render midtermDrama",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice midtermDrama:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice midtermDrama:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice midtermDrama:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render math",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice math:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice math:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice math:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render mathIgnoreResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice mathIgnoreResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render mathWhisperResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice mathWhisperResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render watchStudy",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice watchStudy:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice watchStudy:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render solve",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice solve:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice solve:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice solve:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render caught",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice caught:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice caught:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render office",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice office:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice office:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice office:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render receipt",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice receipt:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice receipt:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render phoneInClass",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice phoneInClass:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice phoneInClass:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice phoneInClass:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice phoneInClass:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render lectureFluff",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice lectureFluff:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice lectureFluff:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice lectureFluff:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render middleStepQuestion",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice middleStepQuestion:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice middleStepQuestion:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice middleStepQuestion:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render classFeeOpaque",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice classFeeOpaque:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice classFeeOpaque:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice classFeeOpaque:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render seatByFee",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice seatByFee:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice seatByFee:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice seatByFee:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render forcedVoluntaryTutor",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice forcedVoluntaryTutor:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice forcedVoluntaryTutor:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice forcedVoluntaryTutor:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render kickOffice",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice kickOffice:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice kickOffice:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice kickOffice:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render itemThrow",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice itemThrow:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice itemThrow:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice itemThrow:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render verbalDeny",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice verbalDeny:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice verbalDeny:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice verbalDeny:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice verbalDeny:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice verbalDeny:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render rollAside",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice rollAside:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice rollAside:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice rollAside:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render girlSarcasm",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice girlSarcasm:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice girlSarcasm:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice girlSarcasm:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render scarForget",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice scarForget:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice scarForget:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice scarForget:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render leaderCall",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice leaderCall:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice leaderCall:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice leaderCall:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render xuScold",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice xuScold:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice xuScold:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice xuScold:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice xuScold:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render corridor",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice corridor:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice corridor:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice corridor:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice corridor:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice corridor:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice corridor:5",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice corridor:6",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice corridor:7",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice corridor:8",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render studentLoan",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice studentLoan:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice studentLoan:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render easterPraise",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterPraise:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterPraise:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render easterBiography",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterBiography:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterBiography:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render easterLoveLetter",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterLoveLetter:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterLoveLetter:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render easterAnnualPerson",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterAnnualPerson:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterAnnualPerson:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render easterCamel",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterCamel:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterCamel:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render easterMagic",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterMagic:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterMagic:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render easterAlienNovel",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterAlienNovel:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterAlienNovel:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render easterTutorPoster",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterTutorPoster:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice easterTutorPoster:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render fee",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice fee:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice fee:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice fee:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice fee:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice fee:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render tutorNotNormal",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice tutorNotNormal:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice tutorNotNormal:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice tutorNotNormal:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice tutorNotNormal:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice tutorNotNormal:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render feePayResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice feePayResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice feePayResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice feePayResult:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice feePayResult:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice feePayResult:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render feeDelayResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice feeDelayResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice feeDelayResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice feeDelayResult:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice feeDelayResult:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render feeRejectResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice feeRejectResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice feeRejectResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice feeRejectResult:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice feeRejectResult:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render earth",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice earth:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice earth:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice earth:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render earthWhisperResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice earthWhisperResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice earthWhisperResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render ac",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice ac:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice ac:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice ac:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render pencil",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice pencil:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice pencil:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice pencil:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render homeworkCall",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice homeworkCall:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice homeworkCall:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice homeworkCall:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice homeworkCall:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice homeworkCall:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render homeworkRaid",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice homeworkRaid:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice homeworkRaid:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice homeworkRaid:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render dictationPunish",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice dictationPunish:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice dictationPunish:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice dictationPunish:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render gradingFee",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice gradingFee:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice gradingFee:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice gradingFee:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice gradingFee:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render gradingPayResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice gradingPayResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice gradingPayResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render gradingQuestionResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice gradingQuestionResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice gradingQuestionResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render gradingMonitorResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice gradingMonitorResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice gradingMonitorResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice gradingMonitorResult:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render gradingRecordResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice gradingRecordResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render tutorLookUp",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice tutorLookUp:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice tutorLookUp:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice tutorLookUp:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render tutorLookResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice tutorLookResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render tutorIgnoreResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice tutorIgnoreResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render tutorQuestionResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice tutorQuestionResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render pantsPull",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice pantsPull:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice pantsPull:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice pantsPull:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice pantsPull:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render pantsInterveneResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice pantsInterveneResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice pantsInterveneResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render pantsIgnoreResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice pantsIgnoreResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice pantsIgnoreResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render roast",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice roast:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice roast:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice roast:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render roastListenResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice roastListenResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render roastStudyResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice roastStudyResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render roastInterruptResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice roastInterruptResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render exam",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice exam:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice exam:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice exam:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render phoneCard",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice phoneCard:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice phoneCard:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice phoneCard:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render phonePayResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice phonePayResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice phonePayResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render phoneHasCardResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice phoneHasCardResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice phoneHasCardResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render phoneRejectResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice phoneRejectResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice phoneRejectResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render monitorFee",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice monitorFee:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice monitorFee:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice monitorFee:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render monitorSilentResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice monitorSilentResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice monitorSilentResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render monitorWhisperResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice monitorWhisperResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice monitorWhisperResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render monitorCalloutResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice monitorCalloutResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice monitorCalloutResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render carUpgrade",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice carUpgrade:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice carUpgrade:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice carUpgrade:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice carUpgrade:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice carUpgrade:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render resonance",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice resonance:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice resonance:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice resonance:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render photosynthesis",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice photosynthesis:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice photosynthesis:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice photosynthesis:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render pkuCredit",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice pkuCredit:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice pkuCredit:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice pkuCredit:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render historySelfStudy",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice historySelfStudy:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice historySelfStudy:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice historySelfStudy:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render eveningTutor",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice eveningTutor:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice eveningTutor:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice eveningTutor:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render officeQuestion",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice officeQuestion:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice officeQuestion:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice officeQuestion:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice officeQuestion:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render rankAfterExam",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice rankAfterExam:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice rankAfterExam:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice rankAfterExam:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice rankAfterExam:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice rankAfterExam:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice rankAfterExam:5",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render hairCheck",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hairCheck:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hairCheck:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hairCheck:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hairCheck:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hairCheck:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hairCheck:5",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hairCheck:6",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render dormCheck",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice dormCheck:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice dormCheck:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice dormCheck:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice dormCheck:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice dormCheck:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render chamberPotResult",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice chamberPotResult:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice chamberPotResult:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render bookConfiscation",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice bookConfiscation:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice bookConfiscation:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice bookConfiscation:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice bookConfiscation:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render callParents",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice callParents:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice callParents:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice callParents:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render parentComplaint",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice parentComplaint:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice parentComplaint:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice parentComplaint:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render contestClass",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice contestClass:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice contestClass:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice contestClass:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render contestQuestion",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice contestQuestion:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice contestQuestion:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice contestQuestion:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render seatShowoff",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice seatShowoff:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice seatShowoff:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice seatShowoff:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice seatShowoff:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render lateCheck",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice lateCheck:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice lateCheck:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice lateCheck:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice lateCheck:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice lateCheck:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render graduationBoast",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice graduationBoast:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice graduationBoast:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice graduationBoast:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice graduationBoast:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render longLaugh",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice longLaugh:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice longLaugh:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice longLaugh:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice longLaugh:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render winterTutor",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice winterTutor:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice winterTutor:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice winterTutor:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice winterTutor:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render hotelTutor",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hotelTutor:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hotelTutor:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hotelTutor:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render hotelTutorClass",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hotelTutorClass:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hotelTutorClass:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hotelTutorClass:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render hotelTutorRoomCheck",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hotelTutorRoomCheck:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hotelTutorRoomCheck:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hotelTutorRoomCheck:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render hotelTutorSettle",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hotelTutorSettle:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hotelTutorSettle:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice hotelTutorSettle:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render giftWatch",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice giftWatch:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice giftWatch:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice giftWatch:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice giftWatch:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render longSleep",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice longSleep:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice longSleep:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice longSleep:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice longSleep:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice longSleep:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render farewellQuote",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice farewellQuote:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice farewellQuote:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice farewellQuote:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice farewellQuote:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice farewellQuote:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render preFinalWeek",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice preFinalWeek:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice preFinalWeek:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice preFinalWeek:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice preFinalWeek:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice preFinalWeek:4",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render finalCorridor",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalCorridor:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalCorridor:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalCorridor:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalCorridor:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render termDecision",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice termDecision:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice termDecision:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice termDecision:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice termDecision:3",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render ally",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice ally:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice ally:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice ally:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render review",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice review:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render finalGood",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalGood:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render finalEarth",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalEarth:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render finalShake",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalShake:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render finalCharm",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalCharm:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render finalDayday",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalDayday:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render finalMirror",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalMirror:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render finalThroat",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalThroat:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render finalBadMind",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalBadMind:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render finalBadMoney",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalBadMoney:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalBadMoney:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render finalBadDignity",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalBadDignity:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalBadDignity:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render finalWeird",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalWeird:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice finalWeird:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render seniorBlessing",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice seniorBlessing:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render headUpRule",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice headUpRule:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice headUpRule:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice headUpRule:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render headUpReply",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice headUpReply:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render distanceRule",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice distanceRule:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice distanceRule:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice distanceRule:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render distanceReply",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice distanceReply:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render romanceRule",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice romanceRule:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice romanceRule:1",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice romanceRule:2",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html render romanceReply",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html choice romanceReply:0",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader 《安堃先生赞》.txt",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader 《安堃传》.txt",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader 《感动城郊年度人物》.txt",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader 《谁不是地球人》.txt",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader 《沙漠骆驼·安堃版》.docx",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader 《巴拉拉坤魔仙》.docx",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader 《写给安堃表白书》.jpg",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader image 《写给安堃表白书》.jpg",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader 《安老师补课班宣传海报》.jpg",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader image 《安老师补课班宣传海报》.jpg",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html loan once",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html achievement reload",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html legacy v1 alias and valid strings preserved",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reset preserves endings",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html clear cancel preserves",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html clear confirm",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html music decodes and plays",
+      "pass": true,
+      "detail": {
+        "ok": true,
+        "src": "https://zyfaigy-droid.github.io/classroom-simulator/%E5%B7%B4%E5%95%A6%E5%95%A6K%E9%AD%94%E4%BB%99.mp3"
+      }
+    },
+    {
+      "name": "安堃模拟器.html music pauses",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html corrupted save types sanitized",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html malformed save null",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html malformed save {invalid",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html malformed save {\"achievements\":\"bad\",\"endings\":42}",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html no horizontal overflow 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader close visible 1920x1080",
+      "pass": true,
+      "detail": {
+        "x": 1334,
+        "y": 317.25,
+        "width": 58,
+        "height": 40
+      }
+    },
+    {
+      "name": "安堃模拟器.html reader body contained 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader Escape 1920x1080",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html no horizontal overflow 1280x720",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader close visible 1280x720",
+      "pass": true,
+      "detail": {
+        "x": 1014,
+        "y": 137.25,
+        "width": 58,
+        "height": 40
+      }
+    },
+    {
+      "name": "安堃模拟器.html reader body contained 1280x720",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader Escape 1280x720",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html no horizontal overflow 768x1024",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader close visible 768x1024",
+      "pass": true,
+      "detail": {
+        "x": 674,
+        "y": 263.75,
+        "width": 58,
+        "height": 40
+      }
+    },
+    {
+      "name": "安堃模拟器.html reader body contained 768x1024",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader Escape 768x1024",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html no horizontal overflow 360x800",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader close visible 360x800",
+      "pass": true,
+      "detail": {
+        "x": 266,
+        "y": 64,
+        "width": 58,
+        "height": 40
+      }
+    },
+    {
+      "name": "安堃模拟器.html reader body contained 360x800",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader Escape 360x800",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html no horizontal overflow 320x568",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader close visible 320x568",
+      "pass": true,
+      "detail": {
+        "x": 226,
+        "y": 50.078125,
+        "width": 58,
+        "height": 40
+      }
+    },
+    {
+      "name": "安堃模拟器.html reader body contained 320x568",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader Escape 320x568",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html no horizontal overflow 800x360",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader close visible 800x360",
+      "pass": true,
+      "detail": {
+        "x": 706,
+        "y": 37.59375,
+        "width": 58,
+        "height": 40
+      }
+    },
+    {
+      "name": "安堃模拟器.html reader body contained 800x360",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html reader Escape 800x360",
+      "pass": true
+    },
+    {
+      "name": "安堃模拟器.html no JavaScript errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "安堃模拟器.html no missing resources",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "安堃模拟器.html older browser clone fallback",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "安堃模拟器.html storage denied still playable",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "安堃模拟器.html Android touch emulation navigation",
+      "pass": true
+    }
+  ],
+  "pages": [
+    {
+      "entry": "index.html",
+      "scenes": 119,
+      "choicesClicked": 331,
+      "randomJourneyScenes": 110,
+      "randomJourneyUnvisited": [
+        "gradingPayResult",
+        "pantsIgnoreResult",
+        "roastInterruptResult",
+        "bookConfiscation",
+        "finalGood",
+        "finalMirror",
+        "finalThroat",
+        "finalBadMoney",
+        "finalWeird"
+      ],
+      "renderMaxMs": 0.5999999977648258,
+      "renderMedianMs": 0.19999999925494194,
+      "timing": {
+        "navigation": {
+          "name": "https://zyfaigy-droid.github.io/classroom-simulator/index.html",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 141.5,
+          "navigationId": 3681,
+          "initiatorType": "navigation",
+          "deliveryType": "cache",
+          "nextHopProtocol": "h2",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "text/html",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 2.100000001490116,
+          "domainLookupStart": 2.100000001490116,
+          "domainLookupEnd": 2.100000001490116,
+          "connectStart": 2.100000001490116,
+          "secureConnectionStart": 2.100000001490116,
+          "connectEnd": 2.100000001490116,
+          "requestStart": 3.399999998509884,
+          "responseStart": 126.80000000074506,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 126.80000000074506,
+          "responseEnd": 127.30000000074506,
+          "transferSize": 300,
+          "encodedBodySize": 1575,
+          "decodedBodySize": 4460,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 131.10000000149012,
+          "unloadEventEnd": 131.10000000149012,
+          "domInteractive": 139.39999999850988,
+          "domContentLoadedEventStart": 139.39999999850988,
+          "domContentLoadedEventEnd": 139.5,
+          "domComplete": 141.39999999850988,
+          "loadEventStart": 141.5,
+          "loadEventEnd": 141.5,
+          "type": "reload",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "low"
+          }
+        },
+        "resources": [
+          {
+            "name": "https://zyfaigy-droid.github.io/classroom-simulator/assets/game.css",
+            "bytes": 0,
+            "duration": 0
+          },
+          {
+            "name": "https://zyfaigy-droid.github.io/classroom-simulator/%E5%AE%89K%E7%B2%89%E5%A4%B4%E7%9B%94.jpg",
+            "bytes": 0,
+            "duration": 0
+          },
+          {
+            "name": "https://zyfaigy-droid.github.io/classroom-simulator/%E5%AE%89K%E8%AF%BE%E5%A0%82%E5%AE%9E%E6%8B%8D.jpg",
+            "bytes": 0,
+            "duration": 0
+          },
+          {
+            "name": "https://zyfaigy-droid.github.io/classroom-simulator/assets/story-classic.js",
+            "bytes": 0,
+            "duration": 0
+          },
+          {
+            "name": "https://zyfaigy-droid.github.io/classroom-simulator/assets/game.js",
+            "bytes": 0,
+            "duration": 0
+          }
+        ]
+      }
+    },
+    {
+      "entry": "安堃模拟器.html",
+      "scenes": 124,
+      "choicesClicked": 352,
+      "randomJourneyScenes": 116,
+      "randomJourneyUnvisited": [
+        "gradingMonitorResult",
+        "pantsInterveneResult",
+        "roastListenResult",
+        "roastStudyResult",
+        "finalGood",
+        "finalShake",
+        "finalThroat",
+        "finalWeird"
+      ],
+      "renderMaxMs": 0.6999999992549419,
+      "renderMedianMs": 0.20000000298023224,
+      "timing": {
+        "navigation": {
+          "name": "https://zyfaigy-droid.github.io/classroom-simulator/%E5%AE%89%E5%A0%83%E6%A8%A1%E6%8B%9F%E5%99%A8.html",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 519.9000000022352,
+          "navigationId": 1116,
+          "initiatorType": "navigation",
+          "deliveryType": "cache",
+          "nextHopProtocol": "h2",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "text/html",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 1.5,
+          "domainLookupStart": 1.5,
+          "domainLookupEnd": 1.5,
+          "connectStart": 1.5,
+          "secureConnectionStart": 1.5,
+          "connectEnd": 1.5,
+          "requestStart": 2.400000002235174,
+          "responseStart": 461.30000000074506,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 461.30000000074506,
+          "responseEnd": 463.19999999925494,
+          "transferSize": 300,
+          "encodedBodySize": 1577,
+          "decodedBodySize": 4461,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 485,
+          "unloadEventEnd": 485,
+          "domInteractive": 517.1000000014901,
+          "domContentLoadedEventStart": 517.1000000014901,
+          "domContentLoadedEventEnd": 517.1999999992549,
+          "domComplete": 519.9000000022352,
+          "loadEventStart": 519.9000000022352,
+          "loadEventEnd": 519.9000000022352,
+          "type": "reload",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "low"
+          }
+        },
+        "resources": [
+          {
+            "name": "https://zyfaigy-droid.github.io/classroom-simulator/assets/game.css",
+            "bytes": 0,
+            "duration": 0
+          },
+          {
+            "name": "https://zyfaigy-droid.github.io/classroom-simulator/%E5%AE%89K%E7%B2%89%E5%A4%B4%E7%9B%94.jpg",
+            "bytes": 0,
+            "duration": 0
+          },
+          {
+            "name": "https://zyfaigy-droid.github.io/classroom-simulator/%E5%AE%89K%E8%AF%BE%E5%A0%82%E5%AE%9E%E6%8B%8D.jpg",
+            "bytes": 0,
+            "duration": 0
+          },
+          {
+            "name": "https://zyfaigy-droid.github.io/classroom-simulator/assets/story-extended.js",
+            "bytes": 0,
+            "duration": 0
+          },
+          {
+            "name": "https://zyfaigy-droid.github.io/classroom-simulator/assets/game.js",
+            "bytes": 0,
+            "duration": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "browser": "155.0.4283.62",
+  "cancelledRequests": [],
+  "failed": [],
+  "passed": 1084
+}

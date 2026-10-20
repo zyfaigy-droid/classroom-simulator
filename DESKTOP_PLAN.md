@@ -1,6 +1,6 @@
 # Windows 桌面化方案
 
-开始评估：2026-10-04；最终原型构建：2026-10-19。当前游戏运行资源约 4.69 MB，无后端、无需 Node 运行时，无原生系统 API 需求。
+开始评估：2026-10-04；最终原型构建：2026-10-20。当前游戏运行资源约 4.69 MB，无后端、无需 Node 运行时，无原生系统 API 需求。
 
 ## 结论
 
@@ -16,13 +16,13 @@
 | Tauri 2 | 游戏资源 + 数 MB 至数十 MB 框架开销的预算；WebView2 离线安装器/固定运行时另算 | 小，静态资源和路径配置 | 中高，Rust/MSVC/安装工具 | 建议 Win10/11，需 WebView2 | 已有运行时可离线；干净机器需离线运行时方案 | updater 插件 + 签名 + 更新源，需配置 | 正式版推荐 |
 | PWA | 网站资源 + 缓存，无传统独立 EXE 安装包 | 中，manifest/service worker/缓存版本策略 | 低中 | 支持安装的现代浏览器 | 首次缓存后可离线；不等于第一次无网安装 | 由网站和 SW 更新，需避免旧缓存混用 | 在线简历演示很合适 |
 | C# + WebView2 | 资源 + 较小宿主；自包含 .NET / WebView2 离线运行时会增大 | 小，虚拟域映射、存储配置 | 中，Windows 专用 | Win10/11 与所选 SDK | 需已有或随包带运行时 | 自行设计或使用安装分发服务 | 只做 Windows 时也合适 |
-| 本次 EXE 启动器 | **EXE 6,144 B；完整 ZIP 4,436,224 B**，不含浏览器 | 无桌面专属网页改造 | 低 | .NET Framework 4.x + Edge/Chrome；本机 Edge 检测通过 | 已有浏览器且完整解压即可运行 | 原型无；手动替换包 | 最适合当前阶段的轻量原型 |
+| 本次 EXE 启动器 | **EXE 6,144 B；完整 ZIP 4,440,142 B**，不含浏览器 | 无桌面专属网页改造 | 低 | .NET Framework 4.x + Edge/Chrome；本机 Edge 检测通过 | 已有浏览器且完整解压即可运行 | 原型无；手动替换包 | 最适合当前阶段的轻量原型 |
 
 ## 本次原型交付
 
 - 源码：`desktop/Launcher.cs`，构建脚本：`desktop/build.ps1`。
-- 本地产物：`dist/AnkunSimulator-20261019-release/AnkunSimulator.exe`、`dist/AnkunSimulator-20261019-release.zip`，不把可重建二进制提交到源码仓库。
-- 游戏保留两个 HTML 入口，EXE 默认打开原在线 index 版本；资源由 `runtime-files.json` 的 18 项白名单复制。
+- 本地产物：`dist/AnkunSimulator-20261020-release/AnkunSimulator.exe`、`dist/AnkunSimulator-20261020-release.zip`，不把可重建二进制提交到源码仓库。
+- 游戏保留两个 HTML 入口，EXE 默认打开原在线 index 版本；资源由 `runtime-files.json` 的 20 项白名单复制。
 - 通过系统目录查找浏览器，URI 编码支持中文和空格；不写死 E 盘，不启动本地网络服务，不给页面提供任意文件/命令执行接口。
 - 浏览器专用配置位于 `%LOCALAPPDATA%/AnkunSimulator/BrowserProfile`，无需写安装目录。
 - EXE 自检退出码 0，确认 5 项核心启动资产、浏览器路径和 file URI。打包文件与源文件逐字节核对通过。

@@ -23,14 +23,15 @@ const server=http.createServer((req,res)=>{
 async function main(){
   await new Promise(r=>server.listen(0,'127.0.0.1',r));
   const base=remote || `http://127.0.0.1:${server.address().port}/`;
-  const browser=await chromium.launch({channel:channel==='chromium'?undefined:channel,headless:true,timeout:30000});
+  const browser=await chromium.launch({channel:channel==='chromium'?undefined:channel,headless:true,timeout:30000,
+    proxy:process.env.AUDIT_PROXY?{server:process.env.AUDIT_PROXY}:undefined});
   result.browser=browser.version();
   try {
   const manifestPath=path.join(root,'runtime-files.json');
   if(fs.existsSync(manifestPath)){
     const assetContext=await browser.newContext();
     for(const name of JSON.parse(fs.readFileSync(manifestPath,'utf8'))){
-      const response=await assetContext.request.get(base+name.split('/').map(encodeURIComponent).join('/'));
+      const response=await assetContext.request.get(base+name.split('/').map(encodeURIComponent).join('/'),{timeout:remote?120000:30000});
       check('runtime asset available '+name,response.status()===200,response.status());
       const body=await response.body();
       const normalized=b=>/\.(html|css|js|txt)$/.test(name)?Buffer.from(b.toString('utf8').replace(/\r\n/g,'\n')):b;

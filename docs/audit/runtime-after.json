@@ -1,5 +1,5 @@
 {
-  "root": "E:\\ankun-simulator-windows-preview\\audit-workspace\\dist\\AnkunSimulator-20261019-release\\game",
+  "root": "E:\\ankun-simulator-windows-preview\\audit-workspace\\dist\\AnkunSimulator-20261020-release\\game",
   "files": [
     {
       "path": "ankun.png",
@@ -14,9 +14,9 @@
     },
     {
       "path": "index.html",
-      "bytes": 4576,
+      "bytes": 4677,
       "category": "HTML",
-      "sha256": "a9f0ab777ed0036cdda150634e48ad3884da5247f616ef5698e2625b5e19385a"
+      "sha256": "e358adca94a74f24722b03e5fb72557340f9e397c3274e021ee3519d5d11b2a4"
     },
     {
       "path": "《写给安堃表白书》.jpg",
@@ -100,15 +100,27 @@
     },
     {
       "path": "安堃模拟器.html",
-      "bytes": 4577,
+      "bytes": 4678,
       "category": "HTML",
-      "sha256": "f4104052207b9eb88459bd61206581b55bfd014294882e84dad28d69c8341f95"
+      "sha256": "196b844de90af76586e376adb6c7470add5d9c12ebb4dcf949521e0a273a36e1"
     },
     {
       "path": "巴啦啦K魔仙.mp3",
       "bytes": 1166378,
       "category": "音频",
       "sha256": "342712f7abd85c7caa46f0b7347f0d5b0bb488dd39323b54ce72bcf708f0fc58"
+    },
+    {
+      "path": "assets/analytics-config.js",
+      "bytes": 237,
+      "category": "JS",
+      "sha256": "00f83d67b628e9e9033b69d02620637daebe8d498b35f477a82da57032aae6d9"
+    },
+    {
+      "path": "assets/analytics.js",
+      "bytes": 2720,
+      "category": "JS",
+      "sha256": "0c0d69350565dad64473873054443ed5c6e461791a2b77a7671aadbd622fc1ce"
     },
     {
       "path": "assets/game.css",
@@ -138,15 +150,15 @@
   "summary": {
     "HTML": {
       "count": 2,
-      "bytes": 9153
+      "bytes": 9355
     },
     "CSS": {
       "count": 1,
       "bytes": 18717
     },
     "JS": {
-      "count": 3,
-      "bytes": 263112
+      "count": 5,
+      "bytes": 266069
     },
     "图片": {
       "count": 5,
@@ -173,7 +185,7 @@
       "bytes": 33811
     }
   },
-  "totalBytes": 4690160,
+  "totalBytes": 4693319,
   "exclusions": [
     ".git"
   ],
@@ -319,6 +331,16 @@
       "exists": true
     },
     {
+      "source": "index.html",
+      "target": "assets/analytics-config.js",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "target": "assets/analytics.js",
+      "exists": true
+    },
+    {
       "source": "安堃模拟器.html",
       "target": "assets/game.css",
       "exists": true
@@ -352,8 +374,23 @@
       "source": "安堃模拟器.html",
       "target": "assets/game.js",
       "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "assets/analytics-config.js",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "assets/analytics.js",
+      "exists": true
     }
   ],
-  "hardcodedPaths": [],
+  "hardcodedPaths": [
+    {
+      "path": "assets/analytics.js",
+      "line": 40
+    }
+  ],
   "errors": []
 }

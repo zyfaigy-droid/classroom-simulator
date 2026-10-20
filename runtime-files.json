@@ -5,6 +5,8 @@
   "assets/game.js",
   "assets/story-classic.js",
   "assets/story-extended.js",
+  "assets/analytics-config.js",
+  "assets/analytics.js",
   "ankun.png",
   "安K粉头盔.jpg",
   "安K课堂实拍.jpg",

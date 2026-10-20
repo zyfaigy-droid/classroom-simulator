@@ -21,6 +21,7 @@
 - 原生 DOM 与 CSS Grid 响应式界面，无运行时第三方依赖。
 - 两版本共享渲染和交互引擎，各自保留剧情数据与毕业判定。
 - 两版本各 11 个正式结局均有从开局正常点击到达的无贷款路线；贷款是一次性可选救济，申请前显示代价。详见 [结局与贷款验证](ENDING_REACHABILITY.md)。
+- 可选试玩统计仅在正式在线点击开始后记录，游戏页面不公开人数；离线游玩不连接统计服务。后台和统计口径见 [试玩统计说明](docs/ANALYTICS.md)。
 
 ## 目录
 
@@ -48,11 +49,14 @@ npm run check
 # 默认使用已安装的 Edge；所有测试使用独立临时配置，不清除个人存档。
 npm test
 npm run test:endings
+node tests/analytics-browser.cjs
 python -m unittest discover -s tests -p test_package.py -v
 python tools/inventory.py . --exclude dist --exclude node_modules --exclude __pycache__ --output test-results/inventory.json
 ```
 
 浏览器测试启动仅绑定 127.0.0.1 的临时 HTTP 服务，结束后关闭；结果写入 test-results。若需 Chrome，设置 `AUDIT_CHANNEL=chrome` 并预先安装 Chrome。若需远程验收，设置 `AUDIT_URL` 为同一项目的发布根 URL（结尾 `/`）。
+
+网络需要代理时，测试可通过 `AUDIT_PROXY` 指定代理地址。远程结局证据可用 `AUDIT_ENDING_OUTPUT` 写入独立 JSON，避免覆盖本地记录。自动化浏览器不向真实统计后台添加试玩。
 
 ## Windows 原型
 
