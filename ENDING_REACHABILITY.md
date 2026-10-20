@@ -28,6 +28,8 @@
 
 逐按钮证据：`docs/audit/ending-routes.json`；浏览器最终状态：`docs/audit/ending-browser.json`；复现：`npm run test:endings`。
 
+同一原试玩 URL 亦已重放全部路线、累计寄语及贷款流程，证据为 `docs/audit/remote-endings.json`（remote 为原发布地址、complete=true）。新增可选统计不改剧情引擎或结局条件，自动验收不向真实统计后台写入玩家。
+
 ## 发现并修复的旧问题
 
 1. **雷达结局不可达。** 原代码只有四个不重复的计数来源，glare 单局上界为 4，结局却要求 5。考试页已明确描写左右手一起晃表，却没有计数。本次将 exam 计入一次，保留结局的 5 次、三条记录/线索、第 10 节、尊严至少 65 等门槛；现在有 19 步完整路线真实通过。

@@ -9,7 +9,7 @@
     "path": "README.md",
     "status": "documentation-corrected",
     "beforeSHA256": "afdc31f1159f8fc70a31dde4f2a8a220f0683096e316b710471768ca03414900",
-    "afterSHA256": "ed994fc08da0e0b32db77ac3f894012209d82b39263c4fe3230973d0be79706c"
+    "afterSHA256": "239db8d0ea7c8ace6dad7fb9561a909169ba63918b22c97bc0852b8ad4e8c7db"
   },
   {
     "path": "ankun.png",
@@ -21,7 +21,7 @@
     "path": "index.html",
     "status": "story-golden-verified",
     "beforeSHA256": "96323b8376695a030d883f93c29aa7c5bbc7ec5897b598c6c02b9d4ba9bf6782",
-    "afterSHA256": "a9f0ab777ed0036cdda150634e48ad3884da5247f616ef5698e2625b5e19385a"
+    "afterSHA256": "e358adca94a74f24722b03e5fb72557340f9e397c3274e021ee3519d5d11b2a4"
   },
   {
     "path": "《写给安堃表白书》.jpg",
@@ -87,6 +87,6 @@
     "path": "安堃模拟器.html",
     "status": "story-golden-verified",
     "beforeSHA256": "45097dfc5efd134255d16737a123d4c44b3449211ec16ed38e0484171540725c",
-    "afterSHA256": "f4104052207b9eb88459bd61206581b55bfd014294882e84dad28d69c8341f95"
+    "afterSHA256": "196b844de90af76586e376adb6c7470add5d9c12ebb4dcf949521e0a273a36e1"
   }
 ]

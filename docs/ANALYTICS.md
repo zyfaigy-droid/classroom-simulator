@@ -4,7 +4,7 @@
 
 2026-10-20 检查原始及当前游戏代码，未发现此前的统计接入。因此历史试玩人数为 **未知**，不是 0，也不能用仓库浏览量或克隆数代替。GitHub Traffic 统计的是仓库流量：[官方说明](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository)。
 
-选用 Umami Cloud Hobby。本人已完成注册并提供 Website ID，已写入配置；发布后只统计此后的正式开始。当前没有后台读取权限或历史记录，不能声称已经查到真实人数。游戏同步、脚本触发和后台入库分别验收。
+选用 Umami Cloud Hobby。本人已完成注册并提供 Website ID，已写入配置并在 c2dbdc2 发布，线上 20 项资源与两入口已核对；只统计此后的正式开始。当前没有后台读取权限或历史记录，不能声称已经查到真实人数。游戏同步、脚本触发和后台入库分别验收。
 
 ## 方案与口径
 

@@ -1,0 +1,144 @@
+{
+  "commit": "c2dbdc2ca625435fbdf9f016278f8d440d91a460",
+  "base": "https://zyfaigy-droid.github.io/classroom-simulator/",
+  "resources": [
+    {
+      "name": "index.html",
+      "status": 200,
+      "sha256": "e3aeee10846a3e42591ac26eee9a7276ee9c87a83266f258c6676e79560d4767",
+      "expected": "e3aeee10846a3e42591ac26eee9a7276ee9c87a83266f258c6676e79560d4767"
+    },
+    {
+      "name": "安堃模拟器.html",
+      "status": 200,
+      "sha256": "80c3948f0adec6c5831b77faaadb0b26b416fa2416e404ecf518582714e27267",
+      "expected": "80c3948f0adec6c5831b77faaadb0b26b416fa2416e404ecf518582714e27267"
+    },
+    {
+      "name": "assets/game.css",
+      "status": 200,
+      "sha256": "0cdfa7515b6ed299ad011819cfdd7baee65ccf0959c11d7ec071b290208659aa",
+      "expected": "0cdfa7515b6ed299ad011819cfdd7baee65ccf0959c11d7ec071b290208659aa"
+    },
+    {
+      "name": "assets/game.js",
+      "status": 200,
+      "sha256": "6373c5ce6847c0b7923f3a4ebbf6a3c453cae73d45451a2eb17a220199289958",
+      "expected": "6373c5ce6847c0b7923f3a4ebbf6a3c453cae73d45451a2eb17a220199289958"
+    },
+    {
+      "name": "assets/story-classic.js",
+      "status": 200,
+      "sha256": "1c4707aaa483ef536586156f3d440699567e7918711b9cc10bb9614823cf6456",
+      "expected": "1c4707aaa483ef536586156f3d440699567e7918711b9cc10bb9614823cf6456"
+    },
+    {
+      "name": "assets/story-extended.js",
+      "status": 200,
+      "sha256": "8744876d7175a296096b863b7dbf2c4af87e526d8ccd72943de4ee397b08777e",
+      "expected": "8744876d7175a296096b863b7dbf2c4af87e526d8ccd72943de4ee397b08777e"
+    },
+    {
+      "name": "assets/analytics-config.js",
+      "status": 200,
+      "sha256": "00f83d67b628e9e9033b69d02620637daebe8d498b35f477a82da57032aae6d9",
+      "expected": "00f83d67b628e9e9033b69d02620637daebe8d498b35f477a82da57032aae6d9"
+    },
+    {
+      "name": "assets/analytics.js",
+      "status": 200,
+      "sha256": "0c0d69350565dad64473873054443ed5c6e461791a2b77a7671aadbd622fc1ce",
+      "expected": "0c0d69350565dad64473873054443ed5c6e461791a2b77a7671aadbd622fc1ce"
+    },
+    {
+      "name": "ankun.png",
+      "status": 200,
+      "sha256": "5611bd2b20d479fd7ff7ab3d3bfd40747dfcc910c7eb40db50343c38b63c65f3",
+      "expected": "5611bd2b20d479fd7ff7ab3d3bfd40747dfcc910c7eb40db50343c38b63c65f3"
+    },
+    {
+      "name": "安K粉头盔.jpg",
+      "status": 200,
+      "sha256": "31ff80a95deeb2a52740ceef687ae4de5b9b176670f43fd50b0f14ad65a9dd80",
+      "expected": "31ff80a95deeb2a52740ceef687ae4de5b9b176670f43fd50b0f14ad65a9dd80"
+    },
+    {
+      "name": "安K课堂实拍.jpg",
+      "status": 200,
+      "sha256": "757bf08ba44327cd1cab38ae55b3b78cdcd0d3673d68963872bb4ffbceefba2c",
+      "expected": "757bf08ba44327cd1cab38ae55b3b78cdcd0d3673d68963872bb4ffbceefba2c"
+    },
+    {
+      "name": "《写给安堃表白书》.jpg",
+      "status": 200,
+      "sha256": "cd87ceeb731a31c5c3a6cb305e9c4e2b66824c3ec8e9b5036d5b2a9a98091f5a",
+      "expected": "cd87ceeb731a31c5c3a6cb305e9c4e2b66824c3ec8e9b5036d5b2a9a98091f5a"
+    },
+    {
+      "name": "《安老师补课班宣传海报》.jpg",
+      "status": 200,
+      "sha256": "17a1b914ed8b71cab54f71d254c05c7aa8108c78478a30516de65d9c7c2be43a",
+      "expected": "17a1b914ed8b71cab54f71d254c05c7aa8108c78478a30516de65d9c7c2be43a"
+    },
+    {
+      "name": "《安堃传》.txt",
+      "status": 200,
+      "sha256": "867846ed27758fa97dd2433178f91644387bf115dbb0cfa16ccfa4e5e3ee9189",
+      "expected": "867846ed27758fa97dd2433178f91644387bf115dbb0cfa16ccfa4e5e3ee9189"
+    },
+    {
+      "name": "《安堃先生赞》.txt",
+      "status": 200,
+      "sha256": "e0e0600c24e0d1e21ad1e64ce6d462b9d5d9a8eece222202bbe97d3fb57922ee",
+      "expected": "e0e0600c24e0d1e21ad1e64ce6d462b9d5d9a8eece222202bbe97d3fb57922ee"
+    },
+    {
+      "name": "《感动城郊年度人物》.txt",
+      "status": 200,
+      "sha256": "48b87c150c40eaeddd6e34d0ac7ac52c56cfff5795de9c642eb7519d2d245d4d",
+      "expected": "48b87c150c40eaeddd6e34d0ac7ac52c56cfff5795de9c642eb7519d2d245d4d"
+    },
+    {
+      "name": "《谁不是地球人》.txt",
+      "status": 200,
+      "sha256": "73658f031a878552ec30dc7a72f82039d38e1bc325f5fceb853eaa2cdd7e51d5",
+      "expected": "73658f031a878552ec30dc7a72f82039d38e1bc325f5fceb853eaa2cdd7e51d5"
+    },
+    {
+      "name": "《巴拉拉坤魔仙》.docx",
+      "status": 200,
+      "sha256": "81ace78f7ed20bab5ef5cc526189bbb18c90cae742507896af823117e39494b8",
+      "expected": "81ace78f7ed20bab5ef5cc526189bbb18c90cae742507896af823117e39494b8"
+    },
+    {
+      "name": "《沙漠骆驼·安堃版》.docx",
+      "status": 200,
+      "sha256": "52860b60238e00c1cea319cdaf4872928c2d10755d02e17b57e7134f8b4a3f1d",
+      "expected": "52860b60238e00c1cea319cdaf4872928c2d10755d02e17b57e7134f8b4a3f1d"
+    },
+    {
+      "name": "巴啦啦K魔仙.mp3",
+      "status": 200,
+      "sha256": "342712f7abd85c7caa46f0b7347f0d5b0bb488dd39323b54ce72bcf708f0fc58",
+      "expected": "342712f7abd85c7caa46f0b7347f0d5b0bb488dd39323b54ce72bcf708f0fc58"
+    }
+  ],
+  "pages": [
+    {
+      "entry": "index.html",
+      "status": 200,
+      "startScene": "firstClass",
+      "jsErrors": [],
+      "automatedStatisticsRequests": []
+    },
+    {
+      "entry": "安堃模拟器.html",
+      "status": 200,
+      "startScene": "firstClass",
+      "jsErrors": [],
+      "automatedStatisticsRequests": []
+    }
+  ],
+  "complete": true,
+  "failed": []
+}

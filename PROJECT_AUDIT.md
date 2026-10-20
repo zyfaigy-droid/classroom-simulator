@@ -131,4 +131,4 @@ ankun.png、所有 TXT/DOCX、未直接引用的剧情节点和 CSS 候选、预
 
 ## GitHub 与原试玩链接
 
-原地址：[在线试玩](https://zyfaigy-droid.github.io/classroom-simulator/)。2026-10-20 Git 凭据恢复后，正常快进推送 17c1a68 成功；原根页面和中文入口均 HTTP 200，实际线上回归通过。仓库名、发布路径及两个入口保留，未强推。可选统计另随本次后续提交发布；其接入前历史人数不能补算。详细证据与验收边界见 `docs/audit/deployment.md`、`docs/ANALYTICS.md`。
+原地址：[在线试玩](https://zyfaigy-droid.github.io/classroom-simulator/)。2026-10-20 Git 凭据恢复后，正常快进推送 17c1a68 成功，实际线上回归通过。后续 c2dbdc2 的统计接入也已部署：最终 20 项运行资源 HTTP 200、内容匹配，两入口正常开局；原根 URL 不加参数也正常。仓库名、发布路径及两个入口保留，未强推。统计接入前历史人数不能补算。详细证据与验收边界见 `docs/audit/deployment.md`、`docs/ANALYTICS.md`。

@@ -21,39 +21,39 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 3247,
+      "bytes": 3835,
       "category": "其他资源",
-      "sha256": "2fbcac80dbd89efce1c69759217cb56a43b4d2ab2b348bf6846990ca8ab5d4e0"
+      "sha256": "4cbd63a386b324a7925bf78e3ba3497c0409c40ba2c84375bd71da749becaf77"
     },
     {
       "path": "DESKTOP_PLAN.md",
       "bytes": 5643,
       "category": "其他资源",
-      "sha256": "db93ea2a3db8a0f2d0e37bf0316d4a45497428844c7f320bbd7df5d9eb0526db"
+      "sha256": "e13a1d845f286924a035de9b2202e24b40fe19573efe66a85d1850f4021e41b5"
     },
     {
       "path": "ENDING_REACHABILITY.md",
-      "bytes": 8568,
+      "bytes": 8846,
       "category": "其他资源",
-      "sha256": "7785409723ca883e99969542a1f017ccbe16a5b290a20916e11db8ef21911c0b"
+      "sha256": "03eebb195789155c365f03100fd62a03db25913a93776bc648f9d5a180d4a689"
     },
     {
       "path": "PROJECT_AUDIT.md",
-      "bytes": 13374,
+      "bytes": 14429,
       "category": "其他资源",
-      "sha256": "cc204636252992f380df7746b87a6d5e2cdd35426cc1c122d07f105f1b8322d5"
+      "sha256": "3f36370f3132ca15940f2e10beda421767c970fdd0c78659a8b57de27fd3da7d"
     },
     {
       "path": "README.md",
-      "bytes": 4141,
+      "bytes": 4602,
       "category": "其他资源",
-      "sha256": "ed994fc08da0e0b32db77ac3f894012209d82b39263c4fe3230973d0be79706c"
+      "sha256": "239db8d0ea7c8ace6dad7fb9561a909169ba63918b22c97bc0852b8ad4e8c7db"
     },
     {
       "path": "RESOURCE_REPORT.md",
-      "bytes": 6479,
+      "bytes": 6821,
       "category": "其他资源",
-      "sha256": "831defde4784df2f76f853e2348e62f08f3123e9c9a6c57838acbf9b884b40da"
+      "sha256": "94ffd203a40a6e4fff12dc1f4ee8a2162614bdc17e93c8f7a67f73a343fcc76f"
     },
     {
       "path": "ankun.png",
@@ -68,21 +68,21 @@
     },
     {
       "path": "index.html",
-      "bytes": 4576,
+      "bytes": 4677,
       "category": "HTML",
-      "sha256": "a9f0ab777ed0036cdda150634e48ad3884da5247f616ef5698e2625b5e19385a"
+      "sha256": "e358adca94a74f24722b03e5fb72557340f9e397c3274e021ee3519d5d11b2a4"
     },
     {
       "path": "package.json",
-      "bytes": 585,
+      "bytes": 692,
       "category": "JSON",
-      "sha256": "25aae7c5cfe0da2bafb99f655844bf5774ea17fc6c59d728e5cce186496ec61c"
+      "sha256": "cc9f0c750a242140e54a8472e9966527437ebb75ed9d4a343880dbc266d471f2"
     },
     {
       "path": "runtime-files.json",
-      "bytes": 523,
+      "bytes": 580,
       "category": "JSON",
-      "sha256": "5e1ac639b3ceb25a3a53ce40ea73ad8ed6fa667f77c59958438d9107336cabd7"
+      "sha256": "f5836f597f42430f1c41f26162c75a57c1ee0df903363b64c90912800b6deebd"
     },
     {
       "path": "《写给安堃表白书》.jpg",
@@ -166,15 +166,27 @@
     },
     {
       "path": "安堃模拟器.html",
-      "bytes": 4577,
+      "bytes": 4678,
       "category": "HTML",
-      "sha256": "f4104052207b9eb88459bd61206581b55bfd014294882e84dad28d69c8341f95"
+      "sha256": "196b844de90af76586e376adb6c7470add5d9c12ebb4dcf949521e0a273a36e1"
     },
     {
       "path": "巴啦啦K魔仙.mp3",
       "bytes": 1166378,
       "category": "音频",
       "sha256": "342712f7abd85c7caa46f0b7347f0d5b0bb488dd39323b54ce72bcf708f0fc58"
+    },
+    {
+      "path": "assets/analytics-config.js",
+      "bytes": 237,
+      "category": "JS",
+      "sha256": "00f83d67b628e9e9033b69d02620637daebe8d498b35f477a82da57032aae6d9"
+    },
+    {
+      "path": "assets/analytics.js",
+      "bytes": 2720,
+      "category": "JS",
+      "sha256": "0c0d69350565dad64473873054443ed5c6e461791a2b77a7671aadbd622fc1ce"
     },
     {
       "path": "assets/game.css",
@@ -219,10 +231,16 @@
       "sha256": "04ee8b1d2e3a16bed12fd47826199acc6663f5124227d94ce1b513d37c1c29b3"
     },
     {
-      "path": "docs/AUDIT_PLAN.md",
-      "bytes": 3422,
+      "path": "docs/ANALYTICS.md",
+      "bytes": 4227,
       "category": "其他资源",
-      "sha256": "5d1ce401d317cd923c25df5ad657b78d9327059175383fcb794e69eb1ecd9267"
+      "sha256": "a60c8b2aa2522229776d4930c13cfdbea385a3f006a09c7d5c1471b9ceab9f64"
+    },
+    {
+      "path": "docs/AUDIT_PLAN.md",
+      "bytes": 3563,
+      "category": "其他资源",
+      "sha256": "a9a2ccb1c48d10429db238e5be11554c288d59348247ca77392c7530f7ebd8ab"
     },
     {
       "path": "docs/audit/compression.json",
@@ -238,9 +256,9 @@
     },
     {
       "path": "docs/audit/deployment.md",
-      "bytes": 2364,
+      "bytes": 4975,
       "category": "其他资源",
-      "sha256": "a4fe04417ea5e0c4d66ff2955c7af35f66942c2c609459e22e2be2a6ee132357"
+      "sha256": "5c283d8eaf77864a3c5316cec0d86be80c09f45443eea95e606cf561201fe496"
     },
     {
       "path": "docs/audit/ending-browser.json",
@@ -256,15 +274,33 @@
     },
     {
       "path": "docs/audit/local-browser.json",
-      "bytes": 105198,
+      "bytes": 106134,
       "category": "JSON",
-      "sha256": "de4a342abeca4716f819a4d4ab346fb8dbf333792f4923447cdfb285ee5a0e2b"
+      "sha256": "62d420ebb5ab8aebd720fa6453dfb2c970e684e10fd84f17378f1a60b3aae6d3"
     },
     {
       "path": "docs/audit/preservation.json",
       "bytes": 3932,
       "category": "JSON",
-      "sha256": "6d7b2a69888e7a35fc2b5a1a32a45ba67a8215a7007779789670546c441dd93a"
+      "sha256": "7d0038dadd995198df58f6848b1cf9a74c1a7534bc12428e831043b7bc08c9e5"
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "bytes": 104602,
+      "category": "JSON",
+      "sha256": "6b7ffb4d4391314f531d379ed83171b275f7f487b9093e8ce77d024f404dbfa7"
+    },
+    {
+      "path": "docs/audit/remote-endings.json",
+      "bytes": 8787,
+      "category": "JSON",
+      "sha256": "ff0092b385c5dcc1a33229683650a7c4da078b7284caaeb386dc5f27ce67e401"
+    },
+    {
+      "path": "docs/audit/remote-final-assets.json",
+      "bytes": 5403,
+      "category": "JSON",
+      "sha256": "d01b03e8f8f1cf47c2fee467836b11a67e169e85fe91eb6ab5f4faec33e4a9f4"
     },
     {
       "path": "docs/audit/resources-before.json",
@@ -274,15 +310,15 @@
     },
     {
       "path": "docs/audit/review.md",
-      "bytes": 2235,
+      "bytes": 2692,
       "category": "其他资源",
-      "sha256": "9ac11d229b1fe9b4a2a8722eb7a85505513527b151261ffb1143eb2bd6a07337"
+      "sha256": "61aa840e48c594ec10148900a1aa7b621d5b73837b8aa11a33f11cecf7e70f1d"
     },
     {
       "path": "docs/audit/runtime-after.json",
-      "bytes": 9072,
+      "bytes": 9986,
       "category": "JSON",
-      "sha256": "037470d6e8e118e91eec77ab1453d415735f31f0efa563627b670dece4fb6b9b"
+      "sha256": "5b447b80cb51e230276b871a03701083ac1a40d68daefda981b4a5ac544f41a4"
     },
     {
       "path": "docs/audit/story-map.json",
@@ -291,10 +327,22 @@
       "sha256": "7ce33a153921ec137978b221d83166cac3e5af2862426af4195940d0bfd967e8"
     },
     {
-      "path": "tests/browser-audit.cjs",
-      "bytes": 15801,
+      "path": "tests/analytics-browser.cjs",
+      "bytes": 2748,
       "category": "JS",
-      "sha256": "65c9490c567f046dd3dfd18f056e85de9a574dd394578e0123d04d9a1e66f562"
+      "sha256": "4beb54d14a117d8cf8137c7b3399610741ead14ef6cfe09785973aa811bc5e2b"
+    },
+    {
+      "path": "tests/analytics.cjs",
+      "bytes": 7183,
+      "category": "JS",
+      "sha256": "2e34f014e2a3e87c52c23c8e071684a51e43ad51c258b07a2d54e881c3552ed1"
+    },
+    {
+      "path": "tests/browser-audit.cjs",
+      "bytes": 15909,
+      "category": "JS",
+      "sha256": "a49a7e924fe546bec46f5111322eccc34625d581073c157b3b4367a8eeb2b437"
     },
     {
       "path": "tests/content-update.cjs",
@@ -304,9 +352,9 @@
     },
     {
       "path": "tests/ending-routes-browser.cjs",
-      "bytes": 5639,
+      "bytes": 5879,
       "category": "JS",
-      "sha256": "f52baa88c885ba50450e46ceb91970c3d7b1293164ef5c8932f1f1ac03f5a76a"
+      "sha256": "06dffeb7cbee350ce851fc5c3bc89c08f79482104043147179313912db14c93c"
     },
     {
       "path": "tests/loan-regression.cjs",
@@ -390,15 +438,15 @@
   "summary": {
     "HTML": {
       "count": 2,
-      "bytes": 9153
+      "bytes": 9355
     },
     "CSS": {
       "count": 1,
       "bytes": 18717
     },
     "JS": {
-      "count": 12,
-      "bytes": 302194
+      "count": 16,
+      "bytes": 315430
     },
     "图片": {
       "count": 5,
@@ -417,15 +465,15 @@
       "bytes": 0
     },
     "JSON": {
-      "count": 13,
-      "bytes": 724229
+      "count": 16,
+      "bytes": 845035
     },
     "其他资源": {
-      "count": 26,
-      "bytes": 99457
+      "count": 27,
+      "bytes": 109617
     }
   },
-  "totalBytes": 5519117,
+  "totalBytes": 5663521,
   "exclusions": [
     ".git",
     "dist",
@@ -517,6 +565,8 @@
         "docs/audit/compression.json",
         "docs/audit/local-browser.json",
         "docs/audit/preservation.json",
+        "docs/audit/remote-browser.json",
+        "docs/audit/remote-final-assets.json",
         "docs/audit/resources-before.json",
         "docs/audit/runtime-after.json"
       ],
@@ -532,6 +582,8 @@
         "assets/story-extended.js",
         "docs/audit/local-browser.json",
         "docs/audit/preservation.json",
+        "docs/audit/remote-browser.json",
+        "docs/audit/remote-final-assets.json",
         "docs/audit/resources-before.json",
         "docs/audit/runtime-after.json",
         "tests/fixtures/index.html.golden.json",
@@ -549,6 +601,8 @@
         "assets/story-extended.js",
         "docs/audit/local-browser.json",
         "docs/audit/preservation.json",
+        "docs/audit/remote-browser.json",
+        "docs/audit/remote-final-assets.json",
         "docs/audit/resources-before.json",
         "docs/audit/runtime-after.json",
         "tests/fixtures/index.html.golden.json",
@@ -566,6 +620,8 @@
         "assets/story-extended.js",
         "docs/audit/local-browser.json",
         "docs/audit/preservation.json",
+        "docs/audit/remote-browser.json",
+        "docs/audit/remote-final-assets.json",
         "docs/audit/resources-before.json",
         "docs/audit/runtime-after.json",
         "tests/fixtures/index.html.golden.json",
@@ -583,6 +639,8 @@
         "assets/story-extended.js",
         "docs/audit/local-browser.json",
         "docs/audit/preservation.json",
+        "docs/audit/remote-browser.json",
+        "docs/audit/remote-final-assets.json",
         "docs/audit/resources-before.json",
         "docs/audit/runtime-after.json",
         "tests/fixtures/index.html.golden.json",
@@ -600,6 +658,8 @@
         "assets/story-extended.js",
         "docs/audit/local-browser.json",
         "docs/audit/preservation.json",
+        "docs/audit/remote-browser.json",
+        "docs/audit/remote-final-assets.json",
         "docs/audit/resources-before.json",
         "docs/audit/runtime-after.json",
         "tests/fixtures/index.html.golden.json",
@@ -617,6 +677,8 @@
         "assets/story-extended.js",
         "docs/audit/local-browser.json",
         "docs/audit/preservation.json",
+        "docs/audit/remote-browser.json",
+        "docs/audit/remote-final-assets.json",
         "docs/audit/resources-before.json",
         "docs/audit/runtime-after.json",
         "tests/fixtures/index.html.golden.json",
@@ -634,6 +696,8 @@
         "assets/story-extended.js",
         "docs/audit/local-browser.json",
         "docs/audit/preservation.json",
+        "docs/audit/remote-browser.json",
+        "docs/audit/remote-final-assets.json",
         "docs/audit/resources-before.json",
         "docs/audit/runtime-after.json",
         "tests/fixtures/index.html.golden.json",
@@ -651,6 +715,8 @@
         "assets/story-extended.js",
         "docs/audit/local-browser.json",
         "docs/audit/preservation.json",
+        "docs/audit/remote-browser.json",
+        "docs/audit/remote-final-assets.json",
         "docs/audit/resources-before.json",
         "docs/audit/runtime-after.json",
         "tests/fixtures/index.html.golden.json",
@@ -667,6 +733,8 @@
         "安堃模拟器.html",
         "docs/audit/local-browser.json",
         "docs/audit/preservation.json",
+        "docs/audit/remote-browser.json",
+        "docs/audit/remote-final-assets.json",
         "docs/audit/resources-before.json",
         "docs/audit/runtime-after.json"
       ],
@@ -682,6 +750,8 @@
         "assets/game.js",
         "docs/audit/local-browser.json",
         "docs/audit/preservation.json",
+        "docs/audit/remote-browser.json",
+        "docs/audit/remote-final-assets.json",
         "docs/audit/resources-before.json",
         "docs/audit/runtime-after.json"
       ],
@@ -696,6 +766,8 @@
         "runtime-files.json",
         "安堃模拟器.html",
         "docs/audit/local-browser.json",
+        "docs/audit/remote-browser.json",
+        "docs/audit/remote-final-assets.json",
         "docs/audit/resources-before.json",
         "docs/audit/runtime-after.json"
       ],
@@ -728,6 +800,16 @@
       "status": "referenced-by-name"
     },
     {
+      "path": "docs/ANALYTICS.md",
+      "textReferences": [
+        "PROJECT_AUDIT.md",
+        "README.md",
+        "docs/AUDIT_PLAN.md",
+        "docs/audit/deployment.md"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
       "path": "docs/AUDIT_PLAN.md",
       "textReferences": [],
       "status": "manual-review-only"
@@ -742,7 +824,6 @@
     {
       "path": "docs/audit/deployment.md",
       "textReferences": [
-        "CHANGELOG.md",
         "PROJECT_AUDIT.md",
         "README.md",
         "docs/AUDIT_PLAN.md"
@@ -821,6 +902,16 @@
       "exists": true
     },
     {
+      "source": "index.html",
+      "target": "assets/analytics-config.js",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "target": "assets/analytics.js",
+      "exists": true
+    },
+    {
       "source": "安堃模拟器.html",
       "target": "assets/game.css",
       "exists": true
@@ -854,6 +945,16 @@
       "source": "安堃模拟器.html",
       "target": "assets/game.js",
       "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "assets/analytics-config.js",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "assets/analytics.js",
+      "exists": true
     }
   ],
   "hardcodedPaths": [
@@ -883,15 +984,39 @@
     },
     {
       "path": "PROJECT_AUDIT.md",
-      "line": 93
+      "line": 95
     },
     {
       "path": "PROJECT_AUDIT.md",
-      "line": 131
+      "line": 134
     },
     {
       "path": "README.md",
       "line": 5
+    },
+    {
+      "path": "assets/analytics.js",
+      "line": 40
+    },
+    {
+      "path": "docs/ANALYTICS.md",
+      "line": 5
+    },
+    {
+      "path": "docs/ANALYTICS.md",
+      "line": 18
+    },
+    {
+      "path": "docs/ANALYTICS.md",
+      "line": 22
+    },
+    {
+      "path": "docs/ANALYTICS.md",
+      "line": 24
+    },
+    {
+      "path": "docs/ANALYTICS.md",
+      "line": 30
     },
     {
       "path": "docs/AUDIT_PLAN.md",
@@ -903,67 +1028,151 @@
     },
     {
       "path": "docs/audit/deployment.md",
-      "line": 5
+      "line": 10
+    },
+    {
+      "path": "docs/audit/deployment.md",
+      "line": 28
     },
     {
       "path": "docs/audit/local-browser.json",
-      "line": 2078
+      "line": 2096
     },
     {
       "path": "docs/audit/local-browser.json",
-      "line": 4284
+      "line": 4302
     },
     {
       "path": "docs/audit/local-browser.json",
-      "line": 4498
+      "line": 4516
     },
     {
       "path": "docs/audit/local-browser.json",
-      "line": 4552
+      "line": 4570
     },
     {
       "path": "docs/audit/local-browser.json",
-      "line": 4557
+      "line": 4575
     },
     {
       "path": "docs/audit/local-browser.json",
-      "line": 4562
+      "line": 4580
     },
     {
       "path": "docs/audit/local-browser.json",
-      "line": 4567
+      "line": 4585
     },
     {
       "path": "docs/audit/local-browser.json",
-      "line": 4572
+      "line": 4590
     },
     {
       "path": "docs/audit/local-browser.json",
-      "line": 4598
+      "line": 4595
     },
     {
       "path": "docs/audit/local-browser.json",
-      "line": 4652
+      "line": 4600
     },
     {
       "path": "docs/audit/local-browser.json",
-      "line": 4657
+      "line": 4626
     },
     {
       "path": "docs/audit/local-browser.json",
-      "line": 4662
-    },
-    {
-      "path": "docs/audit/local-browser.json",
-      "line": 4667
-    },
-    {
-      "path": "docs/audit/local-browser.json",
-      "line": 4672
+      "line": 4680
     },
     {
       "path": "docs/audit/local-browser.json",
       "line": 4685
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4690
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4695
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4700
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4705
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4710
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 4
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 2078
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 4271
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 4472
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 4526
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 4531
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 4536
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 4541
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 4546
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 4572
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 4626
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 4631
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 4636
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 4641
+    },
+    {
+      "path": "docs/audit/remote-browser.json",
+      "line": 4646
+    },
+    {
+      "path": "docs/audit/remote-endings.json",
+      "line": 3
+    },
+    {
+      "path": "docs/audit/remote-final-assets.json",
+      "line": 3
     },
     {
       "path": "docs/audit/resources-before.json",
