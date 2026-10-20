@@ -1,0 +1,349 @@
+{
+  "method": "Real browser, fresh origins and UI clicks only. State is read for assertions, never overwritten.",
+  "entries": {
+    "index.html": {
+      "endings": {
+        "finalEarth": {
+          "title": "结局：地球人",
+          "steps": 11,
+          "noLoan": true,
+          "state": {
+            "scene": "finalEarth",
+            "mind": 66,
+            "money": 440,
+            "dignity": 67,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalShake": {
+          "title": "结局：摇表人",
+          "steps": 11,
+          "noLoan": true,
+          "state": {
+            "scene": "finalShake",
+            "mind": 77,
+            "money": 320,
+            "dignity": 22,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalCharm": {
+          "title": "结局：魅力走位",
+          "steps": 11,
+          "noLoan": true,
+          "state": {
+            "scene": "finalCharm",
+            "mind": 51,
+            "money": 520,
+            "dignity": 72,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalDayday": {
+          "title": "隐藏结局：天道轮回",
+          "steps": 10,
+          "noLoan": true,
+          "state": {
+            "scene": "finalDayday",
+            "mind": 26,
+            "money": 520,
+            "dignity": 20,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalBadMind": {
+          "title": "结局：不是地球人",
+          "steps": 8,
+          "noLoan": true,
+          "state": {
+            "scene": "finalBadMind",
+            "mind": 0,
+            "money": 520,
+            "dignity": 0,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalBadMoney": {
+          "title": "结局：负债退学",
+          "steps": 14,
+          "noLoan": true,
+          "state": {
+            "scene": "finalBadMoney",
+            "mind": 94,
+            "money": 115,
+            "dignity": 31,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalMirror": {
+          "title": "结局：镜子",
+          "steps": 14,
+          "noLoan": true,
+          "state": {
+            "scene": "finalMirror",
+            "mind": 59,
+            "money": 315,
+            "dignity": 1,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalThroat": {
+          "title": "结局：骚粉骑士的葬礼",
+          "steps": 16,
+          "noLoan": true,
+          "state": {
+            "scene": "finalThroat",
+            "mind": 26,
+            "money": 520,
+            "dignity": 4,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalGood": {
+          "title": "结局：抬头的人",
+          "steps": 7,
+          "noLoan": true,
+          "state": {
+            "scene": "finalGood",
+            "mind": 97,
+            "money": 520,
+            "dignity": 88,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalBadDignity": {
+          "title": "结局：自动低头",
+          "steps": 7,
+          "noLoan": true,
+          "state": {
+            "scene": "finalBadDignity",
+            "mind": 18,
+            "money": 520,
+            "dignity": 0,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalWeird": {
+          "title": "隐藏结局：表盘雷达专家",
+          "steps": 19,
+          "noLoan": true,
+          "state": {
+            "scene": "finalWeird",
+            "mind": 61,
+            "money": 320,
+            "dignity": 90,
+            "loanUsed": false
+          },
+          "passed": true
+        }
+      },
+      "globalCompletion": {
+        "required": [
+          "finalEarth",
+          "finalShake",
+          "finalCharm",
+          "finalDayday",
+          "finalBadMind",
+          "finalBadMoney",
+          "finalBadDignity",
+          "finalThroat"
+        ],
+        "passed": true
+      },
+      "loan": {
+        "steps": 10,
+        "source": "gradingFee",
+        "blockedChoice": "交 80 元领试卷",
+        "state": {
+          "scene": "gradingPayResult",
+          "money": 220,
+          "loanUsed": true
+        },
+        "passed": true
+      }
+    },
+    "安堃模拟器.html": {
+      "endings": {
+        "finalEarth": {
+          "title": "结局：地球人",
+          "steps": 9,
+          "noLoan": true,
+          "state": {
+            "scene": "finalEarth",
+            "mind": 61,
+            "money": 440,
+            "dignity": 49,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalShake": {
+          "title": "结局：摇表人",
+          "steps": 11,
+          "noLoan": true,
+          "state": {
+            "scene": "finalShake",
+            "mind": 62,
+            "money": 440,
+            "dignity": 18,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalCharm": {
+          "title": "结局：魅力走位",
+          "steps": 9,
+          "noLoan": true,
+          "state": {
+            "scene": "finalCharm",
+            "mind": 46,
+            "money": 520,
+            "dignity": 54,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalDayday": {
+          "title": "隐藏结局：天道轮回",
+          "steps": 9,
+          "noLoan": true,
+          "state": {
+            "scene": "finalDayday",
+            "mind": 52,
+            "money": 440,
+            "dignity": 39,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalBadMind": {
+          "title": "结局：不是地球人",
+          "steps": 8,
+          "noLoan": true,
+          "state": {
+            "scene": "finalBadMind",
+            "mind": 0,
+            "money": 520,
+            "dignity": 0,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalBadMoney": {
+          "title": "结局：负债退学",
+          "steps": 14,
+          "noLoan": true,
+          "state": {
+            "scene": "finalBadMoney",
+            "mind": 94,
+            "money": 115,
+            "dignity": 31,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalMirror": {
+          "title": "结局：镜子",
+          "steps": 14,
+          "noLoan": true,
+          "state": {
+            "scene": "finalMirror",
+            "mind": 59,
+            "money": 315,
+            "dignity": 1,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalThroat": {
+          "title": "结局：骚粉骑士的葬礼",
+          "steps": 15,
+          "noLoan": true,
+          "state": {
+            "scene": "finalThroat",
+            "mind": 41,
+            "money": 440,
+            "dignity": 24,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalGood": {
+          "title": "结局：抬头的人",
+          "steps": 7,
+          "noLoan": true,
+          "state": {
+            "scene": "finalGood",
+            "mind": 97,
+            "money": 520,
+            "dignity": 88,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalBadDignity": {
+          "title": "结局：自动低头",
+          "steps": 7,
+          "noLoan": true,
+          "state": {
+            "scene": "finalBadDignity",
+            "mind": 18,
+            "money": 520,
+            "dignity": 0,
+            "loanUsed": false
+          },
+          "passed": true
+        },
+        "finalWeird": {
+          "title": "隐藏结局：表盘雷达专家",
+          "steps": 19,
+          "noLoan": true,
+          "state": {
+            "scene": "finalWeird",
+            "mind": 61,
+            "money": 320,
+            "dignity": 90,
+            "loanUsed": false
+          },
+          "passed": true
+        }
+      },
+      "globalCompletion": {
+        "required": [
+          "finalEarth",
+          "finalShake",
+          "finalCharm",
+          "finalDayday",
+          "finalBadMind",
+          "finalBadMoney",
+          "finalBadDignity",
+          "finalThroat"
+        ],
+        "passed": true
+      },
+      "loan": {
+        "steps": 10,
+        "source": "gradingFee",
+        "blockedChoice": "交 80 元领试卷",
+        "state": {
+          "scene": "gradingPayResult",
+          "money": 220,
+          "loanUsed": true
+        },
+        "passed": true
+      }
+    }
+  },
+  "failed": [],
+  "complete": true
+}

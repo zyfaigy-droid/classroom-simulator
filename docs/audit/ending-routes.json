@@ -1,0 +1,3205 @@
+{
+  "method": "Bounded beam search over actual production game functions; success requires browser replay. Not-found is not proof of impossibility.",
+  "width": 120,
+  "depthLimit": 80,
+  "entries": {
+    "index.html": {
+      "endings": {
+        "finalEarth": {
+          "title": "结局：地球人",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":66,\"money\":440,\"dignity\":67,\"day\":11,\"scene\":\"finalEarth\",\"items\":[\"完整经过\",\"电话卡与身份证记录\",\"换车语录\",\"彩蛋解锁：装备统计表\",\"提前离场\",\"期末质询\"],\"achievements\":[\"装备彩蛋\",\"结局：地球人\"],\"scolded\":0,\"evidence\":2,\"rebuttals\":2,\"paidTimes\":1,\"glare\":0,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"office\",\"phoneCard\",\"phonePayResult\",\"carUpgrade\",\"farewellQuote\",\"graduationBoast\"],\"corridorVisited\":[\"phoneCard\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"装备彩蛋\",\"结局：地球人\"],\"permanentEndings\":[\"finalEarth\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "举手问：为什么不能问为什么",
+                "index": 3,
+                "next": "office"
+              },
+              {
+                "scene": "office",
+                "type": "choice",
+                "label": "回去写一份完整经过",
+                "index": 1,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "装备推销线",
+                "index": 4,
+                "next": "phoneCard"
+              },
+              {
+                "scene": "phoneCard",
+                "type": "choice",
+                "label": "交出身份证办卡",
+                "index": 0,
+                "next": "phonePayResult"
+              },
+              {
+                "scene": "phonePayResult",
+                "type": "choice",
+                "label": "再看一眼电瓶车",
+                "index": 0,
+                "next": "carUpgrade"
+              },
+              {
+                "scene": "carUpgrade",
+                "type": "choice",
+                "label": "记下这句话",
+                "index": 2,
+                "next": "farewellQuote"
+              },
+              {
+                "scene": "farewellQuote",
+                "type": "choice",
+                "label": "私下统计他的鞋和表",
+                "index": 3,
+                "next": "graduationBoast"
+              },
+              {
+                "scene": "graduationBoast",
+                "type": "choice",
+                "label": "提前离场",
+                "index": 2,
+                "next": "preFinalWeek"
+              },
+              {
+                "scene": "preFinalWeek",
+                "type": "choice",
+                "label": "准备好面对期末谈话",
+                "index": 3,
+                "next": "termDecision"
+              },
+              {
+                "scene": "termDecision",
+                "type": "choice",
+                "label": "结算结局：请您给出收费依据",
+                "index": 1,
+                "next": "finalEarth"
+              }
+            ],
+            "expanded": 2466,
+            "depth": 11,
+            "finalState": {
+              "mind": 66,
+              "money": 440,
+              "dignity": 67,
+              "day": 11,
+              "scene": "finalEarth",
+              "items": [
+                "完整经过",
+                "电话卡与身份证记录",
+                "换车语录",
+                "彩蛋解锁：装备统计表",
+                "提前离场",
+                "期末质询"
+              ],
+              "achievements": [
+                "装备彩蛋",
+                "结局：地球人"
+              ],
+              "scolded": 0,
+              "evidence": 2,
+              "rebuttals": 2,
+              "paidTimes": 1,
+              "glare": 0,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "office",
+                "phoneCard",
+                "phonePayResult",
+                "carUpgrade",
+                "farewellQuote",
+                "graduationBoast"
+              ],
+              "corridorVisited": [
+                "phoneCard"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalShake": {
+          "title": "结局：摇表人",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":77,\"money\":320,\"dignity\":22,\"day\":11,\"scene\":\"finalShake\",\"items\":[\"半页草稿\",\"收据边角\",\"手机课堂吐槽\",\"录音线索\",\"双表目击\",\"监考费检讨照片\"],\"achievements\":[\"结局：摇表人\"],\"scolded\":3,\"evidence\":1,\"rebuttals\":1,\"paidTimes\":2,\"glare\":2,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"math\",\"solve\",\"phoneInClass\",\"exam\",\"monitorFee\",\"monitorWhisperResult\"],\"corridorVisited\":[\"phoneInClass\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：摇表人\"],\"permanentEndings\":[\"finalShake\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "低头偷偷做数学题",
+                "index": 1,
+                "next": "math"
+              },
+              {
+                "scene": "math",
+                "type": "choice",
+                "label": "举手：我来试试",
+                "index": 0,
+                "next": "solve"
+              },
+              {
+                "scene": "solve",
+                "type": "choice",
+                "label": "先交 200，买一周清静",
+                "index": 0,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "课堂考试线",
+                "index": 1,
+                "next": "phoneInClass"
+              },
+              {
+                "scene": "phoneInClass",
+                "type": "choice",
+                "label": "小声吐槽：又在搜题了",
+                "index": 2,
+                "next": "exam"
+              },
+              {
+                "scene": "exam",
+                "type": "choice",
+                "label": "录下训话关键词",
+                "index": 1,
+                "next": "monitorFee"
+              },
+              {
+                "scene": "monitorFee",
+                "type": "choice",
+                "label": "小声说：他自己也戴表",
+                "index": 1,
+                "next": "monitorWhisperResult"
+              },
+              {
+                "scene": "monitorWhisperResult",
+                "type": "choice",
+                "label": "把检讨拍照留底",
+                "index": 0,
+                "next": "preFinalWeek"
+              },
+              {
+                "scene": "preFinalWeek",
+                "type": "choice",
+                "label": "准备好面对期末谈话",
+                "index": 3,
+                "next": "termDecision"
+              },
+              {
+                "scene": "termDecision",
+                "type": "choice",
+                "label": "结算结局：低头说我下学期补上",
+                "index": 0,
+                "next": "finalShake"
+              }
+            ],
+            "expanded": 2549,
+            "depth": 11,
+            "finalState": {
+              "mind": 77,
+              "money": 320,
+              "dignity": 22,
+              "day": 11,
+              "scene": "finalShake",
+              "items": [
+                "半页草稿",
+                "收据边角",
+                "手机课堂吐槽",
+                "录音线索",
+                "双表目击",
+                "监考费检讨照片"
+              ],
+              "achievements": [
+                "结局：摇表人"
+              ],
+              "scolded": 3,
+              "evidence": 1,
+              "rebuttals": 1,
+              "paidTimes": 2,
+              "glare": 2,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "math",
+                "solve",
+                "phoneInClass",
+                "exam",
+                "monitorFee",
+                "monitorWhisperResult"
+              ],
+              "corridorVisited": [
+                "phoneInClass"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalCharm": {
+          "title": "结局：魅力走位",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":51,\"money\":520,\"dignity\":72,\"day\":11,\"scene\":\"finalCharm\",\"items\":[\"完整经过\",\"拒交身份证记录\",\"换车语录\",\"彩蛋解锁：装备统计表\",\"提前离场\",\"期末质询\"],\"achievements\":[\"装备彩蛋\",\"地球人之怒\",\"结局：魅力走位\"],\"scolded\":0,\"evidence\":2,\"rebuttals\":3,\"paidTimes\":1,\"glare\":0,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"office\",\"phoneCard\",\"phoneRejectResult\",\"carUpgrade\",\"farewellQuote\",\"graduationBoast\"],\"corridorVisited\":[\"phoneCard\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"装备彩蛋\",\"地球人之怒\",\"结局：魅力走位\"],\"permanentEndings\":[\"finalCharm\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "举手问：为什么不能问为什么",
+                "index": 3,
+                "next": "office"
+              },
+              {
+                "scene": "office",
+                "type": "choice",
+                "label": "回去写一份完整经过",
+                "index": 1,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "装备推销线",
+                "index": 4,
+                "next": "phoneCard"
+              },
+              {
+                "scene": "phoneCard",
+                "type": "choice",
+                "label": "拒绝交身份证",
+                "index": 2,
+                "next": "phoneRejectResult"
+              },
+              {
+                "scene": "phoneRejectResult",
+                "type": "choice",
+                "label": "走到楼下",
+                "index": 0,
+                "next": "carUpgrade"
+              },
+              {
+                "scene": "carUpgrade",
+                "type": "choice",
+                "label": "记下这句话",
+                "index": 2,
+                "next": "farewellQuote"
+              },
+              {
+                "scene": "farewellQuote",
+                "type": "choice",
+                "label": "私下统计他的鞋和表",
+                "index": 3,
+                "next": "graduationBoast"
+              },
+              {
+                "scene": "graduationBoast",
+                "type": "choice",
+                "label": "提前离场",
+                "index": 2,
+                "next": "preFinalWeek"
+              },
+              {
+                "scene": "preFinalWeek",
+                "type": "choice",
+                "label": "准备好面对期末谈话",
+                "index": 3,
+                "next": "termDecision"
+              },
+              {
+                "scene": "termDecision",
+                "type": "choice",
+                "label": "结算结局：请您给出收费依据",
+                "index": 1,
+                "next": "finalCharm"
+              }
+            ],
+            "expanded": 2552,
+            "depth": 11,
+            "finalState": {
+              "mind": 51,
+              "money": 520,
+              "dignity": 72,
+              "day": 11,
+              "scene": "finalCharm",
+              "items": [
+                "完整经过",
+                "拒交身份证记录",
+                "换车语录",
+                "彩蛋解锁：装备统计表",
+                "提前离场",
+                "期末质询"
+              ],
+              "achievements": [
+                "装备彩蛋",
+                "地球人之怒",
+                "结局：魅力走位"
+              ],
+              "scolded": 0,
+              "evidence": 2,
+              "rebuttals": 3,
+              "paidTimes": 1,
+              "glare": 0,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "office",
+                "phoneCard",
+                "phoneRejectResult",
+                "carUpgrade",
+                "farewellQuote",
+                "graduationBoast"
+              ],
+              "corridorVisited": [
+                "phoneCard"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalDayday": {
+          "title": "隐藏结局：天道轮回",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":26,\"money\":520,\"dignity\":20,\"day\":10,\"scene\":\"finalDayday\",\"items\":[\"完整经过\",\"手机课堂吐槽\",\"录音线索\",\"勇气发言\",\"双表事件材料\",\"期末材料包\"],\"achievements\":[\"结局：天道轮回\"],\"scolded\":1,\"evidence\":3,\"rebuttals\":2,\"paidTimes\":0,\"glare\":2,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"office\",\"phoneInClass\",\"exam\",\"monitorFee\",\"monitorCalloutResult\"],\"corridorVisited\":[\"phoneInClass\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：天道轮回\"],\"permanentEndings\":[\"finalDayday\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "举手问：为什么不能问为什么",
+                "index": 3,
+                "next": "office"
+              },
+              {
+                "scene": "office",
+                "type": "choice",
+                "label": "回去写一份完整经过",
+                "index": 1,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "课堂考试线",
+                "index": 1,
+                "next": "phoneInClass"
+              },
+              {
+                "scene": "phoneInClass",
+                "type": "choice",
+                "label": "小声吐槽：又在搜题了",
+                "index": 2,
+                "next": "exam"
+              },
+              {
+                "scene": "exam",
+                "type": "choice",
+                "label": "录下训话关键词",
+                "index": 1,
+                "next": "monitorFee"
+              },
+              {
+                "scene": "monitorFee",
+                "type": "choice",
+                "label": "举手说：老师，您手上也戴着表",
+                "index": 2,
+                "next": "monitorCalloutResult"
+              },
+              {
+                "scene": "monitorCalloutResult",
+                "type": "choice",
+                "label": "把这次发言写进材料",
+                "index": 1,
+                "next": "preFinalWeek"
+              },
+              {
+                "scene": "preFinalWeek",
+                "type": "choice",
+                "label": "准备好面对期末谈话",
+                "index": 3,
+                "next": "termDecision"
+              },
+              {
+                "scene": "termDecision",
+                "type": "choice",
+                "label": "结算结局：整理材料和同学一起反馈",
+                "index": 2,
+                "next": "finalDayday"
+              }
+            ],
+            "expanded": 1888,
+            "depth": 10,
+            "finalState": {
+              "mind": 26,
+              "money": 520,
+              "dignity": 20,
+              "day": 10,
+              "scene": "finalDayday",
+              "items": [
+                "完整经过",
+                "手机课堂吐槽",
+                "录音线索",
+                "勇气发言",
+                "双表事件材料",
+                "期末材料包"
+              ],
+              "achievements": [
+                "结局：天道轮回"
+              ],
+              "scolded": 1,
+              "evidence": 3,
+              "rebuttals": 2,
+              "paidTimes": 0,
+              "glare": 2,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "office",
+                "phoneInClass",
+                "exam",
+                "monitorFee",
+                "monitorCalloutResult"
+              ],
+              "corridorVisited": [
+                "phoneInClass"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalBadMind": {
+          "title": "结局：不是地球人",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":0,\"money\":520,\"dignity\":0,\"day\":9,\"scene\":\"finalBadMind\",\"items\":[\"补课不正常疑问\",\"寒假拒补\",\"不是地球人原话\"],\"achievements\":[\"结局：不是地球人\"],\"scolded\":1,\"evidence\":0,\"rebuttals\":2,\"paidTimes\":0,\"glare\":0,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"office\",\"fee\",\"tutorNotNormal\",\"winterTutor\",\"earth\"],\"corridorVisited\":[\"fee\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：不是地球人\"],\"permanentEndings\":[\"finalBadMind\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "举手问：为什么不能问为什么",
+                "index": 3,
+                "next": "office"
+              },
+              {
+                "scene": "office",
+                "type": "choice",
+                "label": "深呼吸，离开办公室",
+                "index": 0,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "补课收费线",
+                "index": 0,
+                "next": "fee"
+              },
+              {
+                "scene": "fee",
+                "type": "choice",
+                "label": "问：假期不补课才不正常吗",
+                "index": 3,
+                "next": "tutorNotNormal"
+              },
+              {
+                "scene": "tutorNotNormal",
+                "type": "choice",
+                "label": "沉默不语",
+                "index": 0,
+                "next": "winterTutor"
+              },
+              {
+                "scene": "winterTutor",
+                "type": "choice",
+                "label": "拒绝补课",
+                "index": 2,
+                "next": "earth"
+              },
+              {
+                "scene": "earth",
+                "type": "choice",
+                "label": "小声说：过分了吧",
+                "index": 1,
+                "next": "finalBadMind"
+              }
+            ],
+            "expanded": 1035,
+            "depth": 8,
+            "finalState": {
+              "mind": 0,
+              "money": 520,
+              "dignity": 0,
+              "day": 9,
+              "scene": "finalBadMind",
+              "items": [
+                "补课不正常疑问",
+                "寒假拒补",
+                "不是地球人原话"
+              ],
+              "achievements": [
+                "结局：不是地球人"
+              ],
+              "scolded": 1,
+              "evidence": 0,
+              "rebuttals": 2,
+              "paidTimes": 0,
+              "glare": 0,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "office",
+                "fee",
+                "tutorNotNormal",
+                "winterTutor",
+                "earth"
+              ],
+              "corridorVisited": [
+                "fee"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalBadMoney": {
+          "title": "结局：负债退学",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":94,\"money\":115,\"dignity\":31,\"day\":14,\"scene\":\"finalBadMoney\",\"items\":[\"半页草稿\",\"收据边角\",\"补课票根\",\"金表反光记忆\",\"同学信任\",\"双表目击\",\"监考费检讨照片\"],\"achievements\":[\"结局：负债退学\"],\"scolded\":2,\"evidence\":0,\"rebuttals\":1,\"paidTimes\":3,\"glare\":2,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"math\",\"solve\",\"fee\",\"feePayResult\",\"tutorLookUp\",\"tutorLookResult\",\"ac\",\"monitorFee\",\"monitorWhisperResult\"],\"corridorVisited\":[\"fee\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：负债退学\"],\"permanentEndings\":[\"finalBadMoney\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "低头偷偷做数学题",
+                "index": 1,
+                "next": "math"
+              },
+              {
+                "scene": "math",
+                "type": "choice",
+                "label": "举手：我来试试",
+                "index": 0,
+                "next": "solve"
+              },
+              {
+                "scene": "solve",
+                "type": "choice",
+                "label": "先交 200，买一周清静",
+                "index": 0,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "补课收费线",
+                "index": 0,
+                "next": "fee"
+              },
+              {
+                "scene": "fee",
+                "type": "choice",
+                "label": "当场交钱",
+                "index": 0,
+                "next": "feePayResult"
+              },
+              {
+                "scene": "feePayResult",
+                "type": "choice",
+                "label": "进入补课",
+                "index": 0,
+                "next": "tutorLookUp"
+              },
+              {
+                "scene": "tutorLookUp",
+                "type": "choice",
+                "label": "抬头看他晃表",
+                "index": 0,
+                "next": "tutorLookResult"
+              },
+              {
+                "scene": "tutorLookResult",
+                "type": "choice",
+                "label": "进入猥琐事件",
+                "index": 0,
+                "next": "ac"
+              },
+              {
+                "scene": "ac",
+                "type": "choice",
+                "label": "递水给快中暑的同学",
+                "index": 2,
+                "next": "monitorFee"
+              },
+              {
+                "scene": "monitorFee",
+                "type": "choice",
+                "label": "小声说：他自己也戴表",
+                "index": 1,
+                "next": "monitorWhisperResult"
+              },
+              {
+                "scene": "monitorWhisperResult",
+                "type": "choice",
+                "label": "把检讨拍照留底",
+                "index": 0,
+                "next": "preFinalWeek"
+              },
+              {
+                "scene": "preFinalWeek",
+                "type": "choice",
+                "label": "准备好面对期末谈话",
+                "index": 3,
+                "next": "termDecision"
+              },
+              {
+                "scene": "termDecision",
+                "type": "choice",
+                "label": "结算结局：低头说我下学期补上",
+                "index": 0,
+                "next": "finalBadMoney"
+              }
+            ],
+            "expanded": 3853,
+            "depth": 14,
+            "finalState": {
+              "mind": 94,
+              "money": 115,
+              "dignity": 31,
+              "day": 14,
+              "scene": "finalBadMoney",
+              "items": [
+                "半页草稿",
+                "收据边角",
+                "补课票根",
+                "金表反光记忆",
+                "同学信任",
+                "双表目击",
+                "监考费检讨照片"
+              ],
+              "achievements": [
+                "结局：负债退学"
+              ],
+              "scolded": 2,
+              "evidence": 0,
+              "rebuttals": 1,
+              "paidTimes": 3,
+              "glare": 2,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "math",
+                "solve",
+                "fee",
+                "feePayResult",
+                "tutorLookUp",
+                "tutorLookResult",
+                "ac",
+                "monitorFee",
+                "monitorWhisperResult"
+              ],
+              "corridorVisited": [
+                "fee"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalMirror": {
+          "title": "结局：镜子",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":59,\"money\":315,\"dignity\":1,\"day\":14,\"scene\":\"finalMirror\",\"items\":[\"半页草稿\",\"收据边角\",\"拒交记录\",\"同学信任\",\"双表目击\",\"监考费检讨照片\"],\"achievements\":[\"结局：镜子\"],\"scolded\":3,\"evidence\":1,\"rebuttals\":2,\"paidTimes\":3,\"glare\":1,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"math\",\"solve\",\"fee\",\"feeRejectResult\",\"tutorLookUp\",\"tutorIgnoreResult\",\"ac\",\"monitorFee\",\"monitorWhisperResult\"],\"corridorVisited\":[\"fee\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：镜子\"],\"permanentEndings\":[]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "低头偷偷做数学题",
+                "index": 1,
+                "next": "math"
+              },
+              {
+                "scene": "math",
+                "type": "choice",
+                "label": "举手：我来试试",
+                "index": 0,
+                "next": "solve"
+              },
+              {
+                "scene": "solve",
+                "type": "choice",
+                "label": "先交 200，买一周清静",
+                "index": 0,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "补课收费线",
+                "index": 0,
+                "next": "fee"
+              },
+              {
+                "scene": "fee",
+                "type": "choice",
+                "label": "拒绝",
+                "index": 2,
+                "next": "feeRejectResult"
+              },
+              {
+                "scene": "feeRejectResult",
+                "type": "choice",
+                "label": "进入补课",
+                "index": 0,
+                "next": "tutorLookUp"
+              },
+              {
+                "scene": "tutorLookUp",
+                "type": "choice",
+                "label": "低头假装没听见",
+                "index": 1,
+                "next": "tutorIgnoreResult"
+              },
+              {
+                "scene": "tutorIgnoreResult",
+                "type": "choice",
+                "label": "进入猥琐事件",
+                "index": 0,
+                "next": "ac"
+              },
+              {
+                "scene": "ac",
+                "type": "choice",
+                "label": "递水给快中暑的同学",
+                "index": 2,
+                "next": "monitorFee"
+              },
+              {
+                "scene": "monitorFee",
+                "type": "choice",
+                "label": "小声说：他自己也戴表",
+                "index": 1,
+                "next": "monitorWhisperResult"
+              },
+              {
+                "scene": "monitorWhisperResult",
+                "type": "choice",
+                "label": "把检讨拍照留底",
+                "index": 0,
+                "next": "preFinalWeek"
+              },
+              {
+                "scene": "preFinalWeek",
+                "type": "choice",
+                "label": "准备好面对期末谈话",
+                "index": 3,
+                "next": "termDecision"
+              },
+              {
+                "scene": "termDecision",
+                "type": "choice",
+                "label": "结算结局：低头说我下学期补上",
+                "index": 0,
+                "next": "finalMirror"
+              }
+            ],
+            "expanded": 3900,
+            "depth": 14,
+            "finalState": {
+              "mind": 59,
+              "money": 315,
+              "dignity": 1,
+              "day": 14,
+              "scene": "finalMirror",
+              "items": [
+                "半页草稿",
+                "收据边角",
+                "拒交记录",
+                "同学信任",
+                "双表目击",
+                "监考费检讨照片"
+              ],
+              "achievements": [
+                "结局：镜子"
+              ],
+              "scolded": 3,
+              "evidence": 1,
+              "rebuttals": 2,
+              "paidTimes": 3,
+              "glare": 1,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "math",
+                "solve",
+                "fee",
+                "feeRejectResult",
+                "tutorLookUp",
+                "tutorIgnoreResult",
+                "ac",
+                "monitorFee",
+                "monitorWhisperResult"
+              ],
+              "corridorVisited": [
+                "fee"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalThroat": {
+          "title": "结局：骚粉骑士的葬礼",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":26,\"money\":520,\"dignity\":4,\"day\":16,\"scene\":\"finalThroat\",\"items\":[\"完整经过\",\"梓豪事件目击\",\"梓豪信任\",\"稳龙课堂目击\",\"手机课堂吐槽\",\"录音线索\",\"双表目击\",\"监考费检讨照片\"],\"achievements\":[\"骚粉骑士\",\"结局：骚粉骑士的葬礼\"],\"scolded\":4,\"evidence\":1,\"rebuttals\":1,\"paidTimes\":1,\"glare\":2,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":3,\"visitedScenes\":[\"firstClass\",\"office\",\"verbalDeny\",\"xuScold\",\"hairCheck\",\"longLaugh\",\"phoneInClass\",\"exam\",\"monitorFee\",\"monitorWhisperResult\"],\"corridorVisited\":[\"verbalDeny\",\"hairCheck\",\"phoneInClass\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"骚粉骑士\",\"结局：骚粉骑士的葬礼\"],\"permanentEndings\":[\"finalThroat\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "举手问：为什么不能问为什么",
+                "index": 3,
+                "next": "office"
+              },
+              {
+                "scene": "office",
+                "type": "choice",
+                "label": "回去写一份完整经过",
+                "index": 1,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "语言羞辱线",
+                "index": 3,
+                "next": "verbalDeny"
+              },
+              {
+                "scene": "verbalDeny",
+                "type": "choice",
+                "label": "课上听见梓豪被骂",
+                "index": 2,
+                "next": "xuScold"
+              },
+              {
+                "scene": "xuScold",
+                "type": "choice",
+                "label": "课后安慰梓豪",
+                "index": 1,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "纪律体罚线",
+                "index": 2,
+                "next": "hairCheck"
+              },
+              {
+                "scene": "hairCheck",
+                "type": "choice",
+                "label": "后排稳龙突然笑了一声",
+                "index": 2,
+                "next": "longLaugh"
+              },
+              {
+                "scene": "longLaugh",
+                "type": "choice",
+                "label": "低头装作没听见",
+                "index": 0,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "课堂考试线",
+                "index": 1,
+                "next": "phoneInClass"
+              },
+              {
+                "scene": "phoneInClass",
+                "type": "choice",
+                "label": "小声吐槽：又在搜题了",
+                "index": 2,
+                "next": "exam"
+              },
+              {
+                "scene": "exam",
+                "type": "choice",
+                "label": "录下训话关键词",
+                "index": 1,
+                "next": "monitorFee"
+              },
+              {
+                "scene": "monitorFee",
+                "type": "choice",
+                "label": "小声说：他自己也戴表",
+                "index": 1,
+                "next": "monitorWhisperResult"
+              },
+              {
+                "scene": "monitorWhisperResult",
+                "type": "choice",
+                "label": "把检讨拍照留底",
+                "index": 0,
+                "next": "preFinalWeek"
+              },
+              {
+                "scene": "preFinalWeek",
+                "type": "choice",
+                "label": "准备好面对期末谈话",
+                "index": 3,
+                "next": "termDecision"
+              },
+              {
+                "scene": "termDecision",
+                "type": "choice",
+                "label": "结算结局：低头说我下学期补上",
+                "index": 0,
+                "next": "finalThroat"
+              }
+            ],
+            "expanded": 4874,
+            "depth": 16,
+            "finalState": {
+              "mind": 26,
+              "money": 520,
+              "dignity": 4,
+              "day": 16,
+              "scene": "finalThroat",
+              "items": [
+                "完整经过",
+                "梓豪事件目击",
+                "梓豪信任",
+                "稳龙课堂目击",
+                "手机课堂吐槽",
+                "录音线索",
+                "双表目击",
+                "监考费检讨照片"
+              ],
+              "achievements": [
+                "骚粉骑士",
+                "结局：骚粉骑士的葬礼"
+              ],
+              "scolded": 4,
+              "evidence": 1,
+              "rebuttals": 1,
+              "paidTimes": 1,
+              "glare": 2,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 3,
+              "visitedScenes": [
+                "firstClass",
+                "office",
+                "verbalDeny",
+                "xuScold",
+                "hairCheck",
+                "longLaugh",
+                "phoneInClass",
+                "exam",
+                "monitorFee",
+                "monitorWhisperResult"
+              ],
+              "corridorVisited": [
+                "verbalDeny",
+                "hairCheck",
+                "phoneInClass"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalGood": {
+          "title": "结局：抬头的人",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":97,\"money\":520,\"dignity\":88,\"day\":8,\"scene\":\"finalGood\",\"items\":[\"半页草稿\",\"收费疑问\",\"同学名单\",\"联合反馈\"],\"achievements\":[\"结局：抬头的人\"],\"scolded\":1,\"evidence\":1,\"rebuttals\":1,\"paidTimes\":1,\"glare\":0,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":0,\"visitedScenes\":[\"firstClass\",\"math\",\"solve\",\"receipt\",\"ally\"],\"corridorVisited\":[],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：抬头的人\"],\"permanentEndings\":[]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "低头偷偷做数学题",
+                "index": 1,
+                "next": "math"
+              },
+              {
+                "scene": "math",
+                "type": "choice",
+                "label": "举手：我来试试",
+                "index": 0,
+                "next": "solve"
+              },
+              {
+                "scene": "solve",
+                "type": "choice",
+                "label": "说家里要确认收费明细",
+                "index": 2,
+                "next": "receipt"
+              },
+              {
+                "scene": "receipt",
+                "type": "choice",
+                "label": "把同学们的疑问汇总",
+                "index": 0,
+                "next": "ally"
+              },
+              {
+                "scene": "ally",
+                "type": "choice",
+                "label": "提交给年级和家长代表",
+                "index": 0,
+                "next": "review"
+              },
+              {
+                "scene": "review",
+                "type": "choice",
+                "label": "查看本局评价",
+                "index": 0,
+                "next": "finalGood"
+              }
+            ],
+            "expanded": 643,
+            "depth": 7,
+            "finalState": {
+              "mind": 97,
+              "money": 520,
+              "dignity": 88,
+              "day": 8,
+              "scene": "finalGood",
+              "items": [
+                "半页草稿",
+                "收费疑问",
+                "同学名单",
+                "联合反馈"
+              ],
+              "achievements": [
+                "结局：抬头的人"
+              ],
+              "scolded": 1,
+              "evidence": 1,
+              "rebuttals": 1,
+              "paidTimes": 1,
+              "glare": 0,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 0,
+              "visitedScenes": [
+                "firstClass",
+                "math",
+                "solve",
+                "receipt",
+                "ally"
+              ],
+              "corridorVisited": [],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalBadDignity": {
+          "title": "结局：自动低头",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":18,\"money\":520,\"dignity\":0,\"day\":8,\"scene\":\"finalBadDignity\",\"items\":[\"替同学出声\"],\"achievements\":[\"结局：自动低头\"],\"scolded\":2,\"evidence\":0,\"rebuttals\":1,\"paidTimes\":0,\"glare\":0,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"office\",\"verbalDeny\",\"rollAside\",\"caught\"],\"corridorVisited\":[\"verbalDeny\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：自动低头\"],\"permanentEndings\":[\"finalBadDignity\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "举手问：为什么不能问为什么",
+                "index": 3,
+                "next": "office"
+              },
+              {
+                "scene": "office",
+                "type": "choice",
+                "label": "深呼吸，离开办公室",
+                "index": 0,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "语言羞辱线",
+                "index": 3,
+                "next": "verbalDeny"
+              },
+              {
+                "scene": "verbalDeny",
+                "type": "choice",
+                "label": "沉默，把头低下去",
+                "index": 0,
+                "next": "rollAside"
+              },
+              {
+                "scene": "rollAside",
+                "type": "choice",
+                "label": "小声说太过分了",
+                "index": 2,
+                "next": "caught"
+              },
+              {
+                "scene": "caught",
+                "type": "choice",
+                "label": "沉默忍受",
+                "index": 0,
+                "next": "finalBadDignity"
+              }
+            ],
+            "expanded": 634,
+            "depth": 7,
+            "finalState": {
+              "mind": 18,
+              "money": 520,
+              "dignity": 0,
+              "day": 8,
+              "scene": "finalBadDignity",
+              "items": [
+                "替同学出声"
+              ],
+              "achievements": [
+                "结局：自动低头"
+              ],
+              "scolded": 2,
+              "evidence": 0,
+              "rebuttals": 1,
+              "paidTimes": 0,
+              "glare": 0,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "office",
+                "verbalDeny",
+                "rollAside",
+                "caught"
+              ],
+              "corridorVisited": [
+                "verbalDeny"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalWeird": {
+          "title": "隐藏结局：表盘雷达专家",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":61,\"money\":320,\"dignity\":90,\"day\":20,\"scene\":\"finalWeird\",\"items\":[\"反光角度笔记\",\"表盘雷达\",\"成绩评价记录\",\"锐评原话记录\",\"补课票根\",\"金表反光记忆\",\"空调记录\",\"彩蛋解锁：装备统计表\",\"提前离场\",\"期末补充材料\",\"手机课堂吐槽\"],\"achievements\":[\"装备彩蛋\",\"金表眩晕\",\"结局：表盘雷达专家\"],\"scolded\":1,\"evidence\":5,\"rebuttals\":0,\"paidTimes\":1,\"glare\":5,\"listenedRoast\":1,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"watchStudy\",\"afterFirstExam\",\"midtermDrama\",\"fee\",\"feePayResult\",\"tutorLookUp\",\"tutorLookResult\",\"ac\",\"monitorFee\",\"monitorSilentResult\",\"farewellQuote\",\"graduationBoast\",\"ally\",\"phoneInClass\",\"exam\"],\"corridorVisited\":[\"phoneInClass\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":true},\"permanentAchievements\":[\"装备彩蛋\",\"金表眩晕\",\"结局：表盘雷达专家\"],\"permanentEndings\":[]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "观察晃表发光的规律",
+                "index": 2,
+                "next": "watchStudy"
+              },
+              {
+                "scene": "watchStudy",
+                "type": "choice",
+                "label": "把它命名为“表盘雷达”",
+                "index": 0,
+                "next": "afterFirstExam"
+              },
+              {
+                "scene": "afterFirstExam",
+                "type": "choice",
+                "label": "记录成绩评价和补课暗示",
+                "index": 1,
+                "next": "midtermDrama"
+              },
+              {
+                "scene": "midtermDrama",
+                "type": "choice",
+                "label": "认真听，并记下原话",
+                "index": 0,
+                "next": "fee"
+              },
+              {
+                "scene": "fee",
+                "type": "choice",
+                "label": "当场交钱",
+                "index": 0,
+                "next": "feePayResult"
+              },
+              {
+                "scene": "feePayResult",
+                "type": "choice",
+                "label": "进入补课",
+                "index": 0,
+                "next": "tutorLookUp"
+              },
+              {
+                "scene": "tutorLookUp",
+                "type": "choice",
+                "label": "抬头看他晃表",
+                "index": 0,
+                "next": "tutorLookResult"
+              },
+              {
+                "scene": "tutorLookResult",
+                "type": "choice",
+                "label": "进入猥琐事件",
+                "index": 0,
+                "next": "ac"
+              },
+              {
+                "scene": "ac",
+                "type": "choice",
+                "label": "记录温度和饭卡扣费",
+                "index": 1,
+                "next": "monitorFee"
+              },
+              {
+                "scene": "monitorFee",
+                "type": "choice",
+                "label": "沉默",
+                "index": 0,
+                "next": "monitorSilentResult"
+              },
+              {
+                "scene": "monitorSilentResult",
+                "type": "choice",
+                "label": "把这段事压进心里，继续上课",
+                "index": 1,
+                "next": "farewellQuote"
+              },
+              {
+                "scene": "farewellQuote",
+                "type": "choice",
+                "label": "私下统计他的鞋和表",
+                "index": 3,
+                "next": "graduationBoast"
+              },
+              {
+                "scene": "graduationBoast",
+                "type": "choice",
+                "label": "提前离场",
+                "index": 2,
+                "next": "preFinalWeek"
+              },
+              {
+                "scene": "preFinalWeek",
+                "type": "choice",
+                "label": "整理监考费和补课费材料",
+                "index": 0,
+                "next": "ally"
+              },
+              {
+                "scene": "ally",
+                "type": "choice",
+                "label": "先稳住，等更多材料",
+                "index": 2,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "课堂考试线",
+                "index": 0,
+                "next": "phoneInClass"
+              },
+              {
+                "scene": "phoneInClass",
+                "type": "choice",
+                "label": "小声吐槽：又在搜题了",
+                "index": 2,
+                "next": "exam"
+              },
+              {
+                "scene": "exam",
+                "type": "choice",
+                "label": "假装自己是课桌",
+                "index": 0,
+                "next": "finalWeird"
+              }
+            ],
+            "finalState": {
+              "mind": 61,
+              "money": 320,
+              "dignity": 90,
+              "day": 20,
+              "scene": "finalWeird",
+              "items": [
+                "反光角度笔记",
+                "表盘雷达",
+                "成绩评价记录",
+                "锐评原话记录",
+                "补课票根",
+                "金表反光记忆",
+                "空调记录",
+                "彩蛋解锁：装备统计表",
+                "提前离场",
+                "期末补充材料",
+                "手机课堂吐槽"
+              ],
+              "achievements": [
+                "装备彩蛋",
+                "金表眩晕",
+                "结局：表盘雷达专家"
+              ],
+              "scolded": 1,
+              "evidence": 5,
+              "rebuttals": 0,
+              "paidTimes": 1,
+              "glare": 5,
+              "listenedRoast": 1,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "watchStudy",
+                "afterFirstExam",
+                "midtermDrama",
+                "fee",
+                "feePayResult",
+                "tutorLookUp",
+                "tutorLookResult",
+                "ac",
+                "monitorFee",
+                "monitorSilentResult",
+                "farewellQuote",
+                "graduationBoast",
+                "ally",
+                "phoneInClass",
+                "exam"
+              ],
+              "corridorVisited": [
+                "phoneInClass"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": true
+            },
+            "method": "manually guided candidate, actual engine transitions"
+          },
+          "withLoan": null
+        }
+      },
+      "globalCompletionRequired": [
+        "finalEarth",
+        "finalShake",
+        "finalCharm",
+        "finalDayday",
+        "finalBadMind",
+        "finalBadMoney",
+        "finalBadDignity",
+        "finalThroat"
+      ],
+      "loanRescue": {
+        "raw": "{\"state\":{\"mind\":86,\"money\":0,\"dignity\":59,\"day\":11,\"scene\":\"gradingFee\",\"items\":[\"半页草稿\",\"收据边角\",\"补课票根\",\"班费收据缺失\",\"晚自习补课缴费记录\",\"批卷收费预告\"],\"achievements\":[],\"scolded\":1,\"evidence\":1,\"rebuttals\":1,\"paidTimes\":4,\"glare\":0,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"math\",\"solve\",\"fee\",\"feePayResult\",\"classFeeOpaque\",\"eveningTutor\",\"rankAfterExam\",\"gradingFee\"],\"corridorVisited\":[\"fee\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[],\"permanentEndings\":[]}",
+        "path": [
+          {
+            "scene": "start",
+            "type": "choice",
+            "label": "正式进入游戏",
+            "index": 0,
+            "next": "firstClass"
+          },
+          {
+            "scene": "firstClass",
+            "type": "choice",
+            "label": "低头偷偷做数学题",
+            "index": 1,
+            "next": "math"
+          },
+          {
+            "scene": "math",
+            "type": "choice",
+            "label": "举手：我来试试",
+            "index": 0,
+            "next": "solve"
+          },
+          {
+            "scene": "solve",
+            "type": "choice",
+            "label": "先交 200，买一周清静",
+            "index": 0,
+            "next": "corridor"
+          },
+          {
+            "scene": "corridor",
+            "type": "choice",
+            "label": "补课收费线",
+            "index": 0,
+            "next": "fee"
+          },
+          {
+            "scene": "fee",
+            "type": "choice",
+            "label": "当场交钱",
+            "index": 0,
+            "next": "feePayResult"
+          },
+          {
+            "scene": "feePayResult",
+            "type": "choice",
+            "label": "顺手又收班费",
+            "index": 1,
+            "next": "classFeeOpaque"
+          },
+          {
+            "scene": "classFeeOpaque",
+            "type": "choice",
+            "label": "交钱，别多问",
+            "index": 0,
+            "next": "eveningTutor"
+          },
+          {
+            "scene": "eveningTutor",
+            "type": "choice",
+            "label": "交 100 元，继续偷写作业",
+            "index": 0,
+            "next": "rankAfterExam"
+          },
+          {
+            "scene": "rankAfterExam",
+            "type": "choice",
+            "label": "发卷时遇到批卷收费",
+            "index": 2,
+            "next": "gradingFee"
+          }
+        ],
+        "score": 110.2,
+        "expanded": 2296,
+        "depth": 10,
+        "finalState": {
+          "mind": 86,
+          "money": 0,
+          "dignity": 59,
+          "day": 11,
+          "scene": "gradingFee",
+          "items": [
+            "半页草稿",
+            "收据边角",
+            "补课票根",
+            "班费收据缺失",
+            "晚自习补课缴费记录",
+            "批卷收费预告"
+          ],
+          "achievements": [],
+          "scolded": 1,
+          "evidence": 1,
+          "rebuttals": 1,
+          "paidTimes": 4,
+          "glare": 0,
+          "listenedRoast": 0,
+          "skippedQuestions": 0,
+          "corridorHelmet": 1,
+          "visitedScenes": [
+            "firstClass",
+            "math",
+            "solve",
+            "fee",
+            "feePayResult",
+            "classFeeOpaque",
+            "eveningTutor",
+            "rankAfterExam",
+            "gradingFee"
+          ],
+          "corridorVisited": [
+            "fee"
+          ],
+          "loanUsed": false,
+          "loanReturnScene": "corridor",
+          "workReturnScene": "corridor",
+          "radarEndingSeen": false
+        },
+        "blockedChoice": "交 80 元领试卷"
+      }
+    },
+    "安堃模拟器.html": {
+      "endings": {
+        "finalEarth": {
+          "title": "结局：地球人",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":61,\"money\":440,\"dignity\":49,\"day\":9,\"scene\":\"finalEarth\",\"items\":[\"完整经过\",\"电话卡与身份证记录\",\"温和毕业路线\",\"期末质询\"],\"achievements\":[\"结局：地球人\"],\"scolded\":0,\"evidence\":2,\"rebuttals\":2,\"paidTimes\":1,\"glare\":0,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"office\",\"phoneCard\",\"phonePayResult\",\"carUpgrade\"],\"corridorVisited\":[\"phoneCard\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：地球人\"],\"permanentEndings\":[\"finalEarth\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "举手问：为什么不能问为什么",
+                "index": 3,
+                "next": "office"
+              },
+              {
+                "scene": "office",
+                "type": "choice",
+                "label": "回去写一份完整经过",
+                "index": 1,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "装备推销线",
+                "index": 4,
+                "next": "phoneCard"
+              },
+              {
+                "scene": "phoneCard",
+                "type": "choice",
+                "label": "交出身份证办卡",
+                "index": 0,
+                "next": "phonePayResult"
+              },
+              {
+                "scene": "phonePayResult",
+                "type": "choice",
+                "label": "再看一眼电瓶车",
+                "index": 0,
+                "next": "carUpgrade"
+              },
+              {
+                "scene": "carUpgrade",
+                "type": "choice",
+                "label": "把话咽回去，继续往前走",
+                "index": 3,
+                "next": "finalCorridor"
+              },
+              {
+                "scene": "finalCorridor",
+                "type": "choice",
+                "label": "进入期末决断",
+                "index": 2,
+                "next": "termDecision"
+              },
+              {
+                "scene": "termDecision",
+                "type": "choice",
+                "label": "结算结局：请您给出收费依据",
+                "index": 1,
+                "next": "finalEarth"
+              }
+            ],
+            "expanded": 1909,
+            "depth": 9,
+            "finalState": {
+              "mind": 61,
+              "money": 440,
+              "dignity": 49,
+              "day": 9,
+              "scene": "finalEarth",
+              "items": [
+                "完整经过",
+                "电话卡与身份证记录",
+                "温和毕业路线",
+                "期末质询"
+              ],
+              "achievements": [
+                "结局：地球人"
+              ],
+              "scolded": 0,
+              "evidence": 2,
+              "rebuttals": 2,
+              "paidTimes": 1,
+              "glare": 0,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "office",
+                "phoneCard",
+                "phonePayResult",
+                "carUpgrade"
+              ],
+              "corridorVisited": [
+                "phoneCard"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalShake": {
+          "title": "结局：摇表人",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":62,\"money\":440,\"dignity\":18,\"day\":11,\"scene\":\"finalShake\",\"items\":[\"反光角度笔记\",\"表盘雷达\",\"课堂记录\",\"电话卡与身份证记录\",\"温和毕业路线\"],\"achievements\":[\"结局：摇表人\"],\"scolded\":1,\"evidence\":2,\"rebuttals\":0,\"paidTimes\":3,\"glare\":2,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"watchStudy\",\"afterFirstExam\",\"caught\",\"phoneCard\",\"phonePayResult\",\"carUpgrade\"],\"corridorVisited\":[\"phoneCard\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：摇表人\"],\"permanentEndings\":[\"finalShake\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "观察晃表发光的规律",
+                "index": 2,
+                "next": "watchStudy"
+              },
+              {
+                "scene": "watchStudy",
+                "type": "choice",
+                "label": "把它命名为“表盘雷达”",
+                "index": 0,
+                "next": "afterFirstExam"
+              },
+              {
+                "scene": "afterFirstExam",
+                "type": "choice",
+                "label": "小声说：这和交钱有什么关系",
+                "index": 4,
+                "next": "caught"
+              },
+              {
+                "scene": "caught",
+                "type": "choice",
+                "label": "悄悄记下时间地点",
+                "index": 1,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "装备推销线",
+                "index": 4,
+                "next": "phoneCard"
+              },
+              {
+                "scene": "phoneCard",
+                "type": "choice",
+                "label": "交出身份证办卡",
+                "index": 0,
+                "next": "phonePayResult"
+              },
+              {
+                "scene": "phonePayResult",
+                "type": "choice",
+                "label": "再看一眼电瓶车",
+                "index": 0,
+                "next": "carUpgrade"
+              },
+              {
+                "scene": "carUpgrade",
+                "type": "choice",
+                "label": "把话咽回去，继续往前走",
+                "index": 2,
+                "next": "finalCorridor"
+              },
+              {
+                "scene": "finalCorridor",
+                "type": "choice",
+                "label": "进入期末决断",
+                "index": 2,
+                "next": "termDecision"
+              },
+              {
+                "scene": "termDecision",
+                "type": "choice",
+                "label": "结算结局：低头说我下学期补上",
+                "index": 0,
+                "next": "finalShake"
+              }
+            ],
+            "expanded": 2573,
+            "depth": 11,
+            "finalState": {
+              "mind": 62,
+              "money": 440,
+              "dignity": 18,
+              "day": 11,
+              "scene": "finalShake",
+              "items": [
+                "反光角度笔记",
+                "表盘雷达",
+                "课堂记录",
+                "电话卡与身份证记录",
+                "温和毕业路线"
+              ],
+              "achievements": [
+                "结局：摇表人"
+              ],
+              "scolded": 1,
+              "evidence": 2,
+              "rebuttals": 0,
+              "paidTimes": 3,
+              "glare": 2,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "watchStudy",
+                "afterFirstExam",
+                "caught",
+                "phoneCard",
+                "phonePayResult",
+                "carUpgrade"
+              ],
+              "corridorVisited": [
+                "phoneCard"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalCharm": {
+          "title": "结局：魅力走位",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":46,\"money\":520,\"dignity\":54,\"day\":9,\"scene\":\"finalCharm\",\"items\":[\"完整经过\",\"拒交身份证记录\",\"温和毕业路线\",\"期末质询\"],\"achievements\":[\"地球人之怒\",\"结局：魅力走位\"],\"scolded\":0,\"evidence\":2,\"rebuttals\":3,\"paidTimes\":1,\"glare\":0,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"office\",\"phoneCard\",\"phoneRejectResult\",\"carUpgrade\"],\"corridorVisited\":[\"phoneCard\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"地球人之怒\",\"结局：魅力走位\"],\"permanentEndings\":[\"finalCharm\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "举手问：为什么不能问为什么",
+                "index": 3,
+                "next": "office"
+              },
+              {
+                "scene": "office",
+                "type": "choice",
+                "label": "回去写一份完整经过",
+                "index": 1,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "装备推销线",
+                "index": 4,
+                "next": "phoneCard"
+              },
+              {
+                "scene": "phoneCard",
+                "type": "choice",
+                "label": "拒绝交身份证",
+                "index": 2,
+                "next": "phoneRejectResult"
+              },
+              {
+                "scene": "phoneRejectResult",
+                "type": "choice",
+                "label": "走到楼下",
+                "index": 0,
+                "next": "carUpgrade"
+              },
+              {
+                "scene": "carUpgrade",
+                "type": "choice",
+                "label": "把话咽回去，继续往前走",
+                "index": 3,
+                "next": "finalCorridor"
+              },
+              {
+                "scene": "finalCorridor",
+                "type": "choice",
+                "label": "进入期末决断",
+                "index": 2,
+                "next": "termDecision"
+              },
+              {
+                "scene": "termDecision",
+                "type": "choice",
+                "label": "结算结局：请您给出收费依据",
+                "index": 1,
+                "next": "finalCharm"
+              }
+            ],
+            "expanded": 1659,
+            "depth": 9,
+            "finalState": {
+              "mind": 46,
+              "money": 520,
+              "dignity": 54,
+              "day": 9,
+              "scene": "finalCharm",
+              "items": [
+                "完整经过",
+                "拒交身份证记录",
+                "温和毕业路线",
+                "期末质询"
+              ],
+              "achievements": [
+                "地球人之怒",
+                "结局：魅力走位"
+              ],
+              "scolded": 0,
+              "evidence": 2,
+              "rebuttals": 3,
+              "paidTimes": 1,
+              "glare": 0,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "office",
+                "phoneCard",
+                "phoneRejectResult",
+                "carUpgrade"
+              ],
+              "corridorVisited": [
+                "phoneCard"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalDayday": {
+          "title": "隐藏结局：天道轮回",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":52,\"money\":440,\"dignity\":39,\"day\":9,\"scene\":\"finalDayday\",\"items\":[\"电话卡与身份证记录\",\"温和毕业路线\",\"期末材料包\"],\"achievements\":[\"结局：天道轮回\"],\"scolded\":0,\"evidence\":2,\"rebuttals\":1,\"paidTimes\":1,\"glare\":0,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"office\",\"phoneCard\",\"phonePayResult\",\"carUpgrade\"],\"corridorVisited\":[\"phoneCard\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：天道轮回\"],\"permanentEndings\":[\"finalDayday\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "举手问：为什么不能问为什么",
+                "index": 3,
+                "next": "office"
+              },
+              {
+                "scene": "office",
+                "type": "choice",
+                "label": "深呼吸，离开办公室",
+                "index": 0,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "装备推销线",
+                "index": 4,
+                "next": "phoneCard"
+              },
+              {
+                "scene": "phoneCard",
+                "type": "choice",
+                "label": "交出身份证办卡",
+                "index": 0,
+                "next": "phonePayResult"
+              },
+              {
+                "scene": "phonePayResult",
+                "type": "choice",
+                "label": "再看一眼电瓶车",
+                "index": 0,
+                "next": "carUpgrade"
+              },
+              {
+                "scene": "carUpgrade",
+                "type": "choice",
+                "label": "把话咽回去，继续往前走",
+                "index": 3,
+                "next": "finalCorridor"
+              },
+              {
+                "scene": "finalCorridor",
+                "type": "choice",
+                "label": "进入期末决断",
+                "index": 2,
+                "next": "termDecision"
+              },
+              {
+                "scene": "termDecision",
+                "type": "choice",
+                "label": "结算结局：整理材料和同学一起反馈",
+                "index": 2,
+                "next": "finalDayday"
+              }
+            ],
+            "expanded": 1586,
+            "depth": 9,
+            "finalState": {
+              "mind": 52,
+              "money": 440,
+              "dignity": 39,
+              "day": 9,
+              "scene": "finalDayday",
+              "items": [
+                "电话卡与身份证记录",
+                "温和毕业路线",
+                "期末材料包"
+              ],
+              "achievements": [
+                "结局：天道轮回"
+              ],
+              "scolded": 0,
+              "evidence": 2,
+              "rebuttals": 1,
+              "paidTimes": 1,
+              "glare": 0,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "office",
+                "phoneCard",
+                "phonePayResult",
+                "carUpgrade"
+              ],
+              "corridorVisited": [
+                "phoneCard"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalBadMind": {
+          "title": "结局：不是地球人",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":0,\"money\":520,\"dignity\":0,\"day\":9,\"scene\":\"finalBadMind\",\"items\":[\"补课不正常疑问\",\"寒假拒补\",\"不是地球人原话\"],\"achievements\":[\"结局：不是地球人\"],\"scolded\":1,\"evidence\":0,\"rebuttals\":2,\"paidTimes\":0,\"glare\":0,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"office\",\"fee\",\"tutorNotNormal\",\"winterTutor\",\"earth\"],\"corridorVisited\":[\"fee\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：不是地球人\"],\"permanentEndings\":[\"finalBadMind\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "举手问：为什么不能问为什么",
+                "index": 3,
+                "next": "office"
+              },
+              {
+                "scene": "office",
+                "type": "choice",
+                "label": "深呼吸，离开办公室",
+                "index": 0,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "补课收费线",
+                "index": 0,
+                "next": "fee"
+              },
+              {
+                "scene": "fee",
+                "type": "choice",
+                "label": "问：假期不补课才不正常吗",
+                "index": 3,
+                "next": "tutorNotNormal"
+              },
+              {
+                "scene": "tutorNotNormal",
+                "type": "choice",
+                "label": "沉默不语",
+                "index": 0,
+                "next": "winterTutor"
+              },
+              {
+                "scene": "winterTutor",
+                "type": "choice",
+                "label": "拒绝补课",
+                "index": 2,
+                "next": "earth"
+              },
+              {
+                "scene": "earth",
+                "type": "choice",
+                "label": "小声说：过分了吧",
+                "index": 1,
+                "next": "finalBadMind"
+              }
+            ],
+            "expanded": 1026,
+            "depth": 8,
+            "finalState": {
+              "mind": 0,
+              "money": 520,
+              "dignity": 0,
+              "day": 9,
+              "scene": "finalBadMind",
+              "items": [
+                "补课不正常疑问",
+                "寒假拒补",
+                "不是地球人原话"
+              ],
+              "achievements": [
+                "结局：不是地球人"
+              ],
+              "scolded": 1,
+              "evidence": 0,
+              "rebuttals": 2,
+              "paidTimes": 0,
+              "glare": 0,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "office",
+                "fee",
+                "tutorNotNormal",
+                "winterTutor",
+                "earth"
+              ],
+              "corridorVisited": [
+                "fee"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalBadMoney": {
+          "title": "结局：负债退学",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":94,\"money\":115,\"dignity\":31,\"day\":14,\"scene\":\"finalBadMoney\",\"items\":[\"半页草稿\",\"收据边角\",\"补课票根\",\"金表反光记忆\",\"同学信任\",\"双表目击\",\"监考费检讨照片\"],\"achievements\":[\"结局：负债退学\"],\"scolded\":2,\"evidence\":0,\"rebuttals\":1,\"paidTimes\":3,\"glare\":2,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"math\",\"solve\",\"fee\",\"feePayResult\",\"tutorLookUp\",\"tutorLookResult\",\"ac\",\"monitorFee\",\"monitorWhisperResult\"],\"corridorVisited\":[\"fee\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：负债退学\"],\"permanentEndings\":[\"finalBadMoney\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "低头偷偷做数学题",
+                "index": 1,
+                "next": "math"
+              },
+              {
+                "scene": "math",
+                "type": "choice",
+                "label": "举手：我来试试",
+                "index": 0,
+                "next": "solve"
+              },
+              {
+                "scene": "solve",
+                "type": "choice",
+                "label": "先交 200，买一周清静",
+                "index": 0,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "补课收费线",
+                "index": 0,
+                "next": "fee"
+              },
+              {
+                "scene": "fee",
+                "type": "choice",
+                "label": "当场交钱",
+                "index": 0,
+                "next": "feePayResult"
+              },
+              {
+                "scene": "feePayResult",
+                "type": "choice",
+                "label": "进入补课",
+                "index": 0,
+                "next": "tutorLookUp"
+              },
+              {
+                "scene": "tutorLookUp",
+                "type": "choice",
+                "label": "抬头看他晃表",
+                "index": 0,
+                "next": "tutorLookResult"
+              },
+              {
+                "scene": "tutorLookResult",
+                "type": "choice",
+                "label": "进入猥琐事件",
+                "index": 0,
+                "next": "ac"
+              },
+              {
+                "scene": "ac",
+                "type": "choice",
+                "label": "递水给快中暑的同学",
+                "index": 2,
+                "next": "monitorFee"
+              },
+              {
+                "scene": "monitorFee",
+                "type": "choice",
+                "label": "小声说：他自己也戴表",
+                "index": 1,
+                "next": "monitorWhisperResult"
+              },
+              {
+                "scene": "monitorWhisperResult",
+                "type": "choice",
+                "label": "把检讨拍照留底",
+                "index": 0,
+                "next": "preFinalWeek"
+              },
+              {
+                "scene": "preFinalWeek",
+                "type": "choice",
+                "label": "准备好面对期末谈话",
+                "index": 3,
+                "next": "termDecision"
+              },
+              {
+                "scene": "termDecision",
+                "type": "choice",
+                "label": "结算结局：低头说我下学期补上",
+                "index": 0,
+                "next": "finalBadMoney"
+              }
+            ],
+            "expanded": 4032,
+            "depth": 14,
+            "finalState": {
+              "mind": 94,
+              "money": 115,
+              "dignity": 31,
+              "day": 14,
+              "scene": "finalBadMoney",
+              "items": [
+                "半页草稿",
+                "收据边角",
+                "补课票根",
+                "金表反光记忆",
+                "同学信任",
+                "双表目击",
+                "监考费检讨照片"
+              ],
+              "achievements": [
+                "结局：负债退学"
+              ],
+              "scolded": 2,
+              "evidence": 0,
+              "rebuttals": 1,
+              "paidTimes": 3,
+              "glare": 2,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "math",
+                "solve",
+                "fee",
+                "feePayResult",
+                "tutorLookUp",
+                "tutorLookResult",
+                "ac",
+                "monitorFee",
+                "monitorWhisperResult"
+              ],
+              "corridorVisited": [
+                "fee"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalMirror": {
+          "title": "结局：镜子",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":59,\"money\":315,\"dignity\":1,\"day\":14,\"scene\":\"finalMirror\",\"items\":[\"半页草稿\",\"收据边角\",\"拒交记录\",\"同学信任\",\"双表目击\",\"监考费检讨照片\"],\"achievements\":[\"结局：镜子\"],\"scolded\":3,\"evidence\":1,\"rebuttals\":2,\"paidTimes\":3,\"glare\":1,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"math\",\"solve\",\"fee\",\"feeRejectResult\",\"tutorLookUp\",\"tutorIgnoreResult\",\"ac\",\"monitorFee\",\"monitorWhisperResult\"],\"corridorVisited\":[\"fee\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：镜子\"],\"permanentEndings\":[]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "低头偷偷做数学题",
+                "index": 1,
+                "next": "math"
+              },
+              {
+                "scene": "math",
+                "type": "choice",
+                "label": "举手：我来试试",
+                "index": 0,
+                "next": "solve"
+              },
+              {
+                "scene": "solve",
+                "type": "choice",
+                "label": "先交 200，买一周清静",
+                "index": 0,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "补课收费线",
+                "index": 0,
+                "next": "fee"
+              },
+              {
+                "scene": "fee",
+                "type": "choice",
+                "label": "拒绝",
+                "index": 2,
+                "next": "feeRejectResult"
+              },
+              {
+                "scene": "feeRejectResult",
+                "type": "choice",
+                "label": "进入补课",
+                "index": 0,
+                "next": "tutorLookUp"
+              },
+              {
+                "scene": "tutorLookUp",
+                "type": "choice",
+                "label": "低头假装没听见",
+                "index": 1,
+                "next": "tutorIgnoreResult"
+              },
+              {
+                "scene": "tutorIgnoreResult",
+                "type": "choice",
+                "label": "进入猥琐事件",
+                "index": 0,
+                "next": "ac"
+              },
+              {
+                "scene": "ac",
+                "type": "choice",
+                "label": "递水给快中暑的同学",
+                "index": 2,
+                "next": "monitorFee"
+              },
+              {
+                "scene": "monitorFee",
+                "type": "choice",
+                "label": "小声说：他自己也戴表",
+                "index": 1,
+                "next": "monitorWhisperResult"
+              },
+              {
+                "scene": "monitorWhisperResult",
+                "type": "choice",
+                "label": "把检讨拍照留底",
+                "index": 0,
+                "next": "preFinalWeek"
+              },
+              {
+                "scene": "preFinalWeek",
+                "type": "choice",
+                "label": "准备好面对期末谈话",
+                "index": 3,
+                "next": "termDecision"
+              },
+              {
+                "scene": "termDecision",
+                "type": "choice",
+                "label": "结算结局：低头说我下学期补上",
+                "index": 0,
+                "next": "finalMirror"
+              }
+            ],
+            "expanded": 4042,
+            "depth": 14,
+            "finalState": {
+              "mind": 59,
+              "money": 315,
+              "dignity": 1,
+              "day": 14,
+              "scene": "finalMirror",
+              "items": [
+                "半页草稿",
+                "收据边角",
+                "拒交记录",
+                "同学信任",
+                "双表目击",
+                "监考费检讨照片"
+              ],
+              "achievements": [
+                "结局：镜子"
+              ],
+              "scolded": 3,
+              "evidence": 1,
+              "rebuttals": 2,
+              "paidTimes": 3,
+              "glare": 1,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "math",
+                "solve",
+                "fee",
+                "feeRejectResult",
+                "tutorLookUp",
+                "tutorIgnoreResult",
+                "ac",
+                "monitorFee",
+                "monitorWhisperResult"
+              ],
+              "corridorVisited": [
+                "fee"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalThroat": {
+          "title": "结局：骚粉骑士的葬礼",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":41,\"money\":440,\"dignity\":24,\"day\":15,\"scene\":\"finalThroat\",\"items\":[\"完整经过\",\"梓豪事件目击\",\"唱戏式安慰梓豪\",\"稳龙课堂目击\",\"电话卡与身份证记录\",\"温和毕业路线\"],\"achievements\":[\"骚粉骑士\",\"结局：骚粉骑士的葬礼\"],\"scolded\":3,\"evidence\":1,\"rebuttals\":1,\"paidTimes\":2,\"glare\":0,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":3,\"visitedScenes\":[\"firstClass\",\"office\",\"verbalDeny\",\"xuScold\",\"hairCheck\",\"longLaugh\",\"phoneCard\",\"phonePayResult\",\"carUpgrade\"],\"corridorVisited\":[\"verbalDeny\",\"hairCheck\",\"phoneCard\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"骚粉骑士\",\"结局：骚粉骑士的葬礼\"],\"permanentEndings\":[\"finalThroat\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "举手问：为什么不能问为什么",
+                "index": 3,
+                "next": "office"
+              },
+              {
+                "scene": "office",
+                "type": "choice",
+                "label": "回去写一份完整经过",
+                "index": 1,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "语言羞辱线",
+                "index": 3,
+                "next": "verbalDeny"
+              },
+              {
+                "scene": "verbalDeny",
+                "type": "choice",
+                "label": "课上听见梓豪被骂",
+                "index": 2,
+                "next": "xuScold"
+              },
+              {
+                "scene": "xuScold",
+                "type": "choice",
+                "label": "课后安慰梓豪：他讲课跟唱戏一样",
+                "index": 1,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "纪律体罚线",
+                "index": 2,
+                "next": "hairCheck"
+              },
+              {
+                "scene": "hairCheck",
+                "type": "choice",
+                "label": "后排稳龙突然笑了一声",
+                "index": 2,
+                "next": "longLaugh"
+              },
+              {
+                "scene": "longLaugh",
+                "type": "choice",
+                "label": "低头装作没听见",
+                "index": 0,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "装备推销线",
+                "index": 2,
+                "next": "phoneCard"
+              },
+              {
+                "scene": "phoneCard",
+                "type": "choice",
+                "label": "交出身份证办卡",
+                "index": 0,
+                "next": "phonePayResult"
+              },
+              {
+                "scene": "phonePayResult",
+                "type": "choice",
+                "label": "再看一眼电瓶车",
+                "index": 0,
+                "next": "carUpgrade"
+              },
+              {
+                "scene": "carUpgrade",
+                "type": "choice",
+                "label": "把话咽回去，继续往前走",
+                "index": 3,
+                "next": "finalCorridor"
+              },
+              {
+                "scene": "finalCorridor",
+                "type": "choice",
+                "label": "进入期末决断",
+                "index": 2,
+                "next": "termDecision"
+              },
+              {
+                "scene": "termDecision",
+                "type": "choice",
+                "label": "结算结局：低头说我下学期补上",
+                "index": 0,
+                "next": "finalThroat"
+              }
+            ],
+            "expanded": 4490,
+            "depth": 15,
+            "finalState": {
+              "mind": 41,
+              "money": 440,
+              "dignity": 24,
+              "day": 15,
+              "scene": "finalThroat",
+              "items": [
+                "完整经过",
+                "梓豪事件目击",
+                "唱戏式安慰梓豪",
+                "稳龙课堂目击",
+                "电话卡与身份证记录",
+                "温和毕业路线"
+              ],
+              "achievements": [
+                "骚粉骑士",
+                "结局：骚粉骑士的葬礼"
+              ],
+              "scolded": 3,
+              "evidence": 1,
+              "rebuttals": 1,
+              "paidTimes": 2,
+              "glare": 0,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 3,
+              "visitedScenes": [
+                "firstClass",
+                "office",
+                "verbalDeny",
+                "xuScold",
+                "hairCheck",
+                "longLaugh",
+                "phoneCard",
+                "phonePayResult",
+                "carUpgrade"
+              ],
+              "corridorVisited": [
+                "verbalDeny",
+                "hairCheck",
+                "phoneCard"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalGood": {
+          "title": "结局：抬头的人",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":97,\"money\":520,\"dignity\":88,\"day\":8,\"scene\":\"finalGood\",\"items\":[\"半页草稿\",\"收费疑问\",\"同学名单\",\"联合反馈\"],\"achievements\":[\"结局：抬头的人\"],\"scolded\":1,\"evidence\":1,\"rebuttals\":1,\"paidTimes\":1,\"glare\":0,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":0,\"visitedScenes\":[\"firstClass\",\"math\",\"solve\",\"receipt\",\"ally\"],\"corridorVisited\":[],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：抬头的人\"],\"permanentEndings\":[]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "低头偷偷做数学题",
+                "index": 1,
+                "next": "math"
+              },
+              {
+                "scene": "math",
+                "type": "choice",
+                "label": "举手：我来试试",
+                "index": 0,
+                "next": "solve"
+              },
+              {
+                "scene": "solve",
+                "type": "choice",
+                "label": "说家里要确认收费明细",
+                "index": 2,
+                "next": "receipt"
+              },
+              {
+                "scene": "receipt",
+                "type": "choice",
+                "label": "把同学们的疑问汇总",
+                "index": 0,
+                "next": "ally"
+              },
+              {
+                "scene": "ally",
+                "type": "choice",
+                "label": "提交给年级和家长代表",
+                "index": 0,
+                "next": "review"
+              },
+              {
+                "scene": "review",
+                "type": "choice",
+                "label": "查看本局评价",
+                "index": 0,
+                "next": "finalGood"
+              }
+            ],
+            "expanded": 659,
+            "depth": 7,
+            "finalState": {
+              "mind": 97,
+              "money": 520,
+              "dignity": 88,
+              "day": 8,
+              "scene": "finalGood",
+              "items": [
+                "半页草稿",
+                "收费疑问",
+                "同学名单",
+                "联合反馈"
+              ],
+              "achievements": [
+                "结局：抬头的人"
+              ],
+              "scolded": 1,
+              "evidence": 1,
+              "rebuttals": 1,
+              "paidTimes": 1,
+              "glare": 0,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 0,
+              "visitedScenes": [
+                "firstClass",
+                "math",
+                "solve",
+                "receipt",
+                "ally"
+              ],
+              "corridorVisited": [],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalBadDignity": {
+          "title": "结局：自动低头",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":18,\"money\":520,\"dignity\":0,\"day\":8,\"scene\":\"finalBadDignity\",\"items\":[\"替同学出声\"],\"achievements\":[\"结局：自动低头\"],\"scolded\":2,\"evidence\":0,\"rebuttals\":1,\"paidTimes\":0,\"glare\":0,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"office\",\"verbalDeny\",\"rollAside\",\"caught\"],\"corridorVisited\":[\"verbalDeny\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[\"结局：自动低头\"],\"permanentEndings\":[\"finalBadDignity\"]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "举手问：为什么不能问为什么",
+                "index": 3,
+                "next": "office"
+              },
+              {
+                "scene": "office",
+                "type": "choice",
+                "label": "深呼吸，离开办公室",
+                "index": 0,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "语言羞辱线",
+                "index": 3,
+                "next": "verbalDeny"
+              },
+              {
+                "scene": "verbalDeny",
+                "type": "choice",
+                "label": "沉默，把头低下去",
+                "index": 0,
+                "next": "rollAside"
+              },
+              {
+                "scene": "rollAside",
+                "type": "choice",
+                "label": "小声说太过分了",
+                "index": 2,
+                "next": "caught"
+              },
+              {
+                "scene": "caught",
+                "type": "choice",
+                "label": "沉默忍受",
+                "index": 0,
+                "next": "finalBadDignity"
+              }
+            ],
+            "expanded": 647,
+            "depth": 7,
+            "finalState": {
+              "mind": 18,
+              "money": 520,
+              "dignity": 0,
+              "day": 8,
+              "scene": "finalBadDignity",
+              "items": [
+                "替同学出声"
+              ],
+              "achievements": [
+                "结局：自动低头"
+              ],
+              "scolded": 2,
+              "evidence": 0,
+              "rebuttals": 1,
+              "paidTimes": 0,
+              "glare": 0,
+              "listenedRoast": 0,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "office",
+                "verbalDeny",
+                "rollAside",
+                "caught"
+              ],
+              "corridorVisited": [
+                "verbalDeny"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": false
+            }
+          },
+          "withLoan": null
+        },
+        "finalWeird": {
+          "title": "隐藏结局：表盘雷达专家",
+          "noLoan": {
+            "raw": "{\"state\":{\"mind\":61,\"money\":320,\"dignity\":90,\"day\":20,\"scene\":\"finalWeird\",\"items\":[\"反光角度笔记\",\"表盘雷达\",\"成绩评价记录\",\"锐评原话记录\",\"补课票根\",\"金表反光记忆\",\"空调记录\",\"彩蛋解锁：装备统计表\",\"提前离场\",\"期末补充材料\",\"手机课堂吐槽\"],\"achievements\":[\"装备彩蛋\",\"金表眩晕\",\"结局：表盘雷达专家\"],\"scolded\":1,\"evidence\":5,\"rebuttals\":0,\"paidTimes\":1,\"glare\":5,\"listenedRoast\":1,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"watchStudy\",\"afterFirstExam\",\"midtermDrama\",\"fee\",\"feePayResult\",\"tutorLookUp\",\"tutorLookResult\",\"ac\",\"monitorFee\",\"monitorSilentResult\",\"farewellQuote\",\"graduationBoast\",\"ally\",\"phoneInClass\",\"exam\"],\"corridorVisited\":[\"phoneInClass\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":true},\"permanentAchievements\":[\"装备彩蛋\",\"金表眩晕\",\"结局：表盘雷达专家\"],\"permanentEndings\":[]}",
+            "path": [
+              {
+                "scene": "start",
+                "type": "choice",
+                "label": "正式进入游戏",
+                "index": 0,
+                "next": "firstClass"
+              },
+              {
+                "scene": "firstClass",
+                "type": "choice",
+                "label": "观察晃表发光的规律",
+                "index": 2,
+                "next": "watchStudy"
+              },
+              {
+                "scene": "watchStudy",
+                "type": "choice",
+                "label": "把它命名为“表盘雷达”",
+                "index": 0,
+                "next": "afterFirstExam"
+              },
+              {
+                "scene": "afterFirstExam",
+                "type": "choice",
+                "label": "记录成绩评价和补课暗示",
+                "index": 1,
+                "next": "midtermDrama"
+              },
+              {
+                "scene": "midtermDrama",
+                "type": "choice",
+                "label": "认真听，并记下原话",
+                "index": 0,
+                "next": "fee"
+              },
+              {
+                "scene": "fee",
+                "type": "choice",
+                "label": "当场交钱",
+                "index": 0,
+                "next": "feePayResult"
+              },
+              {
+                "scene": "feePayResult",
+                "type": "choice",
+                "label": "进入补课",
+                "index": 0,
+                "next": "tutorLookUp"
+              },
+              {
+                "scene": "tutorLookUp",
+                "type": "choice",
+                "label": "抬头看他晃表",
+                "index": 0,
+                "next": "tutorLookResult"
+              },
+              {
+                "scene": "tutorLookResult",
+                "type": "choice",
+                "label": "进入猥琐事件",
+                "index": 0,
+                "next": "ac"
+              },
+              {
+                "scene": "ac",
+                "type": "choice",
+                "label": "记录温度和饭卡扣费",
+                "index": 1,
+                "next": "monitorFee"
+              },
+              {
+                "scene": "monitorFee",
+                "type": "choice",
+                "label": "沉默",
+                "index": 0,
+                "next": "monitorSilentResult"
+              },
+              {
+                "scene": "monitorSilentResult",
+                "type": "choice",
+                "label": "把这段事压进心里，继续上课",
+                "index": 1,
+                "next": "farewellQuote"
+              },
+              {
+                "scene": "farewellQuote",
+                "type": "choice",
+                "label": "私下统计他的鞋和表",
+                "index": 3,
+                "next": "graduationBoast"
+              },
+              {
+                "scene": "graduationBoast",
+                "type": "choice",
+                "label": "提前离场",
+                "index": 2,
+                "next": "preFinalWeek"
+              },
+              {
+                "scene": "preFinalWeek",
+                "type": "choice",
+                "label": "整理监考费和补课费材料",
+                "index": 0,
+                "next": "ally"
+              },
+              {
+                "scene": "ally",
+                "type": "choice",
+                "label": "先稳住，等更多材料",
+                "index": 2,
+                "next": "corridor"
+              },
+              {
+                "scene": "corridor",
+                "type": "choice",
+                "label": "课堂考试线",
+                "index": 0,
+                "next": "phoneInClass"
+              },
+              {
+                "scene": "phoneInClass",
+                "type": "choice",
+                "label": "小声吐槽：又在搜题了",
+                "index": 2,
+                "next": "exam"
+              },
+              {
+                "scene": "exam",
+                "type": "choice",
+                "label": "假装自己是课桌",
+                "index": 0,
+                "next": "finalWeird"
+              }
+            ],
+            "finalState": {
+              "mind": 61,
+              "money": 320,
+              "dignity": 90,
+              "day": 20,
+              "scene": "finalWeird",
+              "items": [
+                "反光角度笔记",
+                "表盘雷达",
+                "成绩评价记录",
+                "锐评原话记录",
+                "补课票根",
+                "金表反光记忆",
+                "空调记录",
+                "彩蛋解锁：装备统计表",
+                "提前离场",
+                "期末补充材料",
+                "手机课堂吐槽"
+              ],
+              "achievements": [
+                "装备彩蛋",
+                "金表眩晕",
+                "结局：表盘雷达专家"
+              ],
+              "scolded": 1,
+              "evidence": 5,
+              "rebuttals": 0,
+              "paidTimes": 1,
+              "glare": 5,
+              "listenedRoast": 1,
+              "skippedQuestions": 0,
+              "corridorHelmet": 1,
+              "visitedScenes": [
+                "firstClass",
+                "watchStudy",
+                "afterFirstExam",
+                "midtermDrama",
+                "fee",
+                "feePayResult",
+                "tutorLookUp",
+                "tutorLookResult",
+                "ac",
+                "monitorFee",
+                "monitorSilentResult",
+                "farewellQuote",
+                "graduationBoast",
+                "ally",
+                "phoneInClass",
+                "exam"
+              ],
+              "corridorVisited": [
+                "phoneInClass"
+              ],
+              "loanUsed": false,
+              "loanReturnScene": "corridor",
+              "workReturnScene": "corridor",
+              "radarEndingSeen": true
+            },
+            "method": "manually guided candidate, actual engine transitions"
+          },
+          "withLoan": null
+        }
+      },
+      "globalCompletionRequired": [
+        "finalEarth",
+        "finalShake",
+        "finalCharm",
+        "finalDayday",
+        "finalBadMind",
+        "finalBadMoney",
+        "finalBadDignity",
+        "finalThroat"
+      ],
+      "loanRescue": {
+        "raw": "{\"state\":{\"mind\":86,\"money\":0,\"dignity\":59,\"day\":11,\"scene\":\"gradingFee\",\"items\":[\"半页草稿\",\"收据边角\",\"补课票根\",\"班费收据缺失\",\"晚自习补课缴费记录\",\"批卷收费预告\"],\"achievements\":[],\"scolded\":1,\"evidence\":1,\"rebuttals\":1,\"paidTimes\":4,\"glare\":0,\"listenedRoast\":0,\"skippedQuestions\":0,\"corridorHelmet\":1,\"visitedScenes\":[\"firstClass\",\"math\",\"solve\",\"fee\",\"feePayResult\",\"classFeeOpaque\",\"eveningTutor\",\"rankAfterExam\",\"gradingFee\"],\"corridorVisited\":[\"fee\"],\"loanUsed\":false,\"loanReturnScene\":\"corridor\",\"workReturnScene\":\"corridor\",\"radarEndingSeen\":false},\"permanentAchievements\":[],\"permanentEndings\":[]}",
+        "path": [
+          {
+            "scene": "start",
+            "type": "choice",
+            "label": "正式进入游戏",
+            "index": 0,
+            "next": "firstClass"
+          },
+          {
+            "scene": "firstClass",
+            "type": "choice",
+            "label": "低头偷偷做数学题",
+            "index": 1,
+            "next": "math"
+          },
+          {
+            "scene": "math",
+            "type": "choice",
+            "label": "举手：我来试试",
+            "index": 0,
+            "next": "solve"
+          },
+          {
+            "scene": "solve",
+            "type": "choice",
+            "label": "先交 200，买一周清静",
+            "index": 0,
+            "next": "corridor"
+          },
+          {
+            "scene": "corridor",
+            "type": "choice",
+            "label": "补课收费线",
+            "index": 0,
+            "next": "fee"
+          },
+          {
+            "scene": "fee",
+            "type": "choice",
+            "label": "当场交钱",
+            "index": 0,
+            "next": "feePayResult"
+          },
+          {
+            "scene": "feePayResult",
+            "type": "choice",
+            "label": "顺手又收班费",
+            "index": 1,
+            "next": "classFeeOpaque"
+          },
+          {
+            "scene": "classFeeOpaque",
+            "type": "choice",
+            "label": "交钱，别多问",
+            "index": 0,
+            "next": "eveningTutor"
+          },
+          {
+            "scene": "eveningTutor",
+            "type": "choice",
+            "label": "交 100 元，继续偷写作业",
+            "index": 0,
+            "next": "rankAfterExam"
+          },
+          {
+            "scene": "rankAfterExam",
+            "type": "choice",
+            "label": "发卷时遇到批卷收费",
+            "index": 2,
+            "next": "gradingFee"
+          }
+        ],
+        "score": 110.2,
+        "expanded": 2300,
+        "depth": 10,
+        "finalState": {
+          "mind": 86,
+          "money": 0,
+          "dignity": 59,
+          "day": 11,
+          "scene": "gradingFee",
+          "items": [
+            "半页草稿",
+            "收据边角",
+            "补课票根",
+            "班费收据缺失",
+            "晚自习补课缴费记录",
+            "批卷收费预告"
+          ],
+          "achievements": [],
+          "scolded": 1,
+          "evidence": 1,
+          "rebuttals": 1,
+          "paidTimes": 4,
+          "glare": 0,
+          "listenedRoast": 0,
+          "skippedQuestions": 0,
+          "corridorHelmet": 1,
+          "visitedScenes": [
+            "firstClass",
+            "math",
+            "solve",
+            "fee",
+            "feePayResult",
+            "classFeeOpaque",
+            "eveningTutor",
+            "rankAfterExam",
+            "gradingFee"
+          ],
+          "corridorVisited": [
+            "fee"
+          ],
+          "loanUsed": false,
+          "loanReturnScene": "corridor",
+          "workReturnScene": "corridor",
+          "radarEndingSeen": false
+        },
+        "blockedChoice": "交 80 元领试卷"
+      }
+    }
+  }
+}

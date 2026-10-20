@@ -1,0 +1,978 @@
+{
+  "root": "E:\\ankun-simulator-windows-preview\\audit-workspace",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 68,
+      "category": "其他资源",
+      "sha256": "d8fb0de4792538f93822b2c0d235604921299d5e54a3d6ec7a6cb34536e8bf1e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 93,
+      "category": "其他资源",
+      "sha256": "be18e36b4abc36d72a8075dd0f1caf6fef322f1d568da71a9c5c75a5704fa0e2"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "category": "其他资源",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 3247,
+      "category": "其他资源",
+      "sha256": "2fbcac80dbd89efce1c69759217cb56a43b4d2ab2b348bf6846990ca8ab5d4e0"
+    },
+    {
+      "path": "DESKTOP_PLAN.md",
+      "bytes": 5643,
+      "category": "其他资源",
+      "sha256": "db93ea2a3db8a0f2d0e37bf0316d4a45497428844c7f320bbd7df5d9eb0526db"
+    },
+    {
+      "path": "ENDING_REACHABILITY.md",
+      "bytes": 8568,
+      "category": "其他资源",
+      "sha256": "7785409723ca883e99969542a1f017ccbe16a5b290a20916e11db8ef21911c0b"
+    },
+    {
+      "path": "PROJECT_AUDIT.md",
+      "bytes": 13374,
+      "category": "其他资源",
+      "sha256": "cc204636252992f380df7746b87a6d5e2cdd35426cc1c122d07f105f1b8322d5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4141,
+      "category": "其他资源",
+      "sha256": "ed994fc08da0e0b32db77ac3f894012209d82b39263c4fe3230973d0be79706c"
+    },
+    {
+      "path": "RESOURCE_REPORT.md",
+      "bytes": 6479,
+      "category": "其他资源",
+      "sha256": "831defde4784df2f76f853e2348e62f08f3123e9c9a6c57838acbf9b884b40da"
+    },
+    {
+      "path": "ankun.png",
+      "bytes": 1814521,
+      "category": "图片",
+      "sha256": "5611bd2b20d479fd7ff7ab3d3bfd40747dfcc910c7eb40db50343c38b63c65f3",
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      }
+    },
+    {
+      "path": "index.html",
+      "bytes": 4576,
+      "category": "HTML",
+      "sha256": "a9f0ab777ed0036cdda150634e48ad3884da5247f616ef5698e2625b5e19385a"
+    },
+    {
+      "path": "package.json",
+      "bytes": 585,
+      "category": "JSON",
+      "sha256": "25aae7c5cfe0da2bafb99f655844bf5774ea17fc6c59d728e5cce186496ec61c"
+    },
+    {
+      "path": "runtime-files.json",
+      "bytes": 523,
+      "category": "JSON",
+      "sha256": "5e1ac639b3ceb25a3a53ce40ea73ad8ed6fa667f77c59958438d9107336cabd7"
+    },
+    {
+      "path": "《写给安堃表白书》.jpg",
+      "bytes": 368656,
+      "category": "图片",
+      "sha256": "cd87ceeb731a31c5c3a6cb305e9c4e2b66824c3ec8e9b5036d5b2a9a98091f5a",
+      "image": {
+        "width": 1075,
+        "height": 898,
+        "mode": "RGB"
+      }
+    },
+    {
+      "path": "《安堃传》.txt",
+      "bytes": 923,
+      "category": "其他资源",
+      "sha256": "e4c5e8667c71858cf12d4af1c476fe47af5d5fd462b46c58d6b0578d9cbe0c6f"
+    },
+    {
+      "path": "《安堃先生赞》.txt",
+      "bytes": 1686,
+      "category": "其他资源",
+      "sha256": "d1cbef5bfcde1f58d81c6874999136c6a52b8ffa412489728a4d784e05766b2a"
+    },
+    {
+      "path": "《安老师补课班宣传海报》.jpg",
+      "bytes": 371861,
+      "category": "图片",
+      "sha256": "17a1b914ed8b71cab54f71d254c05c7aa8108c78478a30516de65d9c7c2be43a",
+      "image": {
+        "width": 1080,
+        "height": 1488,
+        "mode": "RGB"
+      }
+    },
+    {
+      "path": "《巴拉拉坤魔仙》.docx",
+      "bytes": 11848,
+      "category": "其他资源",
+      "sha256": "81ace78f7ed20bab5ef5cc526189bbb18c90cae742507896af823117e39494b8"
+    },
+    {
+      "path": "《感动城郊年度人物》.txt",
+      "bytes": 3986,
+      "category": "其他资源",
+      "sha256": "150b32dc53eb068a233bf291da668a48152936355901214e1eca262f2e7a479f"
+    },
+    {
+      "path": "《沙漠骆驼·安堃版》.docx",
+      "bytes": 13208,
+      "category": "其他资源",
+      "sha256": "52860b60238e00c1cea319cdaf4872928c2d10755d02e17b57e7134f8b4a3f1d"
+    },
+    {
+      "path": "《谁不是地球人》.txt",
+      "bytes": 2160,
+      "category": "其他资源",
+      "sha256": "55132fffd14e811273735eda936483bb5a76ca2cb984b92594d899099c6d91d6"
+    },
+    {
+      "path": "安K粉头盔.jpg",
+      "bytes": 324205,
+      "category": "图片",
+      "sha256": "31ff80a95deeb2a52740ceef687ae4de5b9b176670f43fd50b0f14ad65a9dd80",
+      "image": {
+        "width": 1706,
+        "height": 1279,
+        "mode": "RGB"
+      }
+    },
+    {
+      "path": "安K课堂实拍.jpg",
+      "bytes": 319746,
+      "category": "图片",
+      "sha256": "757bf08ba44327cd1cab38ae55b3b78cdcd0d3673d68963872bb4ffbceefba2c",
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      }
+    },
+    {
+      "path": "安堃模拟器.html",
+      "bytes": 4577,
+      "category": "HTML",
+      "sha256": "f4104052207b9eb88459bd61206581b55bfd014294882e84dad28d69c8341f95"
+    },
+    {
+      "path": "巴啦啦K魔仙.mp3",
+      "bytes": 1166378,
+      "category": "音频",
+      "sha256": "342712f7abd85c7caa46f0b7347f0d5b0bb488dd39323b54ce72bcf708f0fc58"
+    },
+    {
+      "path": "assets/game.css",
+      "bytes": 18717,
+      "category": "CSS",
+      "sha256": "5b8dd479fa332cd1663d67a7cb30c033c2313d707e0a29fcc4a873dd7cf64b70"
+    },
+    {
+      "path": "assets/game.js",
+      "bytes": 46116,
+      "category": "JS",
+      "sha256": "41a08f44e02aa5bc99b58d5739cb51f966ae74297ee79158534d449da43cfc0e"
+    },
+    {
+      "path": "assets/story-classic.js",
+      "bytes": 104129,
+      "category": "JS",
+      "sha256": "6e1752959696ee0242e4cf9874badb0fa5b8b0a4fda20ecaf046d50c3f1c6003"
+    },
+    {
+      "path": "assets/story-extended.js",
+      "bytes": 112867,
+      "category": "JS",
+      "sha256": "439064b6c18fdb511c34b4357dca6b016c2479412cdbf56575bdcbc5d4113cf0"
+    },
+    {
+      "path": "desktop/Launcher.cs",
+      "bytes": 2960,
+      "category": "其他资源",
+      "sha256": "f0257f9dd7b54c02e3ef3adaf663377bece3c3efa85b1dd333353afea00bef59"
+    },
+    {
+      "path": "desktop/README.md",
+      "bytes": 1414,
+      "category": "其他资源",
+      "sha256": "ba6844cd3ac3b44624a6c0e9e7943b5a3d565b61c34a7b81f829bd262932b605"
+    },
+    {
+      "path": "desktop/build.ps1",
+      "bytes": 1352,
+      "category": "其他资源",
+      "sha256": "04ee8b1d2e3a16bed12fd47826199acc6663f5124227d94ce1b513d37c1c29b3"
+    },
+    {
+      "path": "docs/AUDIT_PLAN.md",
+      "bytes": 3422,
+      "category": "其他资源",
+      "sha256": "5d1ce401d317cd923c25df5ad657b78d9327059175383fcb794e69eb1ecd9267"
+    },
+    {
+      "path": "docs/audit/compression.json",
+      "bytes": 137,
+      "category": "JSON",
+      "sha256": "52db0ce970083653ee7828947ca8f35f8651e2a24eb5978ed8a3b0a38652bbea"
+    },
+    {
+      "path": "docs/audit/content-update.md",
+      "bytes": 1813,
+      "category": "其他资源",
+      "sha256": "71879b031e801b72d04910a1f2cea009f75818ad4a4fb0efd28e6c7bfd572b0c"
+    },
+    {
+      "path": "docs/audit/deployment.md",
+      "bytes": 2364,
+      "category": "其他资源",
+      "sha256": "a4fe04417ea5e0c4d66ff2955c7af35f66942c2c609459e22e2be2a6ee132357"
+    },
+    {
+      "path": "docs/audit/ending-browser.json",
+      "bytes": 8719,
+      "category": "JSON",
+      "sha256": "647dfce973fa65633580134d4c7a8ff4b22a44170edcb3be88aa157103ff7fbe"
+    },
+    {
+      "path": "docs/audit/ending-routes.json",
+      "bytes": 115845,
+      "category": "JSON",
+      "sha256": "2dd313648745e1bb6031b98828366d45041f76de040d1aa3865f60edf05b086f"
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "bytes": 105198,
+      "category": "JSON",
+      "sha256": "de4a342abeca4716f819a4d4ab346fb8dbf333792f4923447cdfb285ee5a0e2b"
+    },
+    {
+      "path": "docs/audit/preservation.json",
+      "bytes": 3932,
+      "category": "JSON",
+      "sha256": "6d7b2a69888e7a35fc2b5a1a32a45ba67a8215a7007779789670546c441dd93a"
+    },
+    {
+      "path": "docs/audit/resources-before.json",
+      "bytes": 7536,
+      "category": "JSON",
+      "sha256": "cac0c969e8d8b693001a27b00f3d833320146d66d1cdb35b02382f22cd88e7be"
+    },
+    {
+      "path": "docs/audit/review.md",
+      "bytes": 2235,
+      "category": "其他资源",
+      "sha256": "9ac11d229b1fe9b4a2a8722eb7a85505513527b151261ffb1143eb2bd6a07337"
+    },
+    {
+      "path": "docs/audit/runtime-after.json",
+      "bytes": 9072,
+      "category": "JSON",
+      "sha256": "037470d6e8e118e91eec77ab1453d415735f31f0efa563627b670dece4fb6b9b"
+    },
+    {
+      "path": "docs/audit/story-map.json",
+      "bytes": 83368,
+      "category": "JSON",
+      "sha256": "7ce33a153921ec137978b221d83166cac3e5af2862426af4195940d0bfd967e8"
+    },
+    {
+      "path": "tests/browser-audit.cjs",
+      "bytes": 15801,
+      "category": "JS",
+      "sha256": "65c9490c567f046dd3dfd18f056e85de9a574dd394578e0123d04d9a1e66f562"
+    },
+    {
+      "path": "tests/content-update.cjs",
+      "bytes": 1790,
+      "category": "JS",
+      "sha256": "9644168591c9c3358955954e0963b46571edc4045993333ef16688058007d681"
+    },
+    {
+      "path": "tests/ending-routes-browser.cjs",
+      "bytes": 5639,
+      "category": "JS",
+      "sha256": "f52baa88c885ba50450e46ceb91970c3d7b1293164ef5c8932f1f1ac03f5a76a"
+    },
+    {
+      "path": "tests/loan-regression.cjs",
+      "bytes": 1347,
+      "category": "JS",
+      "sha256": "c61c0ca5de108927b9fd3ad18fe9de24d978cb2c3b44f94fc43f65875ef43dbb"
+    },
+    {
+      "path": "tests/reader-keyboard.cjs",
+      "bytes": 1213,
+      "category": "JS",
+      "sha256": "4c8beb7e6ff8b618e2a9f8affdfc669591bddc8eb1d8247ff7c0976c17d7c3c5"
+    },
+    {
+      "path": "tests/rule-order.cjs",
+      "bytes": 1629,
+      "category": "JS",
+      "sha256": "f391188111cc0ee168016be75379653c4a64520dfdfd591b5a77a6069620efbf"
+    },
+    {
+      "path": "tests/test_package.py",
+      "bytes": 1355,
+      "category": "其他资源",
+      "sha256": "ef63b6b0dab0560304adc493941683cc602f77ee5ba5a646cfcad5e837762379"
+    },
+    {
+      "path": "tests/watch-observation.cjs",
+      "bytes": 716,
+      "category": "JS",
+      "sha256": "5c2e0a5c38c17b6c10b11c01cbc9e613e131928e00e5afeb4e5dc21b35f572ff"
+    },
+    {
+      "path": "tests/fixtures/content-update.json",
+      "bytes": 22938,
+      "category": "JSON",
+      "sha256": "1cc8babcc5a1b9f1a962cce9562aa7c2dc6a1918c7e4947e5ab9809bf593294d"
+    },
+    {
+      "path": "tests/fixtures/index.html.golden.json",
+      "bytes": 177880,
+      "category": "JSON",
+      "sha256": "ae5311a155c57c9139163c307cb72800d694ae4f49902864d0a757a93c25a5bc"
+    },
+    {
+      "path": "tests/fixtures/安堃模拟器.html.golden.json",
+      "bytes": 188496,
+      "category": "JSON",
+      "sha256": "bedc13f4df0d5e4d69f5eaaaf21beffaccae64c53b7b0cad3dd722eadda82c89"
+    },
+    {
+      "path": "tools/analyze_story.py",
+      "bytes": 1731,
+      "category": "其他资源",
+      "sha256": "af42f77637ac9163034bbee2d71c00bf6937a6e12c290876709e54c834f494d0"
+    },
+    {
+      "path": "tools/find-endings.cjs",
+      "bytes": 8298,
+      "category": "JS",
+      "sha256": "3874c291886ae8ddfdf4e7a3dc0a20b454b21272c2ef533d5f581beb2e74cc9e"
+    },
+    {
+      "path": "tools/game-model.cjs",
+      "bytes": 2649,
+      "category": "JS",
+      "sha256": "19b14fdf381bdd748fe9550b6fc9d4cc07fdd64165cafe3ece5aa46ddd339155"
+    },
+    {
+      "path": "tools/inventory.py",
+      "bytes": 4228,
+      "category": "其他资源",
+      "sha256": "fd4fe9b69fbf7923cc139b59a89a28e5e3a8556278f1f5717d2b5c586c65b236"
+    },
+    {
+      "path": "tools/package_web.py",
+      "bytes": 1159,
+      "category": "其他资源",
+      "sha256": "9f1dcf1a52a735c9ad44152a22900517e6c12fd943c15f14494e6b8a5857dac7"
+    }
+  ],
+  "summary": {
+    "HTML": {
+      "count": 2,
+      "bytes": 9153
+    },
+    "CSS": {
+      "count": 1,
+      "bytes": 18717
+    },
+    "JS": {
+      "count": 12,
+      "bytes": 302194
+    },
+    "图片": {
+      "count": 5,
+      "bytes": 3198989
+    },
+    "音频": {
+      "count": 1,
+      "bytes": 1166378
+    },
+    "视频": {
+      "count": 0,
+      "bytes": 0
+    },
+    "字体": {
+      "count": 0,
+      "bytes": 0
+    },
+    "JSON": {
+      "count": 13,
+      "bytes": 724229
+    },
+    "其他资源": {
+      "count": 26,
+      "bytes": 99457
+    }
+  },
+  "totalBytes": 5519117,
+  "exclusions": [
+    ".git",
+    "dist",
+    "node_modules",
+    "__pycache__",
+    "test-results",
+    "docs/audit/source-after.json"
+  ],
+  "duplicateGroups": [],
+  "references": [
+    {
+      "path": ".gitattributes",
+      "textReferences": [
+        "RESOURCE_REPORT.md",
+        "docs/audit/preservation.json",
+        "docs/audit/resources-before.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": ".gitignore",
+      "textReferences": [],
+      "status": "manual-review-only"
+    },
+    {
+      "path": ".nojekyll",
+      "textReferences": [],
+      "status": "manual-review-only"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "textReferences": [
+        "PROJECT_AUDIT.md",
+        "README.md",
+        "docs/AUDIT_PLAN.md"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "DESKTOP_PLAN.md",
+      "textReferences": [
+        "PROJECT_AUDIT.md",
+        "README.md"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "ENDING_REACHABILITY.md",
+      "textReferences": [
+        "CHANGELOG.md",
+        "PROJECT_AUDIT.md",
+        "README.md",
+        "docs/AUDIT_PLAN.md",
+        "docs/audit/review.md"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "PROJECT_AUDIT.md",
+      "textReferences": [
+        "README.md"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "README.md",
+      "textReferences": [
+        "desktop/build.ps1",
+        "docs/audit/preservation.json",
+        "docs/audit/resources-before.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "RESOURCE_REPORT.md",
+      "textReferences": [
+        "PROJECT_AUDIT.md",
+        "README.md"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "ankun.png",
+      "textReferences": [
+        "CHANGELOG.md",
+        "PROJECT_AUDIT.md",
+        "RESOURCE_REPORT.md",
+        "runtime-files.json",
+        "docs/audit/compression.json",
+        "docs/audit/local-browser.json",
+        "docs/audit/preservation.json",
+        "docs/audit/resources-before.json",
+        "docs/audit/runtime-after.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《写给安堃表白书》.jpg",
+      "textReferences": [
+        "RESOURCE_REPORT.md",
+        "runtime-files.json",
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js",
+        "docs/audit/local-browser.json",
+        "docs/audit/preservation.json",
+        "docs/audit/resources-before.json",
+        "docs/audit/runtime-after.json",
+        "tests/fixtures/index.html.golden.json",
+        "tests/fixtures/安堃模拟器.html.golden.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《安堃传》.txt",
+      "textReferences": [
+        "RESOURCE_REPORT.md",
+        "runtime-files.json",
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js",
+        "docs/audit/local-browser.json",
+        "docs/audit/preservation.json",
+        "docs/audit/resources-before.json",
+        "docs/audit/runtime-after.json",
+        "tests/fixtures/index.html.golden.json",
+        "tests/fixtures/安堃模拟器.html.golden.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《安堃先生赞》.txt",
+      "textReferences": [
+        "RESOURCE_REPORT.md",
+        "runtime-files.json",
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js",
+        "docs/audit/local-browser.json",
+        "docs/audit/preservation.json",
+        "docs/audit/resources-before.json",
+        "docs/audit/runtime-after.json",
+        "tests/fixtures/index.html.golden.json",
+        "tests/fixtures/安堃模拟器.html.golden.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《安老师补课班宣传海报》.jpg",
+      "textReferences": [
+        "RESOURCE_REPORT.md",
+        "runtime-files.json",
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js",
+        "docs/audit/local-browser.json",
+        "docs/audit/preservation.json",
+        "docs/audit/resources-before.json",
+        "docs/audit/runtime-after.json",
+        "tests/fixtures/index.html.golden.json",
+        "tests/fixtures/安堃模拟器.html.golden.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《巴拉拉坤魔仙》.docx",
+      "textReferences": [
+        "RESOURCE_REPORT.md",
+        "runtime-files.json",
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js",
+        "docs/audit/local-browser.json",
+        "docs/audit/preservation.json",
+        "docs/audit/resources-before.json",
+        "docs/audit/runtime-after.json",
+        "tests/fixtures/index.html.golden.json",
+        "tests/fixtures/安堃模拟器.html.golden.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《感动城郊年度人物》.txt",
+      "textReferences": [
+        "RESOURCE_REPORT.md",
+        "runtime-files.json",
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js",
+        "docs/audit/local-browser.json",
+        "docs/audit/preservation.json",
+        "docs/audit/resources-before.json",
+        "docs/audit/runtime-after.json",
+        "tests/fixtures/index.html.golden.json",
+        "tests/fixtures/安堃模拟器.html.golden.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《沙漠骆驼·安堃版》.docx",
+      "textReferences": [
+        "RESOURCE_REPORT.md",
+        "runtime-files.json",
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js",
+        "docs/audit/local-browser.json",
+        "docs/audit/preservation.json",
+        "docs/audit/resources-before.json",
+        "docs/audit/runtime-after.json",
+        "tests/fixtures/index.html.golden.json",
+        "tests/fixtures/安堃模拟器.html.golden.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《谁不是地球人》.txt",
+      "textReferences": [
+        "RESOURCE_REPORT.md",
+        "runtime-files.json",
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js",
+        "docs/audit/local-browser.json",
+        "docs/audit/preservation.json",
+        "docs/audit/resources-before.json",
+        "docs/audit/runtime-after.json",
+        "tests/fixtures/index.html.golden.json",
+        "tests/fixtures/安堃模拟器.html.golden.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "安K粉头盔.jpg",
+      "textReferences": [
+        "RESOURCE_REPORT.md",
+        "index.html",
+        "runtime-files.json",
+        "安堃模拟器.html",
+        "docs/audit/local-browser.json",
+        "docs/audit/preservation.json",
+        "docs/audit/resources-before.json",
+        "docs/audit/runtime-after.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "安K课堂实拍.jpg",
+      "textReferences": [
+        "RESOURCE_REPORT.md",
+        "index.html",
+        "runtime-files.json",
+        "安堃模拟器.html",
+        "assets/game.js",
+        "docs/audit/local-browser.json",
+        "docs/audit/preservation.json",
+        "docs/audit/resources-before.json",
+        "docs/audit/runtime-after.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "巴啦啦K魔仙.mp3",
+      "textReferences": [
+        "PROJECT_AUDIT.md",
+        "RESOURCE_REPORT.md",
+        "index.html",
+        "runtime-files.json",
+        "安堃模拟器.html",
+        "docs/audit/local-browser.json",
+        "docs/audit/resources-before.json",
+        "docs/audit/runtime-after.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "desktop/Launcher.cs",
+      "textReferences": [
+        "DESKTOP_PLAN.md",
+        "desktop/build.ps1"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "desktop/README.md",
+      "textReferences": [
+        "desktop/build.ps1",
+        "docs/audit/preservation.json",
+        "docs/audit/resources-before.json"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "desktop/build.ps1",
+      "textReferences": [
+        "DESKTOP_PLAN.md",
+        "README.md",
+        "desktop/README.md"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "docs/AUDIT_PLAN.md",
+      "textReferences": [],
+      "status": "manual-review-only"
+    },
+    {
+      "path": "docs/audit/content-update.md",
+      "textReferences": [
+        "PROJECT_AUDIT.md"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "docs/audit/deployment.md",
+      "textReferences": [
+        "CHANGELOG.md",
+        "PROJECT_AUDIT.md",
+        "README.md",
+        "docs/AUDIT_PLAN.md"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "docs/audit/review.md",
+      "textReferences": [
+        "PROJECT_AUDIT.md"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "tests/test_package.py",
+      "textReferences": [
+        "PROJECT_AUDIT.md",
+        "README.md"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "tools/analyze_story.py",
+      "textReferences": [],
+      "status": "manual-review-only"
+    },
+    {
+      "path": "tools/inventory.py",
+      "textReferences": [
+        "README.md"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "tools/package_web.py",
+      "textReferences": [
+        "desktop/build.ps1"
+      ],
+      "status": "referenced-by-name"
+    }
+  ],
+  "staticLinks": [
+    {
+      "source": "index.html",
+      "target": "assets/game.css",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "target": "安K粉头盔.jpg",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "target": "巴啦啦K魔仙.mp3",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "target": "安K课堂实拍.jpg",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "target": "安K课堂实拍.jpg",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "target": "assets/story-classic.js",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "target": "assets/game.js",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "assets/game.css",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "安K粉头盔.jpg",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "巴啦啦K魔仙.mp3",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "安K课堂实拍.jpg",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "安K课堂实拍.jpg",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "assets/story-extended.js",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "assets/game.js",
+      "exists": true
+    }
+  ],
+  "hardcodedPaths": [
+    {
+      "path": "DESKTOP_PLAN.md",
+      "line": 49
+    },
+    {
+      "path": "DESKTOP_PLAN.md",
+      "line": 50
+    },
+    {
+      "path": "DESKTOP_PLAN.md",
+      "line": 51
+    },
+    {
+      "path": "DESKTOP_PLAN.md",
+      "line": 52
+    },
+    {
+      "path": "DESKTOP_PLAN.md",
+      "line": 53
+    },
+    {
+      "path": "PROJECT_AUDIT.md",
+      "line": 7
+    },
+    {
+      "path": "PROJECT_AUDIT.md",
+      "line": 93
+    },
+    {
+      "path": "PROJECT_AUDIT.md",
+      "line": 131
+    },
+    {
+      "path": "README.md",
+      "line": 5
+    },
+    {
+      "path": "docs/AUDIT_PLAN.md",
+      "line": 16
+    },
+    {
+      "path": "docs/AUDIT_PLAN.md",
+      "line": 31
+    },
+    {
+      "path": "docs/audit/deployment.md",
+      "line": 5
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 2078
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4284
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4498
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4552
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4557
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4562
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4567
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4572
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4598
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4652
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4657
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4662
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4667
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4672
+    },
+    {
+      "path": "docs/audit/local-browser.json",
+      "line": 4685
+    },
+    {
+      "path": "docs/audit/resources-before.json",
+      "line": 2
+    },
+    {
+      "path": "docs/audit/runtime-after.json",
+      "line": 2
+    }
+  ],
+  "errors": []
+}

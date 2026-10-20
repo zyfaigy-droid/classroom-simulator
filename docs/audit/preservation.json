@@ -1,0 +1,92 @@
+[
+  {
+    "path": ".gitattributes",
+    "status": "byte-identical",
+    "beforeSHA256": "d8fb0de4792538f93822b2c0d235604921299d5e54a3d6ec7a6cb34536e8bf1e",
+    "afterSHA256": "d8fb0de4792538f93822b2c0d235604921299d5e54a3d6ec7a6cb34536e8bf1e"
+  },
+  {
+    "path": "README.md",
+    "status": "documentation-corrected",
+    "beforeSHA256": "afdc31f1159f8fc70a31dde4f2a8a220f0683096e316b710471768ca03414900",
+    "afterSHA256": "ed994fc08da0e0b32db77ac3f894012209d82b39263c4fe3230973d0be79706c"
+  },
+  {
+    "path": "ankun.png",
+    "status": "pixel-identical-lossless",
+    "beforeSHA256": "df3ce50944ba1f8565bc6681be9cfcd5e1212f5641d150d2204c15dbccf97f3e",
+    "afterSHA256": "5611bd2b20d479fd7ff7ab3d3bfd40747dfcc910c7eb40db50343c38b63c65f3"
+  },
+  {
+    "path": "index.html",
+    "status": "story-golden-verified",
+    "beforeSHA256": "96323b8376695a030d883f93c29aa7c5bbc7ec5897b598c6c02b9d4ba9bf6782",
+    "afterSHA256": "a9f0ab777ed0036cdda150634e48ad3884da5247f616ef5698e2625b5e19385a"
+  },
+  {
+    "path": "《写给安堃表白书》.jpg",
+    "status": "byte-identical",
+    "beforeSHA256": "cd87ceeb731a31c5c3a6cb305e9c4e2b66824c3ec8e9b5036d5b2a9a98091f5a",
+    "afterSHA256": "cd87ceeb731a31c5c3a6cb305e9c4e2b66824c3ec8e9b5036d5b2a9a98091f5a"
+  },
+  {
+    "path": "《安堃传》.txt",
+    "status": "byte-identical",
+    "beforeSHA256": "e4c5e8667c71858cf12d4af1c476fe47af5d5fd462b46c58d6b0578d9cbe0c6f",
+    "afterSHA256": "e4c5e8667c71858cf12d4af1c476fe47af5d5fd462b46c58d6b0578d9cbe0c6f"
+  },
+  {
+    "path": "《安堃先生赞》.txt",
+    "status": "byte-identical",
+    "beforeSHA256": "d1cbef5bfcde1f58d81c6874999136c6a52b8ffa412489728a4d784e05766b2a",
+    "afterSHA256": "d1cbef5bfcde1f58d81c6874999136c6a52b8ffa412489728a4d784e05766b2a"
+  },
+  {
+    "path": "《安老师补课班宣传海报》.jpg",
+    "status": "byte-identical",
+    "beforeSHA256": "17a1b914ed8b71cab54f71d254c05c7aa8108c78478a30516de65d9c7c2be43a",
+    "afterSHA256": "17a1b914ed8b71cab54f71d254c05c7aa8108c78478a30516de65d9c7c2be43a"
+  },
+  {
+    "path": "《巴拉拉坤魔仙》.docx",
+    "status": "byte-identical",
+    "beforeSHA256": "81ace78f7ed20bab5ef5cc526189bbb18c90cae742507896af823117e39494b8",
+    "afterSHA256": "81ace78f7ed20bab5ef5cc526189bbb18c90cae742507896af823117e39494b8"
+  },
+  {
+    "path": "《感动城郊年度人物》.txt",
+    "status": "byte-identical",
+    "beforeSHA256": "150b32dc53eb068a233bf291da668a48152936355901214e1eca262f2e7a479f",
+    "afterSHA256": "150b32dc53eb068a233bf291da668a48152936355901214e1eca262f2e7a479f"
+  },
+  {
+    "path": "《沙漠骆驼·安堃版》.docx",
+    "status": "byte-identical",
+    "beforeSHA256": "52860b60238e00c1cea319cdaf4872928c2d10755d02e17b57e7134f8b4a3f1d",
+    "afterSHA256": "52860b60238e00c1cea319cdaf4872928c2d10755d02e17b57e7134f8b4a3f1d"
+  },
+  {
+    "path": "《谁不是地球人》.txt",
+    "status": "byte-identical",
+    "beforeSHA256": "55132fffd14e811273735eda936483bb5a76ca2cb984b92594d899099c6d91d6",
+    "afterSHA256": "55132fffd14e811273735eda936483bb5a76ca2cb984b92594d899099c6d91d6"
+  },
+  {
+    "path": "安K粉头盔.jpg",
+    "status": "byte-identical",
+    "beforeSHA256": "31ff80a95deeb2a52740ceef687ae4de5b9b176670f43fd50b0f14ad65a9dd80",
+    "afterSHA256": "31ff80a95deeb2a52740ceef687ae4de5b9b176670f43fd50b0f14ad65a9dd80"
+  },
+  {
+    "path": "安K课堂实拍.jpg",
+    "status": "byte-identical",
+    "beforeSHA256": "757bf08ba44327cd1cab38ae55b3b78cdcd0d3673d68963872bb4ffbceefba2c",
+    "afterSHA256": "757bf08ba44327cd1cab38ae55b3b78cdcd0d3673d68963872bb4ffbceefba2c"
+  },
+  {
+    "path": "安堃模拟器.html",
+    "status": "story-golden-verified",
+    "beforeSHA256": "45097dfc5efd134255d16737a123d4c44b3449211ec16ed38e0484171540725c",
+    "afterSHA256": "f4104052207b9eb88459bd61206581b55bfd014294882e84dad28d69c8341f95"
+  }
+]

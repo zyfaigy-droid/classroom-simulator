@@ -1,0 +1,359 @@
+{
+  "root": "E:\\ankun-simulator-windows-preview\\audit-workspace\\dist\\AnkunSimulator-20261019-release\\game",
+  "files": [
+    {
+      "path": "ankun.png",
+      "bytes": 1814521,
+      "category": "图片",
+      "sha256": "5611bd2b20d479fd7ff7ab3d3bfd40747dfcc910c7eb40db50343c38b63c65f3",
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      }
+    },
+    {
+      "path": "index.html",
+      "bytes": 4576,
+      "category": "HTML",
+      "sha256": "a9f0ab777ed0036cdda150634e48ad3884da5247f616ef5698e2625b5e19385a"
+    },
+    {
+      "path": "《写给安堃表白书》.jpg",
+      "bytes": 368656,
+      "category": "图片",
+      "sha256": "cd87ceeb731a31c5c3a6cb305e9c4e2b66824c3ec8e9b5036d5b2a9a98091f5a",
+      "image": {
+        "width": 1075,
+        "height": 898,
+        "mode": "RGB"
+      }
+    },
+    {
+      "path": "《安堃传》.txt",
+      "bytes": 923,
+      "category": "其他资源",
+      "sha256": "e4c5e8667c71858cf12d4af1c476fe47af5d5fd462b46c58d6b0578d9cbe0c6f"
+    },
+    {
+      "path": "《安堃先生赞》.txt",
+      "bytes": 1686,
+      "category": "其他资源",
+      "sha256": "d1cbef5bfcde1f58d81c6874999136c6a52b8ffa412489728a4d784e05766b2a"
+    },
+    {
+      "path": "《安老师补课班宣传海报》.jpg",
+      "bytes": 371861,
+      "category": "图片",
+      "sha256": "17a1b914ed8b71cab54f71d254c05c7aa8108c78478a30516de65d9c7c2be43a",
+      "image": {
+        "width": 1080,
+        "height": 1488,
+        "mode": "RGB"
+      }
+    },
+    {
+      "path": "《巴拉拉坤魔仙》.docx",
+      "bytes": 11848,
+      "category": "其他资源",
+      "sha256": "81ace78f7ed20bab5ef5cc526189bbb18c90cae742507896af823117e39494b8"
+    },
+    {
+      "path": "《感动城郊年度人物》.txt",
+      "bytes": 3986,
+      "category": "其他资源",
+      "sha256": "150b32dc53eb068a233bf291da668a48152936355901214e1eca262f2e7a479f"
+    },
+    {
+      "path": "《沙漠骆驼·安堃版》.docx",
+      "bytes": 13208,
+      "category": "其他资源",
+      "sha256": "52860b60238e00c1cea319cdaf4872928c2d10755d02e17b57e7134f8b4a3f1d"
+    },
+    {
+      "path": "《谁不是地球人》.txt",
+      "bytes": 2160,
+      "category": "其他资源",
+      "sha256": "55132fffd14e811273735eda936483bb5a76ca2cb984b92594d899099c6d91d6"
+    },
+    {
+      "path": "安K粉头盔.jpg",
+      "bytes": 324205,
+      "category": "图片",
+      "sha256": "31ff80a95deeb2a52740ceef687ae4de5b9b176670f43fd50b0f14ad65a9dd80",
+      "image": {
+        "width": 1706,
+        "height": 1279,
+        "mode": "RGB"
+      }
+    },
+    {
+      "path": "安K课堂实拍.jpg",
+      "bytes": 319746,
+      "category": "图片",
+      "sha256": "757bf08ba44327cd1cab38ae55b3b78cdcd0d3673d68963872bb4ffbceefba2c",
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      }
+    },
+    {
+      "path": "安堃模拟器.html",
+      "bytes": 4577,
+      "category": "HTML",
+      "sha256": "f4104052207b9eb88459bd61206581b55bfd014294882e84dad28d69c8341f95"
+    },
+    {
+      "path": "巴啦啦K魔仙.mp3",
+      "bytes": 1166378,
+      "category": "音频",
+      "sha256": "342712f7abd85c7caa46f0b7347f0d5b0bb488dd39323b54ce72bcf708f0fc58"
+    },
+    {
+      "path": "assets/game.css",
+      "bytes": 18717,
+      "category": "CSS",
+      "sha256": "5b8dd479fa332cd1663d67a7cb30c033c2313d707e0a29fcc4a873dd7cf64b70"
+    },
+    {
+      "path": "assets/game.js",
+      "bytes": 46116,
+      "category": "JS",
+      "sha256": "41a08f44e02aa5bc99b58d5739cb51f966ae74297ee79158534d449da43cfc0e"
+    },
+    {
+      "path": "assets/story-classic.js",
+      "bytes": 104129,
+      "category": "JS",
+      "sha256": "6e1752959696ee0242e4cf9874badb0fa5b8b0a4fda20ecaf046d50c3f1c6003"
+    },
+    {
+      "path": "assets/story-extended.js",
+      "bytes": 112867,
+      "category": "JS",
+      "sha256": "439064b6c18fdb511c34b4357dca6b016c2479412cdbf56575bdcbc5d4113cf0"
+    }
+  ],
+  "summary": {
+    "HTML": {
+      "count": 2,
+      "bytes": 9153
+    },
+    "CSS": {
+      "count": 1,
+      "bytes": 18717
+    },
+    "JS": {
+      "count": 3,
+      "bytes": 263112
+    },
+    "图片": {
+      "count": 5,
+      "bytes": 3198989
+    },
+    "音频": {
+      "count": 1,
+      "bytes": 1166378
+    },
+    "视频": {
+      "count": 0,
+      "bytes": 0
+    },
+    "字体": {
+      "count": 0,
+      "bytes": 0
+    },
+    "JSON": {
+      "count": 0,
+      "bytes": 0
+    },
+    "其他资源": {
+      "count": 6,
+      "bytes": 33811
+    }
+  },
+  "totalBytes": 4690160,
+  "exclusions": [
+    ".git"
+  ],
+  "duplicateGroups": [],
+  "references": [
+    {
+      "path": "ankun.png",
+      "textReferences": [],
+      "status": "manual-review-only"
+    },
+    {
+      "path": "《写给安堃表白书》.jpg",
+      "textReferences": [
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《安堃传》.txt",
+      "textReferences": [
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《安堃先生赞》.txt",
+      "textReferences": [
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《安老师补课班宣传海报》.jpg",
+      "textReferences": [
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《巴拉拉坤魔仙》.docx",
+      "textReferences": [
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《感动城郊年度人物》.txt",
+      "textReferences": [
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《沙漠骆驼·安堃版》.docx",
+      "textReferences": [
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "《谁不是地球人》.txt",
+      "textReferences": [
+        "assets/game.js",
+        "assets/story-classic.js",
+        "assets/story-extended.js"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "安K粉头盔.jpg",
+      "textReferences": [
+        "index.html",
+        "安堃模拟器.html"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "安K课堂实拍.jpg",
+      "textReferences": [
+        "index.html",
+        "安堃模拟器.html",
+        "assets/game.js"
+      ],
+      "status": "referenced-by-name"
+    },
+    {
+      "path": "巴啦啦K魔仙.mp3",
+      "textReferences": [
+        "index.html",
+        "安堃模拟器.html"
+      ],
+      "status": "referenced-by-name"
+    }
+  ],
+  "staticLinks": [
+    {
+      "source": "index.html",
+      "target": "assets/game.css",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "target": "安K粉头盔.jpg",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "target": "巴啦啦K魔仙.mp3",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "target": "安K课堂实拍.jpg",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "target": "安K课堂实拍.jpg",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "target": "assets/story-classic.js",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "target": "assets/game.js",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "assets/game.css",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "安K粉头盔.jpg",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "巴啦啦K魔仙.mp3",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "安K课堂实拍.jpg",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "安K课堂实拍.jpg",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "assets/story-extended.js",
+      "exists": true
+    },
+    {
+      "source": "安堃模拟器.html",
+      "target": "assets/game.js",
+      "exists": true
+    }
+  ],
+  "hardcodedPaths": [],
+  "errors": []
+}

@@ -1,0 +1,3267 @@
+{
+  "index.html": {
+    "scenes": 119,
+    "declaredChoices": 307,
+    "endings": [
+      "review",
+      "finalGood",
+      "finalEarth",
+      "finalShake",
+      "finalCharm",
+      "finalDayday",
+      "finalMirror",
+      "finalThroat",
+      "finalBadMind",
+      "finalBadMoney",
+      "finalBadDignity",
+      "finalWeird",
+      "seniorBlessing"
+    ],
+    "missingTargets": [],
+    "noLiteralIncoming": [
+      "start",
+      "studentLoan",
+      "finalEarth",
+      "finalShake",
+      "finalCharm",
+      "finalDayday",
+      "finalMirror",
+      "finalThroat",
+      "finalBadMind",
+      "finalBadMoney",
+      "finalBadDignity",
+      "finalWeird",
+      "seniorBlessing"
+    ],
+    "actions": {
+      "returnFromLoan": 1,
+      "openFile": 8,
+      "collectWorkReturn": 8,
+      "graduate": 3,
+      "reset": 12
+    },
+    "edges": [
+      {
+        "from": "start",
+        "to": "firstClass",
+        "label": "正式进入游戏"
+      },
+      {
+        "from": "firstClass",
+        "to": "headUpRule",
+        "label": "认真点头，并记下所有规矩"
+      },
+      {
+        "from": "firstClass",
+        "to": "math",
+        "label": "低头偷偷做数学题"
+      },
+      {
+        "from": "firstClass",
+        "to": "watchStudy",
+        "label": "观察晃表发光的规律"
+      },
+      {
+        "from": "firstClass",
+        "to": "office",
+        "label": "举手问：为什么不能问为什么"
+      },
+      {
+        "from": "afterFirstExam",
+        "to": "midtermDrama",
+        "label": "低头沉默，先别惹事"
+      },
+      {
+        "from": "afterFirstExam",
+        "to": "midtermDrama",
+        "label": "记录成绩评价和补课暗示"
+      },
+      {
+        "from": "afterFirstExam",
+        "to": "math",
+        "label": "下一节数学课继续看他讲题"
+      },
+      {
+        "from": "afterFirstExam",
+        "to": "easterPraise",
+        "label": "翻班级电脑里的旧文件"
+      },
+      {
+        "from": "afterFirstExam",
+        "to": "caught",
+        "label": "小声说：这和交钱有什么关系"
+      },
+      {
+        "from": "afterFirstExam",
+        "to": "easterPraise",
+        "label": "收作业时瞥见班级电脑旧文件"
+      },
+      {
+        "from": "midtermDrama",
+        "to": "fee",
+        "label": "认真听，并记下原话"
+      },
+      {
+        "from": "midtermDrama",
+        "to": "fee",
+        "label": "偷偷做题，自己把课补回来"
+      },
+      {
+        "from": "midtermDrama",
+        "to": "office",
+        "label": "举手说：老师，这节是数学课"
+      },
+      {
+        "from": "math",
+        "to": "solve",
+        "label": "举手：我来试试"
+      },
+      {
+        "from": "math",
+        "to": "mathIgnoreResult",
+        "label": "低头把题自己写完"
+      },
+      {
+        "from": "math",
+        "to": "mathWhisperResult",
+        "label": "小声说：小猿也没搜出来？"
+      },
+      {
+        "from": "mathIgnoreResult",
+        "to": "corridor",
+        "label": "回到走廊"
+      },
+      {
+        "from": "mathWhisperResult",
+        "to": "corridor",
+        "label": "回到走廊"
+      },
+      {
+        "from": "watchStudy",
+        "to": "afterFirstExam",
+        "label": "把它命名为“表盘雷达”"
+      },
+      {
+        "from": "watchStudy",
+        "to": "afterFirstExam",
+        "label": "继续盯着看，眼睛有点花"
+      },
+      {
+        "from": "solve",
+        "to": "corridor",
+        "label": "先交 200，买一周清静"
+      },
+      {
+        "from": "solve",
+        "to": "office",
+        "label": "问：这题我讲的，课费能给我吗？"
+      },
+      {
+        "from": "solve",
+        "to": "receipt",
+        "label": "说家里要确认收费明细"
+      },
+      {
+        "from": "caught",
+        "to": "corridor",
+        "label": "沉默忍受"
+      },
+      {
+        "from": "caught",
+        "to": "corridor",
+        "label": "悄悄记下时间地点"
+      },
+      {
+        "from": "office",
+        "to": "corridor",
+        "label": "深呼吸，离开办公室"
+      },
+      {
+        "from": "office",
+        "to": "corridor",
+        "label": "回去写一份完整经过"
+      },
+      {
+        "from": "office",
+        "to": "easterAlienNovel",
+        "label": "办公室电脑角落露出隐藏文件夹"
+      },
+      {
+        "from": "receipt",
+        "to": "ally",
+        "label": "把同学们的疑问汇总"
+      },
+      {
+        "from": "receipt",
+        "to": "corridor",
+        "label": "暂时退回座位"
+      },
+      {
+        "from": "phoneInClass",
+        "to": "historySelfStudy",
+        "label": "低头做题，装作没看见"
+      },
+      {
+        "from": "phoneInClass",
+        "to": "officeQuestion",
+        "label": "偷偷记录这一幕"
+      },
+      {
+        "from": "phoneInClass",
+        "to": "exam",
+        "label": "小声吐槽：又在搜题了"
+      },
+      {
+        "from": "phoneInClass",
+        "to": "lectureFluff",
+        "label": "下一节看看他讲基础题"
+      },
+      {
+        "from": "lectureFluff",
+        "to": "contestClass",
+        "label": "认真听完这套逻辑"
+      },
+      {
+        "from": "lectureFluff",
+        "to": "contestClass",
+        "label": "偷偷把题自己做完"
+      },
+      {
+        "from": "lectureFluff",
+        "to": "middleStepQuestion",
+        "label": "问：中间那步为什么成立"
+      },
+      {
+        "from": "middleStepQuestion",
+        "to": "officeQuestion",
+        "label": "把没讲的地方记下来"
+      },
+      {
+        "from": "middleStepQuestion",
+        "to": "contestClass",
+        "label": "低头自己补完推导"
+      },
+      {
+        "from": "middleStepQuestion",
+        "to": "corridor",
+        "label": "算了，先别问了"
+      },
+      {
+        "from": "classFeeOpaque",
+        "to": "eveningTutor",
+        "label": "交钱，别多问"
+      },
+      {
+        "from": "classFeeOpaque",
+        "to": "ally",
+        "label": "要求公示明细"
+      },
+      {
+        "from": "classFeeOpaque",
+        "to": "eveningTutor",
+        "label": "偷偷记录收款名单"
+      },
+      {
+        "from": "seatByFee",
+        "to": "seatShowoff",
+        "label": "沉默接受座位"
+      },
+      {
+        "from": "seatByFee",
+        "to": "office",
+        "label": "问：座位和补课费有关吗"
+      },
+      {
+        "from": "seatByFee",
+        "to": "seatShowoff",
+        "label": "拍下座位表"
+      },
+      {
+        "from": "forcedVoluntaryTutor",
+        "to": "tutorLookUp",
+        "label": "签字参加"
+      },
+      {
+        "from": "forcedVoluntaryTutor",
+        "to": "earth",
+        "label": "不签，等谈话"
+      },
+      {
+        "from": "forcedVoluntaryTutor",
+        "to": "ally",
+        "label": "拍下报名表"
+      },
+      {
+        "from": "kickOffice",
+        "to": "itemThrow",
+        "label": "低头快步走开"
+      },
+      {
+        "from": "kickOffice",
+        "to": "itemThrow",
+        "label": "停下来记下时间"
+      },
+      {
+        "from": "kickOffice",
+        "to": "leaderCall",
+        "label": "去找其他老师"
+      },
+      {
+        "from": "itemThrow",
+        "to": "verbalDeny",
+        "label": "帮同学捡起来"
+      },
+      {
+        "from": "itemThrow",
+        "to": "verbalDeny",
+        "label": "假装没看见"
+      },
+      {
+        "from": "itemThrow",
+        "to": "leaderCall",
+        "label": "拍下地上的书包"
+      },
+      {
+        "from": "verbalDeny",
+        "to": "rollAside",
+        "label": "沉默，把头低下去"
+      },
+      {
+        "from": "verbalDeny",
+        "to": "girlSarcasm",
+        "label": "写进错题本旁边"
+      },
+      {
+        "from": "verbalDeny",
+        "to": "xuScold",
+        "label": "课上听见梓豪被骂"
+      },
+      {
+        "from": "verbalDeny",
+        "to": "homeworkCall",
+        "label": "课后看见作业没写完的同学"
+      },
+      {
+        "from": "verbalDeny",
+        "to": "office",
+        "label": "问：老师能不能讲题"
+      },
+      {
+        "from": "rollAside",
+        "to": "girlSarcasm",
+        "label": "假装没听见"
+      },
+      {
+        "from": "rollAside",
+        "to": "girlSarcasm",
+        "label": "记录原话"
+      },
+      {
+        "from": "rollAside",
+        "to": "caught",
+        "label": "小声说太过分了"
+      },
+      {
+        "from": "girlSarcasm",
+        "to": "scarForget",
+        "label": "假装没听见"
+      },
+      {
+        "from": "girlSarcasm",
+        "to": "corridor",
+        "label": "课后安慰她"
+      },
+      {
+        "from": "girlSarcasm",
+        "to": "office",
+        "label": "当场说这不公平"
+      },
+      {
+        "from": "scarForget",
+        "to": "corridor",
+        "label": "不再说话"
+      },
+      {
+        "from": "scarForget",
+        "to": "corridor",
+        "label": "把这句也记下来"
+      },
+      {
+        "from": "scarForget",
+        "to": "corridor",
+        "label": "去接一杯水"
+      },
+      {
+        "from": "leaderCall",
+        "to": "corridor",
+        "label": "沉默听完"
+      },
+      {
+        "from": "leaderCall",
+        "to": "ally",
+        "label": "把通话内容记下来"
+      },
+      {
+        "from": "leaderCall",
+        "to": "office",
+        "label": "当场补充事实"
+      },
+      {
+        "from": "xuScold",
+        "to": "corridor",
+        "label": "低头不看"
+      },
+      {
+        "from": "xuScold",
+        "to": "corridor",
+        "label": "课后安慰梓豪"
+      },
+      {
+        "from": "xuScold",
+        "to": "ally",
+        "label": "记录原话"
+      },
+      {
+        "from": "xuScold",
+        "to": "easterMagic",
+        "label": "深夜刷到一条QQ空间动态"
+      },
+      {
+        "from": "xuScold",
+        "to": "easterMagic",
+        "label": "深夜刷到一条QQ空间动态"
+      },
+      {
+        "from": "corridor",
+        "to": "fee",
+        "label": "补课收费线"
+      },
+      {
+        "from": "corridor",
+        "to": "phoneInClass",
+        "label": "课堂考试线"
+      },
+      {
+        "from": "corridor",
+        "to": "hairCheck",
+        "label": "纪律体罚线"
+      },
+      {
+        "from": "corridor",
+        "to": "verbalDeny",
+        "label": "语言羞辱线"
+      },
+      {
+        "from": "corridor",
+        "to": "phoneCard",
+        "label": "装备推销线"
+      },
+      {
+        "from": "corridor",
+        "to": "resonance",
+        "label": "校园怪论线"
+      },
+      {
+        "from": "corridor",
+        "to": "headUpRule",
+        "label": "又有人被要求抬头"
+      },
+      {
+        "from": "corridor",
+        "to": "distanceRule",
+        "label": "检查男女一米距离"
+      },
+      {
+        "from": "corridor",
+        "to": "romanceRule",
+        "label": "班会突然讲起早恋"
+      },
+      {
+        "from": "fee",
+        "to": "feePayResult",
+        "label": "当场交钱"
+      },
+      {
+        "from": "fee",
+        "to": "feeDelayResult",
+        "label": "说：我再考虑考虑"
+      },
+      {
+        "from": "fee",
+        "to": "feeRejectResult",
+        "label": "拒绝"
+      },
+      {
+        "from": "fee",
+        "to": "tutorNotNormal",
+        "label": "问：假期不补课才不正常吗"
+      },
+      {
+        "from": "fee",
+        "to": "easterTutorPoster",
+        "label": "翻旧群文件里的宣传海报"
+      },
+      {
+        "from": "fee",
+        "to": "easterTutorPoster",
+        "label": "旧群文件里翻到补课班宣传海报"
+      },
+      {
+        "from": "tutorNotNormal",
+        "to": "winterTutor",
+        "label": "沉默不语"
+      },
+      {
+        "from": "tutorNotNormal",
+        "to": "feeDelayResult",
+        "label": "小声说：太和一中关我们什么事"
+      },
+      {
+        "from": "tutorNotNormal",
+        "to": "office",
+        "label": "举手问：那我们一补课就爱学习吗"
+      },
+      {
+        "from": "tutorNotNormal",
+        "to": "hotelTutor",
+        "label": "私下跟同学说：他又在找借口"
+      },
+      {
+        "from": "tutorNotNormal",
+        "to": "easterTutorPoster",
+        "label": "群聊里有人翻出旧宣传海报"
+      },
+      {
+        "from": "feePayResult",
+        "to": "tutorLookUp",
+        "label": "进入补课"
+      },
+      {
+        "from": "feePayResult",
+        "to": "classFeeOpaque",
+        "label": "顺手又收班费"
+      },
+      {
+        "from": "feePayResult",
+        "to": "hotelTutor",
+        "label": "暑假酒店补课通知来了"
+      },
+      {
+        "from": "feePayResult",
+        "to": "winterTutor",
+        "label": "寒假补课又来了"
+      },
+      {
+        "from": "feePayResult",
+        "to": "easterTutorPoster",
+        "label": "收据夹层里露出一张旧海报"
+      },
+      {
+        "from": "feeDelayResult",
+        "to": "tutorLookUp",
+        "label": "进入补课"
+      },
+      {
+        "from": "feeDelayResult",
+        "to": "classFeeOpaque",
+        "label": "班费也开始收了"
+      },
+      {
+        "from": "feeDelayResult",
+        "to": "winterTutor",
+        "label": "继续面对寒假报价"
+      },
+      {
+        "from": "feeDelayResult",
+        "to": "easterTutorPoster",
+        "label": "同学私聊发来补课班旧海报"
+      },
+      {
+        "from": "feeRejectResult",
+        "to": "tutorLookUp",
+        "label": "进入补课"
+      },
+      {
+        "from": "feeRejectResult",
+        "to": "forcedVoluntaryTutor",
+        "label": "被要求填自愿表"
+      },
+      {
+        "from": "feeRejectResult",
+        "to": "winterTutor",
+        "label": "寒假报价继续追来"
+      },
+      {
+        "from": "feeRejectResult",
+        "to": "easterTutorPoster",
+        "label": "回座位后看到旧群海报截图"
+      },
+      {
+        "from": "earth",
+        "to": "longLaugh",
+        "label": "低头，先保护理智"
+      },
+      {
+        "from": "earth",
+        "to": "earthWhisperResult",
+        "label": "小声说：过分了吧"
+      },
+      {
+        "from": "earth",
+        "to": "longLaugh",
+        "label": "抬头说：地球人也需要规则"
+      },
+      {
+        "from": "earthWhisperResult",
+        "to": "longLaugh",
+        "label": "下一节课"
+      },
+      {
+        "from": "earthWhisperResult",
+        "to": "easterAlienNovel",
+        "label": "同学说机房里有篇同名小说"
+      },
+      {
+        "from": "ac",
+        "to": "monitorFee",
+        "label": "忍着，保存体力"
+      },
+      {
+        "from": "ac",
+        "to": "monitorFee",
+        "label": "记录温度和饭卡扣费"
+      },
+      {
+        "from": "ac",
+        "to": "monitorFee",
+        "label": "递水给快中暑的同学"
+      },
+      {
+        "from": "pencil",
+        "to": "homeworkCall",
+        "label": "交两块钱赔偿"
+      },
+      {
+        "from": "pencil",
+        "to": "office",
+        "label": "说：这卷子不是学校的吗"
+      },
+      {
+        "from": "pencil",
+        "to": "homeworkCall",
+        "label": "事后偷偷安慰同学"
+      },
+      {
+        "from": "homeworkCall",
+        "to": "callParents",
+        "label": "低头装作没听见"
+      },
+      {
+        "from": "homeworkCall",
+        "to": "leaderCall",
+        "label": "偷偷记下原话"
+      },
+      {
+        "from": "homeworkCall",
+        "to": "callParents",
+        "label": "课后安慰那个同学"
+      },
+      {
+        "from": "homeworkCall",
+        "to": "rankAfterExam",
+        "label": "继续低头补作业，熬到下次考试"
+      },
+      {
+        "from": "gradingFee",
+        "to": "gradingPayResult",
+        "label": "交 80 元领试卷"
+      },
+      {
+        "from": "gradingFee",
+        "to": "gradingQuestionResult",
+        "label": "说：批试卷不是老师工作吗"
+      },
+      {
+        "from": "gradingFee",
+        "to": "gradingMonitorResult",
+        "label": "班长生气地上前理论"
+      },
+      {
+        "from": "gradingFee",
+        "to": "gradingRecordResult",
+        "label": "先记下这次收费"
+      },
+      {
+        "from": "gradingPayResult",
+        "to": "corridor",
+        "label": "回到走廊"
+      },
+      {
+        "from": "gradingPayResult",
+        "to": "easterPraise",
+        "label": "卷子背面夹着一份学长旧文"
+      },
+      {
+        "from": "gradingQuestionResult",
+        "to": "corridor",
+        "label": "回到走廊"
+      },
+      {
+        "from": "gradingQuestionResult",
+        "to": "easterPraise",
+        "label": "同学悄悄传来一份学长旧文"
+      },
+      {
+        "from": "gradingMonitorResult",
+        "to": "ally",
+        "label": "默默记下撤职经过"
+      },
+      {
+        "from": "gradingMonitorResult",
+        "to": "corridor",
+        "label": "装作没看见"
+      },
+      {
+        "from": "gradingMonitorResult",
+        "to": "corridor",
+        "label": "课后安慰班长"
+      },
+      {
+        "from": "gradingRecordResult",
+        "to": "corridor",
+        "label": "回到走廊"
+      },
+      {
+        "from": "tutorLookUp",
+        "to": "tutorLookResult",
+        "label": "抬头看他晃表"
+      },
+      {
+        "from": "tutorLookUp",
+        "to": "tutorIgnoreResult",
+        "label": "低头假装没听见"
+      },
+      {
+        "from": "tutorLookUp",
+        "to": "tutorQuestionResult",
+        "label": "抬头说：老师，这题我还是不会"
+      },
+      {
+        "from": "tutorLookResult",
+        "to": "ac",
+        "label": "进入猥琐事件"
+      },
+      {
+        "from": "tutorIgnoreResult",
+        "to": "ac",
+        "label": "进入猥琐事件"
+      },
+      {
+        "from": "tutorQuestionResult",
+        "to": "ac",
+        "label": "进入猥琐事件"
+      },
+      {
+        "from": "pantsPull",
+        "to": "pantsInterveneResult",
+        "label": "上前劝说"
+      },
+      {
+        "from": "pantsPull",
+        "to": "pantsIgnoreResult",
+        "label": "当作没看见"
+      },
+      {
+        "from": "pantsPull",
+        "to": "longSleep",
+        "label": "事后偷偷安慰梓豪"
+      },
+      {
+        "from": "pantsPull",
+        "to": "easterMagic",
+        "label": "有人转来一首改编歌"
+      },
+      {
+        "from": "pantsPull",
+        "to": "easterMagic",
+        "label": "有人转来一首改编歌"
+      },
+      {
+        "from": "pantsInterveneResult",
+        "to": "longSleep",
+        "label": "下一次，稳龙睡着了"
+      },
+      {
+        "from": "pantsInterveneResult",
+        "to": "easterMagic",
+        "label": "回寝室后刷到一首改编歌"
+      },
+      {
+        "from": "pantsIgnoreResult",
+        "to": "longSleep",
+        "label": "下一次，稳龙睡着了"
+      },
+      {
+        "from": "pantsIgnoreResult",
+        "to": "easterMagic",
+        "label": "沉默回座位时收到一首改编歌"
+      },
+      {
+        "from": "roast",
+        "to": "roastListenResult",
+        "label": "认真听，并记笔记"
+      },
+      {
+        "from": "roast",
+        "to": "roastStudyResult",
+        "label": "偷偷做数学题"
+      },
+      {
+        "from": "roast",
+        "to": "roastInterruptResult",
+        "label": "举手说：老师，这节是数学课"
+      },
+      {
+        "from": "roastListenResult",
+        "to": "corridor",
+        "label": "回到走廊"
+      },
+      {
+        "from": "roastStudyResult",
+        "to": "corridor",
+        "label": "回到走廊"
+      },
+      {
+        "from": "roastInterruptResult",
+        "to": "corridor",
+        "label": "去走廊罚站"
+      },
+      {
+        "from": "exam",
+        "to": "rankAfterExam",
+        "label": "假装自己是课桌"
+      },
+      {
+        "from": "exam",
+        "to": "monitorFee",
+        "label": "录下训话关键词"
+      },
+      {
+        "from": "exam",
+        "to": "rankAfterExam",
+        "label": "提醒同学走正规反馈"
+      },
+      {
+        "from": "phoneCard",
+        "to": "phonePayResult",
+        "label": "交出身份证办卡"
+      },
+      {
+        "from": "phoneCard",
+        "to": "phoneHasCardResult",
+        "label": "说：我已经有卡了"
+      },
+      {
+        "from": "phoneCard",
+        "to": "phoneRejectResult",
+        "label": "拒绝交身份证"
+      },
+      {
+        "from": "phonePayResult",
+        "to": "carUpgrade",
+        "label": "再看一眼电瓶车"
+      },
+      {
+        "from": "phonePayResult",
+        "to": "easterCamel",
+        "label": "新电话卡包装里夹着云盘链接"
+      },
+      {
+        "from": "phoneHasCardResult",
+        "to": "carUpgrade",
+        "label": "绕到楼下"
+      },
+      {
+        "from": "phoneHasCardResult",
+        "to": "easterCamel",
+        "label": "同桌小声发来一个云盘链接"
+      },
+      {
+        "from": "phoneRejectResult",
+        "to": "carUpgrade",
+        "label": "走到楼下"
+      },
+      {
+        "from": "phoneRejectResult",
+        "to": "easterCamel",
+        "label": "回座位后收到一个云盘音乐链接"
+      },
+      {
+        "from": "monitorFee",
+        "to": "monitorSilentResult",
+        "label": "沉默"
+      },
+      {
+        "from": "monitorFee",
+        "to": "monitorWhisperResult",
+        "label": "小声说：他自己也戴表"
+      },
+      {
+        "from": "monitorFee",
+        "to": "monitorCalloutResult",
+        "label": "举手说：老师，您手上也戴着表"
+      },
+      {
+        "from": "monitorSilentResult",
+        "to": "carUpgrade",
+        "label": "课后走到楼下透口气"
+      },
+      {
+        "from": "monitorSilentResult",
+        "to": "farewellQuote",
+        "label": "把这段事压进心里，继续上课"
+      },
+      {
+        "from": "monitorWhisperResult",
+        "to": "preFinalWeek",
+        "label": "把检讨拍照留底"
+      },
+      {
+        "from": "monitorWhisperResult",
+        "to": "ally",
+        "label": "去找同学核对当天经过"
+      },
+      {
+        "from": "monitorCalloutResult",
+        "to": "farewellQuote",
+        "label": "被重点盯了一周"
+      },
+      {
+        "from": "monitorCalloutResult",
+        "to": "preFinalWeek",
+        "label": "把这次发言写进材料"
+      },
+      {
+        "from": "carUpgrade",
+        "to": "farewellQuote",
+        "label": "假装没听见"
+      },
+      {
+        "from": "carUpgrade",
+        "to": "caught",
+        "label": "小声说：原来我们是车贷"
+      },
+      {
+        "from": "carUpgrade",
+        "to": "farewellQuote",
+        "label": "记下这句话"
+      },
+      {
+        "from": "carUpgrade",
+        "to": "easterCamel",
+        "label": "粉盔电瓶车旁有人哼起改编歌"
+      },
+      {
+        "from": "resonance",
+        "to": "photosynthesis",
+        "label": "立刻放轻脚步"
+      },
+      {
+        "from": "resonance",
+        "to": "office",
+        "label": "问：老师，频率是多少"
+      },
+      {
+        "from": "resonance",
+        "to": "photosynthesis",
+        "label": "偷偷记进奇妙物理论"
+      },
+      {
+        "from": "photosynthesis",
+        "to": "pkuCredit",
+        "label": "下楼晒太阳"
+      },
+      {
+        "from": "photosynthesis",
+        "to": "caught",
+        "label": "说：人不是植物"
+      },
+      {
+        "from": "photosynthesis",
+        "to": "pkuCredit",
+        "label": "把这句话写进语录本"
+      },
+      {
+        "from": "pkuCredit",
+        "to": "corridor",
+        "label": "鼓掌配合"
+      },
+      {
+        "from": "pkuCredit",
+        "to": "caught",
+        "label": "翻白眼"
+      },
+      {
+        "from": "pkuCredit",
+        "to": "corridor",
+        "label": "记入功劳分配表"
+      },
+      {
+        "from": "historySelfStudy",
+        "to": "roast",
+        "label": "认真听，顺便记几个冷知识"
+      },
+      {
+        "from": "historySelfStudy",
+        "to": "eveningTutor",
+        "label": "偷偷写作业，别让他发现"
+      },
+      {
+        "from": "historySelfStudy",
+        "to": "office",
+        "label": "被点名后硬问历史细节"
+      },
+      {
+        "from": "eveningTutor",
+        "to": "rankAfterExam",
+        "label": "交 100 元，继续偷写作业"
+      },
+      {
+        "from": "eveningTutor",
+        "to": "callParents",
+        "label": "先欠着，说回家再拿"
+      },
+      {
+        "from": "eveningTutor",
+        "to": "ally",
+        "label": "偷偷记下收费规则"
+      },
+      {
+        "from": "officeQuestion",
+        "to": "corridor",
+        "label": "假装没听见，转身离开"
+      },
+      {
+        "from": "officeQuestion",
+        "to": "office",
+        "label": "追问：那我去问谁"
+      },
+      {
+        "from": "officeQuestion",
+        "to": "bookConfiscation",
+        "label": "出去跟同学说清楚"
+      },
+      {
+        "from": "officeQuestion",
+        "to": "easterAlienNovel",
+        "label": "去机房翻隐藏文件夹"
+      },
+      {
+        "from": "officeQuestion",
+        "to": "easterAlienNovel",
+        "label": "下课路过机房，看见隐藏文件夹"
+      },
+      {
+        "from": "rankAfterExam",
+        "to": "corridor",
+        "label": "沉默，把卷子翻过去"
+      },
+      {
+        "from": "rankAfterExam",
+        "to": "office",
+        "label": "当场质疑：能不能看完整排名"
+      },
+      {
+        "from": "rankAfterExam",
+        "to": "gradingFee",
+        "label": "发卷时遇到批卷收费"
+      },
+      {
+        "from": "rankAfterExam",
+        "to": "fee",
+        "label": "补报补课，求个安稳"
+      },
+      {
+        "from": "rankAfterExam",
+        "to": "contestClass",
+        "label": "下一节去数学竞赛课"
+      },
+      {
+        "from": "rankAfterExam",
+        "to": "easterPraise",
+        "label": "翻班级电脑里的QQ群文件"
+      },
+      {
+        "from": "rankAfterExam",
+        "to": "easterPraise",
+        "label": "群文件里突然弹出一份旧文档"
+      },
+      {
+        "from": "hairCheck",
+        "to": "seatByFee",
+        "label": "遵守，不出声"
+      },
+      {
+        "from": "hairCheck",
+        "to": "office",
+        "label": "反抗：头发扎起来，分数也能扎上去？"
+      },
+      {
+        "from": "hairCheck",
+        "to": "callParents",
+        "label": "家长接回来时再说"
+      },
+      {
+        "from": "hairCheck",
+        "to": "longLaugh",
+        "label": "后排稳龙突然笑了一声"
+      },
+      {
+        "from": "hairCheck",
+        "to": "kickOffice",
+        "label": "走廊尽头突然传来动静"
+      },
+      {
+        "from": "bookConfiscation",
+        "to": "ally",
+        "label": "举报他看学生的书"
+      },
+      {
+        "from": "bookConfiscation",
+        "to": "office",
+        "label": "要回自己的书"
+      },
+      {
+        "from": "bookConfiscation",
+        "to": "corridor",
+        "label": "算了，不要了"
+      },
+      {
+        "from": "bookConfiscation",
+        "to": "easterBiography",
+        "label": "被没收的书里夹着一个手抄本"
+      },
+      {
+        "from": "callParents",
+        "to": "corridor",
+        "label": "家长道歉，先结束场面"
+      },
+      {
+        "from": "callParents",
+        "to": "leaderCall",
+        "label": "家长对刚：请您注意措辞"
+      },
+      {
+        "from": "callParents",
+        "to": "corridor",
+        "label": "学生崩溃，什么也说不出"
+      },
+      {
+        "from": "contestClass",
+        "to": "pencil",
+        "label": "睡觉，保存生命值"
+      },
+      {
+        "from": "contestClass",
+        "to": "rankAfterExam",
+        "label": "自学，把题补完"
+      },
+      {
+        "from": "contestClass",
+        "to": "contestQuestion",
+        "label": "举手问：中间这步怎么来的"
+      },
+      {
+        "from": "contestQuestion",
+        "to": "rankAfterExam",
+        "label": "把空掉的步骤记下来"
+      },
+      {
+        "from": "contestQuestion",
+        "to": "rankAfterExam",
+        "label": "低头自己推完"
+      },
+      {
+        "from": "contestQuestion",
+        "to": "pencil",
+        "label": "不再追问"
+      },
+      {
+        "from": "seatShowoff",
+        "to": "lateCheck",
+        "label": "沉默，看完这场展示"
+      },
+      {
+        "from": "seatShowoff",
+        "to": "caught",
+        "label": "小声议论，被骂"
+      },
+      {
+        "from": "seatShowoff",
+        "to": "lateCheck",
+        "label": "拍照留存"
+      },
+      {
+        "from": "seatShowoff",
+        "to": "easterBiography",
+        "label": "摸摸最后一排课桌抽屉"
+      },
+      {
+        "from": "seatShowoff",
+        "to": "easterBiography",
+        "label": "后排课桌里露出一个手抄本"
+      },
+      {
+        "from": "lateCheck",
+        "to": "corridor",
+        "label": "交钱，赶紧进去"
+      },
+      {
+        "from": "lateCheck",
+        "to": "office",
+        "label": "硬扛：凭什么罚钱"
+      },
+      {
+        "from": "lateCheck",
+        "to": "pantsPull",
+        "label": "被推拉扯拽，记下经过"
+      },
+      {
+        "from": "lateCheck",
+        "to": "easterBiography",
+        "label": "课桌抽屉里摸到一本旧手抄本"
+      },
+      {
+        "from": "graduationBoast",
+        "to": "preFinalWeek",
+        "label": "鼓掌，礼貌收场"
+      },
+      {
+        "from": "graduationBoast",
+        "to": "preFinalWeek",
+        "label": "翻白眼，被他看见"
+      },
+      {
+        "from": "graduationBoast",
+        "to": "preFinalWeek",
+        "label": "提前离场"
+      },
+      {
+        "from": "graduationBoast",
+        "to": "easterLoveLetter",
+        "label": "有人转发表白墙旧帖"
+      },
+      {
+        "from": "longLaugh",
+        "to": "corridor",
+        "label": "低头装作没听见"
+      },
+      {
+        "from": "longLaugh",
+        "to": "caught",
+        "label": "替稳龙说：老师，他只是笑不小心"
+      },
+      {
+        "from": "longLaugh",
+        "to": "corridor",
+        "label": "事后偷偷安慰稳龙"
+      },
+      {
+        "from": "longLaugh",
+        "to": "easterAlienNovel",
+        "label": "有人发来一篇机房隐藏小说"
+      },
+      {
+        "from": "winterTutor",
+        "to": "hotelTutor",
+        "label": "沉默交钱"
+      },
+      {
+        "from": "winterTutor",
+        "to": "hotelTutor",
+        "label": "小声说：大过年的也太离谱了"
+      },
+      {
+        "from": "winterTutor",
+        "to": "earth",
+        "label": "拒绝补课"
+      },
+      {
+        "from": "winterTutor",
+        "to": "hotelTutor",
+        "label": "录音保留证据"
+      },
+      {
+        "from": "hotelTutor",
+        "to": "hotelTutorClass",
+        "label": "沉默接受"
+      },
+      {
+        "from": "hotelTutor",
+        "to": "hotelTutorClass",
+        "label": "小声抱怨：这也太挤了"
+      },
+      {
+        "from": "hotelTutor",
+        "to": "hotelTutorClass",
+        "label": "去找安K理论"
+      },
+      {
+        "from": "hotelTutorClass",
+        "to": "hotelTutorRoomCheck",
+        "label": "忍着听课"
+      },
+      {
+        "from": "hotelTutorClass",
+        "to": "hotelTutorRoomCheck",
+        "label": "走神发呆"
+      },
+      {
+        "from": "hotelTutorClass",
+        "to": "hotelTutorRoomCheck",
+        "label": "偷偷扇风"
+      },
+      {
+        "from": "hotelTutorRoomCheck",
+        "to": "hotelTutorSettle",
+        "label": "假装睡熟"
+      },
+      {
+        "from": "hotelTutorRoomCheck",
+        "to": "hotelTutorSettle",
+        "label": "坐起来假装看书"
+      },
+      {
+        "from": "hotelTutorRoomCheck",
+        "to": "hotelTutorSettle",
+        "label": "躲在厕所"
+      },
+      {
+        "from": "hotelTutorSettle",
+        "to": "giftWatch",
+        "label": "交完暑假补课和吃饭费用，把总账记下来"
+      },
+      {
+        "from": "hotelTutorSettle",
+        "to": "giftWatch",
+        "label": "交完暑假补课和吃饭费用，忍着不再提"
+      },
+      {
+        "from": "hotelTutorSettle",
+        "to": "giftWatch",
+        "label": "交完暑假补课和吃饭费用，和同学互相确认细节"
+      },
+      {
+        "from": "giftWatch",
+        "to": "corridor",
+        "label": "第二天凑钱买礼物"
+      },
+      {
+        "from": "giftWatch",
+        "to": "corridor",
+        "label": "当作没听见"
+      },
+      {
+        "from": "giftWatch",
+        "to": "office",
+        "label": "举手说：老师，补课费我们已经交了"
+      },
+      {
+        "from": "giftWatch",
+        "to": "corridor",
+        "label": "私下跟同学吐槽一波"
+      },
+      {
+        "from": "longSleep",
+        "to": "corridor",
+        "label": "沉默旁观"
+      },
+      {
+        "from": "longSleep",
+        "to": "caught",
+        "label": "小声说：别打了"
+      },
+      {
+        "from": "longSleep",
+        "to": "corridor",
+        "label": "下课后陪稳龙去医务室"
+      },
+      {
+        "from": "longSleep",
+        "to": "corridor",
+        "label": "用手机录下来"
+      },
+      {
+        "from": "longSleep",
+        "to": "easterMagic",
+        "label": "深夜刷到一条QQ空间动态"
+      },
+      {
+        "from": "longSleep",
+        "to": "easterMagic",
+        "label": "深夜刷到一条QQ空间动态"
+      },
+      {
+        "from": "farewellQuote",
+        "to": "corridor",
+        "label": "无反应，一天光阴"
+      },
+      {
+        "from": "farewellQuote",
+        "to": "caught",
+        "label": "小声说：又绕晕了"
+      },
+      {
+        "from": "farewellQuote",
+        "to": "corridor",
+        "label": "认真鼓掌：老师，您这格局真有品位"
+      },
+      {
+        "from": "farewellQuote",
+        "to": "graduationBoast",
+        "label": "私下统计他的鞋和表"
+      },
+      {
+        "from": "farewellQuote",
+        "to": "easterLoveLetter",
+        "label": "刷到QQ空间表白墙"
+      },
+      {
+        "from": "farewellQuote",
+        "to": "easterLoveLetter",
+        "label": "QQ空间刷到一条匿名投稿"
+      },
+      {
+        "from": "preFinalWeek",
+        "to": "ally",
+        "label": "整理监考费和补课费材料"
+      },
+      {
+        "from": "preFinalWeek",
+        "to": "easterAnnualPerson",
+        "label": "翻班级群旧文件"
+      },
+      {
+        "from": "preFinalWeek",
+        "to": "finalCorridor",
+        "label": "最后一次去走廊看看"
+      },
+      {
+        "from": "preFinalWeek",
+        "to": "termDecision",
+        "label": "准备好面对期末谈话"
+      },
+      {
+        "from": "preFinalWeek",
+        "to": "easterAnnualPerson",
+        "label": "班级群旧文件里翻到颁奖词"
+      },
+      {
+        "from": "preFinalWeek",
+        "to": "easterAlienNovel",
+        "label": "同学又发来一个隐藏文件夹路径"
+      },
+      {
+        "from": "finalCorridor",
+        "to": "ally",
+        "label": "和同学交换最后一份记录"
+      },
+      {
+        "from": "finalCorridor",
+        "to": "easterAlienNovel",
+        "label": "去机房看看有没有学长遗迹"
+      },
+      {
+        "from": "finalCorridor",
+        "to": "termDecision",
+        "label": "进入期末决断"
+      },
+      {
+        "from": "finalCorridor",
+        "to": "easterAnnualPerson",
+        "label": "走廊尽头有人递来一份学长文档"
+      },
+      {
+        "from": "finalCorridor",
+        "to": "easterAlienNovel",
+        "label": "机房门口贴着一个隐藏文件夹路径"
+      },
+      {
+        "from": "termDecision",
+        "to": "easterAnnualPerson",
+        "label": "先翻班级群网盘"
+      },
+      {
+        "from": "termDecision",
+        "to": "easterAnnualPerson",
+        "label": "谈话前先翻班级群网盘"
+      },
+      {
+        "from": "ally",
+        "to": "review",
+        "label": "提交给年级和家长代表"
+      },
+      {
+        "from": "ally",
+        "to": "office",
+        "label": "继续单独硬刚"
+      },
+      {
+        "from": "ally",
+        "to": "corridor",
+        "label": "先稳住，等更多材料"
+      },
+      {
+        "from": "review",
+        "to": "finalGood",
+        "label": "查看本局评价"
+      },
+      {
+        "from": "headUpRule",
+        "to": "distanceRule",
+        "label": "抬头，先把笔放下"
+      },
+      {
+        "from": "headUpRule",
+        "to": "distanceRule",
+        "label": "小声说：笔记靠脑补了"
+      },
+      {
+        "from": "headUpRule",
+        "to": "headUpReply",
+        "label": "举手：您看手机也算低头吗？"
+      },
+      {
+        "from": "headUpReply",
+        "to": "distanceRule",
+        "label": "听听下一条规矩"
+      },
+      {
+        "from": "distanceRule",
+        "to": "romanceRule",
+        "label": "把椅子挪进过道"
+      },
+      {
+        "from": "distanceRule",
+        "to": "romanceRule",
+        "label": "小声说：同桌变远桌了"
+      },
+      {
+        "from": "distanceRule",
+        "to": "distanceReply",
+        "label": "举手：老师，先罚这张桌子？"
+      },
+      {
+        "from": "distanceReply",
+        "to": "romanceRule",
+        "label": "继续听班会"
+      },
+      {
+        "from": "romanceRule",
+        "to": "afterFirstExam",
+        "label": "点头，先认下这门亲戚"
+      },
+      {
+        "from": "romanceRule",
+        "to": "afterFirstExam",
+        "label": "小声说：花名册变家谱了"
+      },
+      {
+        "from": "romanceRule",
+        "to": "romanceReply",
+        "label": "举手：转班能解除亲属关系吗？"
+      },
+      {
+        "from": "romanceReply",
+        "to": "afterFirstExam",
+        "label": "熬到第一次月考"
+      }
+    ],
+    "note": "No literal incoming edge does not mean dead content: graduation/loan/global completion/forced endings add dynamic transitions."
+  },
+  "安堃模拟器.html": {
+    "scenes": 124,
+    "declaredChoices": 328,
+    "endings": [
+      "review",
+      "finalGood",
+      "finalEarth",
+      "finalShake",
+      "finalCharm",
+      "finalDayday",
+      "finalMirror",
+      "finalThroat",
+      "finalBadMind",
+      "finalBadMoney",
+      "finalBadDignity",
+      "finalWeird",
+      "seniorBlessing"
+    ],
+    "missingTargets": [],
+    "noLiteralIncoming": [
+      "start",
+      "studentLoan",
+      "finalEarth",
+      "finalShake",
+      "finalCharm",
+      "finalDayday",
+      "finalMirror",
+      "finalThroat",
+      "finalBadMind",
+      "finalBadMoney",
+      "finalBadDignity",
+      "finalWeird",
+      "seniorBlessing"
+    ],
+    "actions": {
+      "returnFromLoan": 1,
+      "openFile": 8,
+      "collectWorkReturn": 8,
+      "graduate": 3,
+      "reset": 12
+    },
+    "edges": [
+      {
+        "from": "start",
+        "to": "firstClass",
+        "label": "正式进入游戏"
+      },
+      {
+        "from": "firstClass",
+        "to": "headUpRule",
+        "label": "认真点头，并记下所有规矩"
+      },
+      {
+        "from": "firstClass",
+        "to": "math",
+        "label": "低头偷偷做数学题"
+      },
+      {
+        "from": "firstClass",
+        "to": "watchStudy",
+        "label": "观察晃表发光的规律"
+      },
+      {
+        "from": "firstClass",
+        "to": "office",
+        "label": "举手问：为什么不能问为什么"
+      },
+      {
+        "from": "afterFirstExam",
+        "to": "midtermDrama",
+        "label": "低头沉默，先别惹事"
+      },
+      {
+        "from": "afterFirstExam",
+        "to": "midtermDrama",
+        "label": "记录成绩评价和补课暗示"
+      },
+      {
+        "from": "afterFirstExam",
+        "to": "math",
+        "label": "下一节数学课继续看他讲题"
+      },
+      {
+        "from": "afterFirstExam",
+        "to": "easterPraise",
+        "label": "翻班级电脑里的旧文件"
+      },
+      {
+        "from": "afterFirstExam",
+        "to": "caught",
+        "label": "小声说：这和交钱有什么关系"
+      },
+      {
+        "from": "afterFirstExam",
+        "to": "easterPraise",
+        "label": "收作业时瞥见班级电脑旧文件"
+      },
+      {
+        "from": "midtermDrama",
+        "to": "fee",
+        "label": "认真听，并记下原话"
+      },
+      {
+        "from": "midtermDrama",
+        "to": "fee",
+        "label": "偷偷做题，自己把课补回来"
+      },
+      {
+        "from": "midtermDrama",
+        "to": "office",
+        "label": "举手说：老师，这节是数学课"
+      },
+      {
+        "from": "math",
+        "to": "solve",
+        "label": "举手：我来试试"
+      },
+      {
+        "from": "math",
+        "to": "mathIgnoreResult",
+        "label": "低头把题自己写完"
+      },
+      {
+        "from": "math",
+        "to": "mathWhisperResult",
+        "label": "小声说：小猿也没搜出来？"
+      },
+      {
+        "from": "mathIgnoreResult",
+        "to": "corridor",
+        "label": "回到走廊"
+      },
+      {
+        "from": "mathWhisperResult",
+        "to": "corridor",
+        "label": "回到走廊"
+      },
+      {
+        "from": "watchStudy",
+        "to": "afterFirstExam",
+        "label": "把它命名为“表盘雷达”"
+      },
+      {
+        "from": "watchStudy",
+        "to": "afterFirstExam",
+        "label": "继续盯着看，眼睛有点花"
+      },
+      {
+        "from": "solve",
+        "to": "corridor",
+        "label": "先交 200，买一周清静"
+      },
+      {
+        "from": "solve",
+        "to": "office",
+        "label": "问：这题我讲的，课费能给我吗？"
+      },
+      {
+        "from": "solve",
+        "to": "receipt",
+        "label": "说家里要确认收费明细"
+      },
+      {
+        "from": "caught",
+        "to": "corridor",
+        "label": "沉默忍受"
+      },
+      {
+        "from": "caught",
+        "to": "corridor",
+        "label": "悄悄记下时间地点"
+      },
+      {
+        "from": "office",
+        "to": "corridor",
+        "label": "深呼吸，离开办公室"
+      },
+      {
+        "from": "office",
+        "to": "corridor",
+        "label": "回去写一份完整经过"
+      },
+      {
+        "from": "office",
+        "to": "easterAlienNovel",
+        "label": "办公室电脑角落露出隐藏文件夹"
+      },
+      {
+        "from": "receipt",
+        "to": "ally",
+        "label": "把同学们的疑问汇总"
+      },
+      {
+        "from": "receipt",
+        "to": "corridor",
+        "label": "暂时退回座位"
+      },
+      {
+        "from": "phoneInClass",
+        "to": "historySelfStudy",
+        "label": "低头做题，装作没看见"
+      },
+      {
+        "from": "phoneInClass",
+        "to": "officeQuestion",
+        "label": "偷偷记录这一幕"
+      },
+      {
+        "from": "phoneInClass",
+        "to": "exam",
+        "label": "小声吐槽：又在搜题了"
+      },
+      {
+        "from": "phoneInClass",
+        "to": "lectureFluff",
+        "label": "下一节看看他讲基础题"
+      },
+      {
+        "from": "lectureFluff",
+        "to": "contestClass",
+        "label": "认真听完这套逻辑"
+      },
+      {
+        "from": "lectureFluff",
+        "to": "contestClass",
+        "label": "偷偷把题自己做完"
+      },
+      {
+        "from": "lectureFluff",
+        "to": "middleStepQuestion",
+        "label": "问：中间那步为什么成立"
+      },
+      {
+        "from": "middleStepQuestion",
+        "to": "officeQuestion",
+        "label": "把没讲的地方记下来"
+      },
+      {
+        "from": "middleStepQuestion",
+        "to": "contestClass",
+        "label": "低头自己补完推导"
+      },
+      {
+        "from": "middleStepQuestion",
+        "to": "corridor",
+        "label": "算了，先别问了"
+      },
+      {
+        "from": "classFeeOpaque",
+        "to": "eveningTutor",
+        "label": "交钱，别多问"
+      },
+      {
+        "from": "classFeeOpaque",
+        "to": "ally",
+        "label": "要求公示明细"
+      },
+      {
+        "from": "classFeeOpaque",
+        "to": "eveningTutor",
+        "label": "偷偷记录收款名单"
+      },
+      {
+        "from": "seatByFee",
+        "to": "seatShowoff",
+        "label": "沉默接受座位"
+      },
+      {
+        "from": "seatByFee",
+        "to": "office",
+        "label": "问：座位和补课费有关吗"
+      },
+      {
+        "from": "seatByFee",
+        "to": "seatShowoff",
+        "label": "拍下座位表"
+      },
+      {
+        "from": "forcedVoluntaryTutor",
+        "to": "tutorLookUp",
+        "label": "签字参加"
+      },
+      {
+        "from": "forcedVoluntaryTutor",
+        "to": "earth",
+        "label": "不签，等谈话"
+      },
+      {
+        "from": "forcedVoluntaryTutor",
+        "to": "ally",
+        "label": "拍下报名表"
+      },
+      {
+        "from": "kickOffice",
+        "to": "itemThrow",
+        "label": "低头快步走开"
+      },
+      {
+        "from": "kickOffice",
+        "to": "itemThrow",
+        "label": "停下来记下时间"
+      },
+      {
+        "from": "kickOffice",
+        "to": "leaderCall",
+        "label": "去找其他老师"
+      },
+      {
+        "from": "itemThrow",
+        "to": "verbalDeny",
+        "label": "帮同学捡起来"
+      },
+      {
+        "from": "itemThrow",
+        "to": "verbalDeny",
+        "label": "假装没看见"
+      },
+      {
+        "from": "itemThrow",
+        "to": "leaderCall",
+        "label": "拍下地上的书包"
+      },
+      {
+        "from": "verbalDeny",
+        "to": "rollAside",
+        "label": "沉默，把头低下去"
+      },
+      {
+        "from": "verbalDeny",
+        "to": "girlSarcasm",
+        "label": "写进错题本旁边"
+      },
+      {
+        "from": "verbalDeny",
+        "to": "xuScold",
+        "label": "课上听见梓豪被骂"
+      },
+      {
+        "from": "verbalDeny",
+        "to": "homeworkCall",
+        "label": "课后看见作业没写完的同学"
+      },
+      {
+        "from": "verbalDeny",
+        "to": "office",
+        "label": "问：老师能不能讲题"
+      },
+      {
+        "from": "rollAside",
+        "to": "girlSarcasm",
+        "label": "假装没听见"
+      },
+      {
+        "from": "rollAside",
+        "to": "girlSarcasm",
+        "label": "记录原话"
+      },
+      {
+        "from": "rollAside",
+        "to": "caught",
+        "label": "小声说太过分了"
+      },
+      {
+        "from": "girlSarcasm",
+        "to": "scarForget",
+        "label": "假装没听见"
+      },
+      {
+        "from": "girlSarcasm",
+        "to": "corridor",
+        "label": "课后安慰她"
+      },
+      {
+        "from": "girlSarcasm",
+        "to": "office",
+        "label": "当场说这不公平"
+      },
+      {
+        "from": "scarForget",
+        "to": "corridor",
+        "label": "不再说话"
+      },
+      {
+        "from": "scarForget",
+        "to": "corridor",
+        "label": "把这句也记下来"
+      },
+      {
+        "from": "scarForget",
+        "to": "corridor",
+        "label": "去接一杯水"
+      },
+      {
+        "from": "leaderCall",
+        "to": "corridor",
+        "label": "沉默听完"
+      },
+      {
+        "from": "leaderCall",
+        "to": "ally",
+        "label": "把通话内容记下来"
+      },
+      {
+        "from": "leaderCall",
+        "to": "office",
+        "label": "当场补充事实"
+      },
+      {
+        "from": "xuScold",
+        "to": "corridor",
+        "label": "低头不看"
+      },
+      {
+        "from": "xuScold",
+        "to": "corridor",
+        "label": "课后安慰梓豪：他讲课跟唱戏一样"
+      },
+      {
+        "from": "xuScold",
+        "to": "ally",
+        "label": "记录原话"
+      },
+      {
+        "from": "xuScold",
+        "to": "easterMagic",
+        "label": "深夜刷到一条QQ空间动态"
+      },
+      {
+        "from": "xuScold",
+        "to": "easterMagic",
+        "label": "深夜刷到一条QQ空间动态"
+      },
+      {
+        "from": "corridor",
+        "to": "fee",
+        "label": "补课收费线"
+      },
+      {
+        "from": "corridor",
+        "to": "phoneInClass",
+        "label": "课堂考试线"
+      },
+      {
+        "from": "corridor",
+        "to": "hairCheck",
+        "label": "纪律体罚线"
+      },
+      {
+        "from": "corridor",
+        "to": "verbalDeny",
+        "label": "语言羞辱线"
+      },
+      {
+        "from": "corridor",
+        "to": "phoneCard",
+        "label": "装备推销线"
+      },
+      {
+        "from": "corridor",
+        "to": "resonance",
+        "label": "校园怪论线"
+      },
+      {
+        "from": "corridor",
+        "to": "headUpRule",
+        "label": "又有人被要求抬头"
+      },
+      {
+        "from": "corridor",
+        "to": "distanceRule",
+        "label": "检查男女一米距离"
+      },
+      {
+        "from": "corridor",
+        "to": "romanceRule",
+        "label": "班会突然讲起早恋"
+      },
+      {
+        "from": "fee",
+        "to": "feePayResult",
+        "label": "当场交钱"
+      },
+      {
+        "from": "fee",
+        "to": "feeDelayResult",
+        "label": "说：我再考虑考虑"
+      },
+      {
+        "from": "fee",
+        "to": "feeRejectResult",
+        "label": "拒绝"
+      },
+      {
+        "from": "fee",
+        "to": "tutorNotNormal",
+        "label": "问：假期不补课才不正常吗"
+      },
+      {
+        "from": "fee",
+        "to": "easterTutorPoster",
+        "label": "翻旧群文件里的宣传海报"
+      },
+      {
+        "from": "fee",
+        "to": "easterTutorPoster",
+        "label": "旧群文件里翻到补课班宣传海报"
+      },
+      {
+        "from": "tutorNotNormal",
+        "to": "winterTutor",
+        "label": "沉默不语"
+      },
+      {
+        "from": "tutorNotNormal",
+        "to": "feeDelayResult",
+        "label": "小声说：太和一中关我们什么事"
+      },
+      {
+        "from": "tutorNotNormal",
+        "to": "office",
+        "label": "举手问：那我们一补课就爱学习吗"
+      },
+      {
+        "from": "tutorNotNormal",
+        "to": "hotelTutor",
+        "label": "私下跟同学说：他又在找借口"
+      },
+      {
+        "from": "tutorNotNormal",
+        "to": "easterTutorPoster",
+        "label": "群聊里有人翻出旧宣传海报"
+      },
+      {
+        "from": "feePayResult",
+        "to": "tutorLookUp",
+        "label": "进入补课"
+      },
+      {
+        "from": "feePayResult",
+        "to": "classFeeOpaque",
+        "label": "顺手又收班费"
+      },
+      {
+        "from": "feePayResult",
+        "to": "hotelTutor",
+        "label": "暑假酒店补课通知来了"
+      },
+      {
+        "from": "feePayResult",
+        "to": "winterTutor",
+        "label": "寒假补课又来了"
+      },
+      {
+        "from": "feePayResult",
+        "to": "easterTutorPoster",
+        "label": "收据夹层里露出一张旧海报"
+      },
+      {
+        "from": "feeDelayResult",
+        "to": "tutorLookUp",
+        "label": "进入补课"
+      },
+      {
+        "from": "feeDelayResult",
+        "to": "classFeeOpaque",
+        "label": "班费也开始收了"
+      },
+      {
+        "from": "feeDelayResult",
+        "to": "winterTutor",
+        "label": "继续面对寒假报价"
+      },
+      {
+        "from": "feeDelayResult",
+        "to": "easterTutorPoster",
+        "label": "同学私聊发来补课班旧海报"
+      },
+      {
+        "from": "feeRejectResult",
+        "to": "tutorLookUp",
+        "label": "进入补课"
+      },
+      {
+        "from": "feeRejectResult",
+        "to": "forcedVoluntaryTutor",
+        "label": "被要求填自愿表"
+      },
+      {
+        "from": "feeRejectResult",
+        "to": "winterTutor",
+        "label": "寒假报价继续追来"
+      },
+      {
+        "from": "feeRejectResult",
+        "to": "easterTutorPoster",
+        "label": "回座位后看到旧群海报截图"
+      },
+      {
+        "from": "earth",
+        "to": "longLaugh",
+        "label": "低头，先保护理智"
+      },
+      {
+        "from": "earth",
+        "to": "earthWhisperResult",
+        "label": "小声说：过分了吧"
+      },
+      {
+        "from": "earth",
+        "to": "longLaugh",
+        "label": "抬头说：地球人也需要规则"
+      },
+      {
+        "from": "earthWhisperResult",
+        "to": "longLaugh",
+        "label": "下一节课"
+      },
+      {
+        "from": "earthWhisperResult",
+        "to": "easterAlienNovel",
+        "label": "同学说机房里有篇同名小说"
+      },
+      {
+        "from": "ac",
+        "to": "monitorFee",
+        "label": "忍着，保存体力"
+      },
+      {
+        "from": "ac",
+        "to": "monitorFee",
+        "label": "记录温度和饭卡扣费"
+      },
+      {
+        "from": "ac",
+        "to": "monitorFee",
+        "label": "递水给快中暑的同学"
+      },
+      {
+        "from": "pencil",
+        "to": "homeworkCall",
+        "label": "交两块钱赔偿"
+      },
+      {
+        "from": "pencil",
+        "to": "office",
+        "label": "说：这卷子不是学校的吗"
+      },
+      {
+        "from": "pencil",
+        "to": "homeworkCall",
+        "label": "事后偷偷安慰同学"
+      },
+      {
+        "from": "homeworkCall",
+        "to": "callParents",
+        "label": "低头装作没听见"
+      },
+      {
+        "from": "homeworkCall",
+        "to": "leaderCall",
+        "label": "偷偷记下原话"
+      },
+      {
+        "from": "homeworkCall",
+        "to": "callParents",
+        "label": "课后安慰那个同学"
+      },
+      {
+        "from": "homeworkCall",
+        "to": "homeworkRaid",
+        "label": "第二天遇到突击查作业"
+      },
+      {
+        "from": "homeworkCall",
+        "to": "rankAfterExam",
+        "label": "继续低头补作业，熬到下次考试"
+      },
+      {
+        "from": "homeworkRaid",
+        "to": "dictationPunish",
+        "label": "蹲下补作业，别再出声"
+      },
+      {
+        "from": "homeworkRaid",
+        "to": "dictationPunish",
+        "label": "偷偷把人数和时间记下来"
+      },
+      {
+        "from": "homeworkRaid",
+        "to": "office",
+        "label": "学生反击：不吃饭怎么上晚自习"
+      },
+      {
+        "from": "dictationPunish",
+        "to": "corridor",
+        "label": "低头改错，保存体力"
+      },
+      {
+        "from": "dictationPunish",
+        "to": "ally",
+        "label": "把规则写进记录本"
+      },
+      {
+        "from": "dictationPunish",
+        "to": "caught",
+        "label": "小声问：吃早饭也算违纪吗"
+      },
+      {
+        "from": "gradingFee",
+        "to": "gradingPayResult",
+        "label": "交 80 元领试卷"
+      },
+      {
+        "from": "gradingFee",
+        "to": "gradingQuestionResult",
+        "label": "说：批试卷不是老师工作吗"
+      },
+      {
+        "from": "gradingFee",
+        "to": "gradingMonitorResult",
+        "label": "班长生气地上前理论"
+      },
+      {
+        "from": "gradingFee",
+        "to": "gradingRecordResult",
+        "label": "先记下这次收费"
+      },
+      {
+        "from": "gradingPayResult",
+        "to": "corridor",
+        "label": "回到走廊"
+      },
+      {
+        "from": "gradingPayResult",
+        "to": "easterPraise",
+        "label": "卷子背面夹着一份学长旧文"
+      },
+      {
+        "from": "gradingQuestionResult",
+        "to": "corridor",
+        "label": "回到走廊"
+      },
+      {
+        "from": "gradingQuestionResult",
+        "to": "easterPraise",
+        "label": "同学悄悄传来一份学长旧文"
+      },
+      {
+        "from": "gradingMonitorResult",
+        "to": "ally",
+        "label": "默默记下撤职经过"
+      },
+      {
+        "from": "gradingMonitorResult",
+        "to": "corridor",
+        "label": "装作没看见"
+      },
+      {
+        "from": "gradingMonitorResult",
+        "to": "corridor",
+        "label": "课后安慰班长"
+      },
+      {
+        "from": "gradingRecordResult",
+        "to": "corridor",
+        "label": "回到走廊"
+      },
+      {
+        "from": "tutorLookUp",
+        "to": "tutorLookResult",
+        "label": "抬头看他晃表"
+      },
+      {
+        "from": "tutorLookUp",
+        "to": "tutorIgnoreResult",
+        "label": "低头假装没听见"
+      },
+      {
+        "from": "tutorLookUp",
+        "to": "tutorQuestionResult",
+        "label": "抬头说：老师，这题我还是不会"
+      },
+      {
+        "from": "tutorLookResult",
+        "to": "ac",
+        "label": "进入猥琐事件"
+      },
+      {
+        "from": "tutorIgnoreResult",
+        "to": "ac",
+        "label": "进入猥琐事件"
+      },
+      {
+        "from": "tutorQuestionResult",
+        "to": "ac",
+        "label": "进入猥琐事件"
+      },
+      {
+        "from": "pantsPull",
+        "to": "pantsInterveneResult",
+        "label": "上前劝说"
+      },
+      {
+        "from": "pantsPull",
+        "to": "pantsIgnoreResult",
+        "label": "当作没看见"
+      },
+      {
+        "from": "pantsPull",
+        "to": "longSleep",
+        "label": "事后偷偷安慰梓豪"
+      },
+      {
+        "from": "pantsPull",
+        "to": "easterMagic",
+        "label": "有人转来一首改编歌"
+      },
+      {
+        "from": "pantsPull",
+        "to": "easterMagic",
+        "label": "有人转来一首改编歌"
+      },
+      {
+        "from": "pantsInterveneResult",
+        "to": "longSleep",
+        "label": "下一次，稳龙睡着了"
+      },
+      {
+        "from": "pantsInterveneResult",
+        "to": "easterMagic",
+        "label": "回寝室后刷到一首改编歌"
+      },
+      {
+        "from": "pantsIgnoreResult",
+        "to": "longSleep",
+        "label": "下一次，稳龙睡着了"
+      },
+      {
+        "from": "pantsIgnoreResult",
+        "to": "easterMagic",
+        "label": "沉默回座位时收到一首改编歌"
+      },
+      {
+        "from": "roast",
+        "to": "roastListenResult",
+        "label": "认真听，并记笔记"
+      },
+      {
+        "from": "roast",
+        "to": "roastStudyResult",
+        "label": "偷偷做数学题"
+      },
+      {
+        "from": "roast",
+        "to": "roastInterruptResult",
+        "label": "举手说：老师，这节是数学课"
+      },
+      {
+        "from": "roastListenResult",
+        "to": "corridor",
+        "label": "回到走廊"
+      },
+      {
+        "from": "roastStudyResult",
+        "to": "corridor",
+        "label": "回到走廊"
+      },
+      {
+        "from": "roastInterruptResult",
+        "to": "corridor",
+        "label": "去走廊罚站"
+      },
+      {
+        "from": "exam",
+        "to": "rankAfterExam",
+        "label": "假装自己是课桌"
+      },
+      {
+        "from": "exam",
+        "to": "monitorFee",
+        "label": "录下训话关键词"
+      },
+      {
+        "from": "exam",
+        "to": "rankAfterExam",
+        "label": "提醒同学走正规反馈"
+      },
+      {
+        "from": "phoneCard",
+        "to": "phonePayResult",
+        "label": "交出身份证办卡"
+      },
+      {
+        "from": "phoneCard",
+        "to": "phoneHasCardResult",
+        "label": "说：我已经有卡了"
+      },
+      {
+        "from": "phoneCard",
+        "to": "phoneRejectResult",
+        "label": "拒绝交身份证"
+      },
+      {
+        "from": "phonePayResult",
+        "to": "carUpgrade",
+        "label": "再看一眼电瓶车"
+      },
+      {
+        "from": "phonePayResult",
+        "to": "easterCamel",
+        "label": "新电话卡包装里夹着云盘链接"
+      },
+      {
+        "from": "phoneHasCardResult",
+        "to": "carUpgrade",
+        "label": "绕到楼下"
+      },
+      {
+        "from": "phoneHasCardResult",
+        "to": "easterCamel",
+        "label": "同桌小声发来一个云盘链接"
+      },
+      {
+        "from": "phoneRejectResult",
+        "to": "carUpgrade",
+        "label": "走到楼下"
+      },
+      {
+        "from": "phoneRejectResult",
+        "to": "easterCamel",
+        "label": "回座位后收到一个云盘音乐链接"
+      },
+      {
+        "from": "monitorFee",
+        "to": "monitorSilentResult",
+        "label": "沉默"
+      },
+      {
+        "from": "monitorFee",
+        "to": "monitorWhisperResult",
+        "label": "小声说：他自己也戴表"
+      },
+      {
+        "from": "monitorFee",
+        "to": "monitorCalloutResult",
+        "label": "举手说：老师，您手上也戴着表"
+      },
+      {
+        "from": "monitorSilentResult",
+        "to": "carUpgrade",
+        "label": "课后走到楼下透口气"
+      },
+      {
+        "from": "monitorSilentResult",
+        "to": "farewellQuote",
+        "label": "把这段事压进心里，继续上课"
+      },
+      {
+        "from": "monitorWhisperResult",
+        "to": "preFinalWeek",
+        "label": "把检讨拍照留底"
+      },
+      {
+        "from": "monitorWhisperResult",
+        "to": "ally",
+        "label": "去找同学核对当天经过"
+      },
+      {
+        "from": "monitorCalloutResult",
+        "to": "farewellQuote",
+        "label": "被重点盯了一周"
+      },
+      {
+        "from": "monitorCalloutResult",
+        "to": "preFinalWeek",
+        "label": "把这次发言写进材料"
+      },
+      {
+        "from": "carUpgrade",
+        "to": "farewellQuote",
+        "label": "假装没听见"
+      },
+      {
+        "from": "carUpgrade",
+        "to": "caught",
+        "label": "小声说：原来我们是车贷"
+      },
+      {
+        "from": "carUpgrade",
+        "to": "farewellQuote",
+        "label": "记下这句话"
+      },
+      {
+        "from": "carUpgrade",
+        "to": "finalCorridor",
+        "label": "把话咽回去，继续往前走"
+      },
+      {
+        "from": "carUpgrade",
+        "to": "easterCamel",
+        "label": "粉盔电瓶车旁有人哼起改编歌"
+      },
+      {
+        "from": "resonance",
+        "to": "photosynthesis",
+        "label": "立刻放轻脚步"
+      },
+      {
+        "from": "resonance",
+        "to": "office",
+        "label": "问：老师，频率是多少"
+      },
+      {
+        "from": "resonance",
+        "to": "photosynthesis",
+        "label": "偷偷记进奇妙物理论"
+      },
+      {
+        "from": "photosynthesis",
+        "to": "pkuCredit",
+        "label": "下楼晒太阳"
+      },
+      {
+        "from": "photosynthesis",
+        "to": "caught",
+        "label": "说：人不是植物"
+      },
+      {
+        "from": "photosynthesis",
+        "to": "pkuCredit",
+        "label": "把这句话写进语录本"
+      },
+      {
+        "from": "pkuCredit",
+        "to": "corridor",
+        "label": "鼓掌配合"
+      },
+      {
+        "from": "pkuCredit",
+        "to": "caught",
+        "label": "翻白眼"
+      },
+      {
+        "from": "pkuCredit",
+        "to": "corridor",
+        "label": "记入功劳分配表"
+      },
+      {
+        "from": "historySelfStudy",
+        "to": "roast",
+        "label": "认真听，顺便记几个冷知识"
+      },
+      {
+        "from": "historySelfStudy",
+        "to": "eveningTutor",
+        "label": "偷偷写作业，别让他发现"
+      },
+      {
+        "from": "historySelfStudy",
+        "to": "office",
+        "label": "被点名后硬问历史细节"
+      },
+      {
+        "from": "eveningTutor",
+        "to": "rankAfterExam",
+        "label": "交 100 元，继续偷写作业"
+      },
+      {
+        "from": "eveningTutor",
+        "to": "callParents",
+        "label": "先欠着，说回家再拿"
+      },
+      {
+        "from": "eveningTutor",
+        "to": "ally",
+        "label": "偷偷记下收费规则"
+      },
+      {
+        "from": "officeQuestion",
+        "to": "corridor",
+        "label": "假装没听见，转身离开"
+      },
+      {
+        "from": "officeQuestion",
+        "to": "office",
+        "label": "追问：那我去问谁"
+      },
+      {
+        "from": "officeQuestion",
+        "to": "bookConfiscation",
+        "label": "出去跟同学说清楚"
+      },
+      {
+        "from": "officeQuestion",
+        "to": "easterAlienNovel",
+        "label": "去机房翻隐藏文件夹"
+      },
+      {
+        "from": "officeQuestion",
+        "to": "easterAlienNovel",
+        "label": "下课路过机房，看见隐藏文件夹"
+      },
+      {
+        "from": "rankAfterExam",
+        "to": "corridor",
+        "label": "沉默，把卷子翻过去"
+      },
+      {
+        "from": "rankAfterExam",
+        "to": "office",
+        "label": "当场质疑：能不能看完整排名"
+      },
+      {
+        "from": "rankAfterExam",
+        "to": "gradingFee",
+        "label": "发卷时遇到批卷收费"
+      },
+      {
+        "from": "rankAfterExam",
+        "to": "fee",
+        "label": "补报补课，求个安稳"
+      },
+      {
+        "from": "rankAfterExam",
+        "to": "contestClass",
+        "label": "下一节去数学竞赛课"
+      },
+      {
+        "from": "rankAfterExam",
+        "to": "easterPraise",
+        "label": "翻班级电脑里的QQ群文件"
+      },
+      {
+        "from": "rankAfterExam",
+        "to": "easterPraise",
+        "label": "群文件里突然弹出一份旧文档"
+      },
+      {
+        "from": "hairCheck",
+        "to": "seatByFee",
+        "label": "遵守，不出声"
+      },
+      {
+        "from": "hairCheck",
+        "to": "office",
+        "label": "反抗：头发扎起来，分数也能扎上去？"
+      },
+      {
+        "from": "hairCheck",
+        "to": "parentComplaint",
+        "label": "家长接回来时再说"
+      },
+      {
+        "from": "hairCheck",
+        "to": "office",
+        "label": "举手问：老师，那如果我喜欢的是别的班的呢？"
+      },
+      {
+        "from": "hairCheck",
+        "to": "longLaugh",
+        "label": "后排稳龙突然笑了一声"
+      },
+      {
+        "from": "hairCheck",
+        "to": "dormCheck",
+        "label": "晚上宿舍突然查寝"
+      },
+      {
+        "from": "hairCheck",
+        "to": "kickOffice",
+        "label": "走廊尽头突然传来动静"
+      },
+      {
+        "from": "dormCheck",
+        "to": "kickOffice",
+        "label": "立刻躺回床上装睡"
+      },
+      {
+        "from": "dormCheck",
+        "to": "kickOffice",
+        "label": "人不在床上，被翻了个底朝天"
+      },
+      {
+        "from": "dormCheck",
+        "to": "kickOffice",
+        "label": "夜里去厕所，被逮个正着"
+      },
+      {
+        "from": "dormCheck",
+        "to": "chamberPotResult",
+        "label": "从学校商店买个夜壶"
+      },
+      {
+        "from": "dormCheck",
+        "to": "kickOffice",
+        "label": "偷偷记下查寝时间"
+      },
+      {
+        "from": "chamberPotResult",
+        "to": "kickOffice",
+        "label": "把夜壶收起来，继续熬"
+      },
+      {
+        "from": "chamberPotResult",
+        "to": "kickOffice",
+        "label": "偷偷记下这句原话"
+      },
+      {
+        "from": "bookConfiscation",
+        "to": "ally",
+        "label": "举报他看学生的书"
+      },
+      {
+        "from": "bookConfiscation",
+        "to": "office",
+        "label": "要回自己的书"
+      },
+      {
+        "from": "bookConfiscation",
+        "to": "corridor",
+        "label": "算了，不要了"
+      },
+      {
+        "from": "bookConfiscation",
+        "to": "easterBiography",
+        "label": "被没收的书里夹着一个手抄本"
+      },
+      {
+        "from": "callParents",
+        "to": "parentComplaint",
+        "label": "家长道歉，先结束场面"
+      },
+      {
+        "from": "callParents",
+        "to": "leaderCall",
+        "label": "家长对刚：请您注意措辞"
+      },
+      {
+        "from": "callParents",
+        "to": "parentComplaint",
+        "label": "学生崩溃，什么也说不出"
+      },
+      {
+        "from": "parentComplaint",
+        "to": "corridor",
+        "label": "低头沉默，别把火引到自己身上"
+      },
+      {
+        "from": "parentComplaint",
+        "to": "leaderCall",
+        "label": "偷偷记下这段话"
+      },
+      {
+        "from": "parentComplaint",
+        "to": "leaderCall",
+        "label": "学生反击：问问题不丢人，骂家长才不合适"
+      },
+      {
+        "from": "contestClass",
+        "to": "pencil",
+        "label": "睡觉，保存生命值"
+      },
+      {
+        "from": "contestClass",
+        "to": "rankAfterExam",
+        "label": "自学，把题补完"
+      },
+      {
+        "from": "contestClass",
+        "to": "contestQuestion",
+        "label": "举手问：中间这步怎么来的"
+      },
+      {
+        "from": "contestQuestion",
+        "to": "rankAfterExam",
+        "label": "把空掉的步骤记下来"
+      },
+      {
+        "from": "contestQuestion",
+        "to": "rankAfterExam",
+        "label": "低头自己推完"
+      },
+      {
+        "from": "contestQuestion",
+        "to": "pencil",
+        "label": "不再追问"
+      },
+      {
+        "from": "seatShowoff",
+        "to": "lateCheck",
+        "label": "沉默，看完这场展示"
+      },
+      {
+        "from": "seatShowoff",
+        "to": "caught",
+        "label": "小声议论，被骂"
+      },
+      {
+        "from": "seatShowoff",
+        "to": "lateCheck",
+        "label": "拍照留存"
+      },
+      {
+        "from": "seatShowoff",
+        "to": "easterBiography",
+        "label": "摸摸最后一排课桌抽屉"
+      },
+      {
+        "from": "seatShowoff",
+        "to": "easterBiography",
+        "label": "后排课桌里露出一个手抄本"
+      },
+      {
+        "from": "lateCheck",
+        "to": "corridor",
+        "label": "交钱，赶紧进去"
+      },
+      {
+        "from": "lateCheck",
+        "to": "office",
+        "label": "硬扛：凭什么罚钱"
+      },
+      {
+        "from": "lateCheck",
+        "to": "dictationPunish",
+        "label": "进班后撞上早自习听写"
+      },
+      {
+        "from": "lateCheck",
+        "to": "pantsPull",
+        "label": "被推拉扯拽，记下经过"
+      },
+      {
+        "from": "lateCheck",
+        "to": "easterBiography",
+        "label": "课桌抽屉里摸到一本旧手抄本"
+      },
+      {
+        "from": "graduationBoast",
+        "to": "preFinalWeek",
+        "label": "鼓掌，礼貌收场"
+      },
+      {
+        "from": "graduationBoast",
+        "to": "preFinalWeek",
+        "label": "翻白眼，被他看见"
+      },
+      {
+        "from": "graduationBoast",
+        "to": "preFinalWeek",
+        "label": "提前离场"
+      },
+      {
+        "from": "graduationBoast",
+        "to": "easterLoveLetter",
+        "label": "有人转发表白墙旧帖"
+      },
+      {
+        "from": "longLaugh",
+        "to": "corridor",
+        "label": "低头装作没听见"
+      },
+      {
+        "from": "longLaugh",
+        "to": "caught",
+        "label": "替稳龙说：老师，他只是笑不小心"
+      },
+      {
+        "from": "longLaugh",
+        "to": "corridor",
+        "label": "事后偷偷安慰稳龙"
+      },
+      {
+        "from": "longLaugh",
+        "to": "easterAlienNovel",
+        "label": "有人发来一篇机房隐藏小说"
+      },
+      {
+        "from": "winterTutor",
+        "to": "hotelTutor",
+        "label": "沉默交钱"
+      },
+      {
+        "from": "winterTutor",
+        "to": "hotelTutor",
+        "label": "小声说：大过年的也太离谱了"
+      },
+      {
+        "from": "winterTutor",
+        "to": "earth",
+        "label": "拒绝补课"
+      },
+      {
+        "from": "winterTutor",
+        "to": "hotelTutor",
+        "label": "录音保留证据"
+      },
+      {
+        "from": "hotelTutor",
+        "to": "hotelTutorClass",
+        "label": "沉默接受"
+      },
+      {
+        "from": "hotelTutor",
+        "to": "hotelTutorClass",
+        "label": "小声抱怨：这也太挤了"
+      },
+      {
+        "from": "hotelTutor",
+        "to": "hotelTutorClass",
+        "label": "去找安K理论"
+      },
+      {
+        "from": "hotelTutorClass",
+        "to": "hotelTutorRoomCheck",
+        "label": "忍着听课"
+      },
+      {
+        "from": "hotelTutorClass",
+        "to": "hotelTutorRoomCheck",
+        "label": "走神发呆"
+      },
+      {
+        "from": "hotelTutorClass",
+        "to": "hotelTutorRoomCheck",
+        "label": "偷偷扇风"
+      },
+      {
+        "from": "hotelTutorRoomCheck",
+        "to": "hotelTutorSettle",
+        "label": "假装睡熟"
+      },
+      {
+        "from": "hotelTutorRoomCheck",
+        "to": "hotelTutorSettle",
+        "label": "坐起来假装看书"
+      },
+      {
+        "from": "hotelTutorRoomCheck",
+        "to": "hotelTutorSettle",
+        "label": "躲在厕所"
+      },
+      {
+        "from": "hotelTutorSettle",
+        "to": "giftWatch",
+        "label": "交完暑假补课和吃饭费用，把总账记下来"
+      },
+      {
+        "from": "hotelTutorSettle",
+        "to": "giftWatch",
+        "label": "交完暑假补课和吃饭费用，忍着不再提"
+      },
+      {
+        "from": "hotelTutorSettle",
+        "to": "giftWatch",
+        "label": "交完暑假补课和吃饭费用，和同学互相确认细节"
+      },
+      {
+        "from": "giftWatch",
+        "to": "corridor",
+        "label": "第二天凑钱买礼物"
+      },
+      {
+        "from": "giftWatch",
+        "to": "corridor",
+        "label": "当作没听见"
+      },
+      {
+        "from": "giftWatch",
+        "to": "office",
+        "label": "举手说：老师，补课费我们已经交了"
+      },
+      {
+        "from": "giftWatch",
+        "to": "corridor",
+        "label": "私下跟同学吐槽一波"
+      },
+      {
+        "from": "longSleep",
+        "to": "corridor",
+        "label": "沉默旁观"
+      },
+      {
+        "from": "longSleep",
+        "to": "caught",
+        "label": "小声说：别打了"
+      },
+      {
+        "from": "longSleep",
+        "to": "corridor",
+        "label": "下课后陪稳龙去医务室"
+      },
+      {
+        "from": "longSleep",
+        "to": "corridor",
+        "label": "用手机录下来"
+      },
+      {
+        "from": "longSleep",
+        "to": "easterMagic",
+        "label": "深夜刷到一条QQ空间动态"
+      },
+      {
+        "from": "longSleep",
+        "to": "easterMagic",
+        "label": "深夜刷到一条QQ空间动态"
+      },
+      {
+        "from": "farewellQuote",
+        "to": "corridor",
+        "label": "无反应，一天光阴"
+      },
+      {
+        "from": "farewellQuote",
+        "to": "caught",
+        "label": "小声说：又绕晕了"
+      },
+      {
+        "from": "farewellQuote",
+        "to": "corridor",
+        "label": "认真鼓掌：老师，您这格局真有品位"
+      },
+      {
+        "from": "farewellQuote",
+        "to": "graduationBoast",
+        "label": "私下统计他的鞋和表"
+      },
+      {
+        "from": "farewellQuote",
+        "to": "easterLoveLetter",
+        "label": "刷到QQ空间表白墙"
+      },
+      {
+        "from": "farewellQuote",
+        "to": "easterLoveLetter",
+        "label": "QQ空间刷到一条匿名投稿"
+      },
+      {
+        "from": "preFinalWeek",
+        "to": "ally",
+        "label": "整理监考费和补课费材料"
+      },
+      {
+        "from": "preFinalWeek",
+        "to": "easterAnnualPerson",
+        "label": "翻班级群旧文件"
+      },
+      {
+        "from": "preFinalWeek",
+        "to": "finalCorridor",
+        "label": "最后一次去走廊看看"
+      },
+      {
+        "from": "preFinalWeek",
+        "to": "termDecision",
+        "label": "准备好面对期末谈话"
+      },
+      {
+        "from": "preFinalWeek",
+        "to": "easterAnnualPerson",
+        "label": "班级群旧文件里翻到颁奖词"
+      },
+      {
+        "from": "preFinalWeek",
+        "to": "easterAlienNovel",
+        "label": "同学又发来一个隐藏文件夹路径"
+      },
+      {
+        "from": "finalCorridor",
+        "to": "ally",
+        "label": "和同学交换最后一份记录"
+      },
+      {
+        "from": "finalCorridor",
+        "to": "easterAlienNovel",
+        "label": "去机房看看有没有学长遗迹"
+      },
+      {
+        "from": "finalCorridor",
+        "to": "termDecision",
+        "label": "进入期末决断"
+      },
+      {
+        "from": "finalCorridor",
+        "to": "easterAnnualPerson",
+        "label": "走廊尽头有人递来一份学长文档"
+      },
+      {
+        "from": "finalCorridor",
+        "to": "easterAlienNovel",
+        "label": "机房门口贴着一个隐藏文件夹路径"
+      },
+      {
+        "from": "termDecision",
+        "to": "easterAnnualPerson",
+        "label": "先翻班级群网盘"
+      },
+      {
+        "from": "termDecision",
+        "to": "easterAnnualPerson",
+        "label": "谈话前先翻班级群网盘"
+      },
+      {
+        "from": "ally",
+        "to": "review",
+        "label": "提交给年级和家长代表"
+      },
+      {
+        "from": "ally",
+        "to": "office",
+        "label": "继续单独硬刚"
+      },
+      {
+        "from": "ally",
+        "to": "corridor",
+        "label": "先稳住，等更多材料"
+      },
+      {
+        "from": "review",
+        "to": "finalGood",
+        "label": "查看本局评价"
+      },
+      {
+        "from": "headUpRule",
+        "to": "distanceRule",
+        "label": "抬头，先把笔放下"
+      },
+      {
+        "from": "headUpRule",
+        "to": "distanceRule",
+        "label": "小声说：笔记靠脑补了"
+      },
+      {
+        "from": "headUpRule",
+        "to": "headUpReply",
+        "label": "举手：您看手机也算低头吗？"
+      },
+      {
+        "from": "headUpReply",
+        "to": "distanceRule",
+        "label": "听听下一条规矩"
+      },
+      {
+        "from": "distanceRule",
+        "to": "romanceRule",
+        "label": "把椅子挪进过道"
+      },
+      {
+        "from": "distanceRule",
+        "to": "romanceRule",
+        "label": "小声说：同桌变远桌了"
+      },
+      {
+        "from": "distanceRule",
+        "to": "distanceReply",
+        "label": "举手：老师，先罚这张桌子？"
+      },
+      {
+        "from": "distanceReply",
+        "to": "romanceRule",
+        "label": "继续听班会"
+      },
+      {
+        "from": "romanceRule",
+        "to": "afterFirstExam",
+        "label": "点头，先认下这门亲戚"
+      },
+      {
+        "from": "romanceRule",
+        "to": "afterFirstExam",
+        "label": "小声说：花名册变家谱了"
+      },
+      {
+        "from": "romanceRule",
+        "to": "romanceReply",
+        "label": "举手：转班能解除亲属关系吗？"
+      },
+      {
+        "from": "romanceReply",
+        "to": "afterFirstExam",
+        "label": "熬到第一次月考"
+      }
+    ],
+    "note": "No literal incoming edge does not mean dead content: graduation/loan/global completion/forced endings add dynamic transitions."
+  }
+}

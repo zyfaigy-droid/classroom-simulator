@@ -1,0 +1,12 @@
+{
+  "name": "classroom-simulator",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Static branching story game; Node is only needed for audit tests.",
+  "scripts": {
+    "test": "node tests/browser-audit.cjs . test-results verify",
+    "check": "node --check assets/game.js && node --check assets/story-classic.js && node --check assets/story-extended.js && node tests/content-update.cjs && node tests/loan-regression.cjs && node tests/watch-observation.cjs",
+    "test:endings": "node tests/ending-routes-browser.cjs"
+  },
+  "devDependencies": { "playwright": "1.62.1" }
+}

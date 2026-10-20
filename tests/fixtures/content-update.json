@@ -1,0 +1,733 @@
+{
+  "index.html": {
+    "firstClass": {
+      "title": "开学第一课",
+      "board": "规矩先讲清楚",
+      "text": "安K往讲台前一站：“你们可以叫我K哥。”\n\n他抬起手腕。你还没看清表盘，规矩已经开始了。",
+      "photo": "K哥登场，先讲规矩。",
+      "choices": [
+        {
+          "label": "认真点头，并记下所有规矩",
+          "next": "headUpRule",
+          "effects": {
+            "dignity": 8,
+            "mind": -8
+          },
+          "item": "K哥规矩本"
+        },
+        {
+          "label": "低头偷偷做数学题",
+          "next": "math",
+          "effects": {
+            "dignity": -8,
+            "mind": 3
+          },
+          "item": "半页草稿"
+        },
+        {
+          "label": "观察晃表发光的规律",
+          "next": "watchStudy",
+          "effects": {
+            "mind": 2
+          },
+          "item": "反光角度笔记"
+        },
+        {
+          "label": "举手问：为什么不能问为什么",
+          "next": "office",
+          "effects": {
+            "dignity": -25,
+            "mind": -18
+          }
+        }
+      ]
+    },
+    "math": {
+      "title": "数学课：导数与沉默",
+      "board": "导数题：下次再讲",
+      "text": "安K抄了一道导数题：“你们先自己做。”\n\n他念了两句：“先求导，导数大于零就增，小于零就减。”讲到参数分类，粉笔却停住。手机上的小猿搜题还亮着。\n\n“这一题下次再讲。”他把粉笔一放。最关键的一步依然空着。",
+      "choices": [
+        {
+          "label": "举手：我来试试",
+          "next": "solve",
+          "effects": {
+            "mind": 10,
+            "dignity": 5
+          }
+        },
+        {
+          "label": "低头把题自己写完",
+          "next": "mathIgnoreResult",
+          "effects": {
+            "mind": 0,
+            "dignity": 0
+          }
+        },
+        {
+          "label": "小声说：小猿也没搜出来？",
+          "next": "mathWhisperResult",
+          "effects": {
+            "mind": -10,
+            "dignity": -10
+          }
+        }
+      ]
+    },
+    "mathIgnoreResult": {
+      "title": "低头继续看书",
+      "board": "你是不是对我的教学有意见",
+      "text": "你低头把题写完了。\n\n下课后，安K在后门叫住你：“你是不是对我的教学有意见？”\n\n题做对了，抬头做错了。",
+      "photo": "低头看书：题做完了，但人被盯上了。",
+      "choices": [
+        {
+          "label": "回到走廊",
+          "next": "corridor"
+        }
+      ]
+    },
+    "mathWhisperResult": {
+      "title": "小猿也没搜出来？",
+      "board": "一起罚站",
+      "text": "你小声说：“小猿也没搜出来？”同桌没忍住笑了一下。\n\n安K转身：“你们两个站起来。会做你们上来讲。”\n\n你们一起罚站。那道题还是没讲。",
+      "photo": "偷偷吐槽：笑声很小，后果很大。",
+      "choices": [
+        {
+          "label": "回到走廊",
+          "next": "corridor"
+        }
+      ]
+    },
+    "solve": {
+      "title": "上黑板",
+      "board": "学生解法：三分钟",
+      "text": "你三分钟把题讲完了。\n\n安K沉默几秒：“思路还行，但格式不够成熟。”\n\n他又晃了一下表：“周末补课费，下周别忘了。”\n\n题是你讲的，钱还是他收。",
+      "choices": [
+        {
+          "label": "先交 200，买一周清静",
+          "next": "corridor",
+          "effects": {
+            "money": -200,
+            "mind": 6,
+            "dignity": 3
+          },
+          "item": "收据边角"
+        },
+        {
+          "label": "问：这题我讲的，课费能给我吗？",
+          "next": "office",
+          "effects": {
+            "mind": -14,
+            "dignity": -18
+          }
+        },
+        {
+          "label": "说家里要确认收费明细",
+          "next": "receipt",
+          "effects": {
+            "dignity": 8
+          },
+          "item": "收费疑问"
+        }
+      ]
+    },
+    "hairCheck": {
+      "title": "女生头发检查",
+      "board": "头发也归数学管",
+      "text": "安K扫了一眼女生头发：“女生头发过肩要扎，否则学不正经。”\n\n你看了看黑板：今天没讲函数，先讲发型。",
+      "photo": "题目还没检查，头发先检查了。",
+      "choices": [
+        {
+          "label": "遵守，不出声",
+          "next": "seatByFee",
+          "effects": {
+            "mind": -5,
+            "dignity": -5
+          }
+        },
+        {
+          "label": "反抗：头发扎起来，分数也能扎上去？",
+          "next": "office",
+          "effects": {
+            "mind": -15,
+            "dignity": -18
+          },
+          "item": "头发质疑"
+        },
+        {
+          "label": "家长接回来时再说",
+          "next": "callParents",
+          "effects": {
+            "mind": 2,
+            "dignity": 4
+          },
+          "item": "家长沟通计划"
+        },
+        {
+          "label": "后排稳龙突然笑了一声",
+          "next": "longLaugh",
+          "effects": {
+            "mind": -3
+          },
+          "item": "稳龙课堂目击"
+        },
+        {
+          "label": "走廊尽头突然传来动静",
+          "next": "kickOffice",
+          "effects": {
+            "mind": -4
+          },
+          "item": "办公室异响"
+        }
+      ]
+    },
+    "corridor": {
+      "title": "走廊随机事件",
+      "board": "课间十分钟",
+      "text": "走廊里电瓶车铃声从远处飘来。安K戴着粉色头盔缓缓经过，耐克袖口一露，他又晃了晃表，反光扫过墙上的“文明校园”。\n\n下一件事会发生什么？",
+      "choices": [
+        {
+          "label": "补课收费线",
+          "next": "fee"
+        },
+        {
+          "label": "课堂考试线",
+          "next": "phoneInClass"
+        },
+        {
+          "label": "纪律体罚线",
+          "next": "hairCheck"
+        },
+        {
+          "label": "语言羞辱线",
+          "next": "verbalDeny"
+        },
+        {
+          "label": "装备推销线",
+          "next": "phoneCard"
+        },
+        {
+          "label": "校园怪论线",
+          "next": "resonance"
+        },
+        {
+          "label": "又有人被要求抬头",
+          "next": "headUpRule"
+        },
+        {
+          "label": "检查男女一米距离",
+          "next": "distanceRule"
+        },
+        {
+          "label": "班会突然讲起早恋",
+          "next": "romanceRule"
+        }
+      ]
+    },
+    "headUpRule": {
+      "title": "抬头！",
+      "board": "笔记先别写",
+      "text": "你刚低头补上一行笔记，安K就敲了敲讲台：“抬头！我讲课你们低什么头？”\n\n全班望过去。他自己却低着头，拇指还在手机屏幕上划。",
+      "photo": "全班抬头，讲台上却有人低头。",
+      "choices": [
+        {
+          "label": "抬头，先把笔放下",
+          "next": "distanceRule",
+          "effects": {
+            "mind": -2,
+            "dignity": -2
+          }
+        },
+        {
+          "label": "小声说：笔记靠脑补了",
+          "next": "distanceRule",
+          "effects": {
+            "mind": 2,
+            "dignity": -3
+          }
+        },
+        {
+          "label": "举手：您看手机也算低头吗？",
+          "next": "headUpReply",
+          "effects": {
+            "mind": -4,
+            "dignity": 8
+          },
+          "item": "抬头反击记录"
+        }
+      ]
+    },
+    "headUpReply": {
+      "title": "抬头提问",
+      "board": "手机先收一收",
+      "text": "安K把手机往讲台里一收：“聪明可以，但不要自以为聪明。”\n\n你刚抬起头，他又低头看了眼手机。",
+      "choices": [
+        {
+          "label": "听听下一条规矩",
+          "next": "distanceRule"
+        }
+      ]
+    },
+    "distanceRule": {
+      "title": "一米安全距离",
+      "board": "同桌变远桌",
+      "text": "“男女之间保持一米的安全距离！”\n\n你看了看同桌，又看了看这张半米多宽的课桌。椅子再往外挪，就要坐进过道了。",
+      "photo": "安全距离够了，过道没了。",
+      "choices": [
+        {
+          "label": "把椅子挪进过道",
+          "next": "romanceRule",
+          "effects": {
+            "mind": -2,
+            "dignity": -2
+          }
+        },
+        {
+          "label": "小声说：同桌变远桌了",
+          "next": "romanceRule",
+          "effects": {
+            "mind": 2,
+            "dignity": -3
+          }
+        },
+        {
+          "label": "举手：老师，先罚这张桌子？",
+          "next": "distanceReply",
+          "effects": {
+            "mind": -4,
+            "dignity": 8
+          },
+          "item": "一米规则记录"
+        }
+      ]
+    },
+    "distanceReply": {
+      "title": "先罚桌子？",
+      "board": "人挪，桌子不挪",
+      "text": "安K看了看桌子：“人挪！谁叫你管桌子？”\n\n你把椅子挪进过道。他走过来，又嫌你挡了路。",
+      "choices": [
+        {
+          "label": "继续听班会",
+          "next": "romanceRule"
+        }
+      ]
+    },
+    "romanceRule": {
+      "title": "谈恋爱是乱伦？",
+      "board": "花名册变家谱",
+      "text": "“你们在一个班里，就像兄弟姐妹一样。跟兄弟姐妹谈恋爱，那不叫乱伦吗？”\n\n你看了看花名册。开学才几天，亲戚倒是一下多了几十个。",
+      "photo": "刚进班，先认亲。",
+      "choices": [
+        {
+          "label": "点头，先认下这门亲戚",
+          "next": "afterFirstExam",
+          "effects": {
+            "mind": -2,
+            "dignity": -2
+          }
+        },
+        {
+          "label": "小声说：花名册变家谱了",
+          "next": "afterFirstExam",
+          "effects": {
+            "mind": 2,
+            "dignity": -3
+          }
+        },
+        {
+          "label": "举手：转班能解除亲属关系吗？",
+          "next": "romanceReply",
+          "effects": {
+            "mind": -4,
+            "dignity": 8
+          },
+          "item": "转班亲属关系疑问"
+        }
+      ]
+    },
+    "romanceReply": {
+      "title": "转班能退亲吗？",
+      "board": "问那么多干什么",
+      "text": "安K停了两秒：“问那么多干什么？”\n\n你收起转班申请。原来这门亲戚，只能认，不能退。",
+      "choices": [
+        {
+          "label": "熬到第一次月考",
+          "next": "afterFirstExam"
+        }
+      ]
+    }
+  },
+  "安堃模拟器.html": {
+    "firstClass": {
+      "title": "开学第一课",
+      "board": "规矩先讲清楚",
+      "text": "安K往讲台前一站：“你们可以叫我K哥。”\n\n他抬起手腕。你还没看清表盘，规矩已经开始了。\n\n前排小声提醒：两金一银，今天轮到金的。",
+      "photo": "K哥登场，先讲规矩。",
+      "choices": [
+        {
+          "label": "认真点头，并记下所有规矩",
+          "next": "headUpRule",
+          "effects": {
+            "dignity": 8,
+            "mind": -8
+          },
+          "item": "K哥规矩本"
+        },
+        {
+          "label": "低头偷偷做数学题",
+          "next": "math",
+          "effects": {
+            "dignity": -8,
+            "mind": 3
+          },
+          "item": "半页草稿"
+        },
+        {
+          "label": "观察晃表发光的规律",
+          "next": "watchStudy",
+          "effects": {
+            "mind": 2
+          },
+          "item": "反光角度笔记"
+        },
+        {
+          "label": "举手问：为什么不能问为什么",
+          "next": "office",
+          "effects": {
+            "dignity": -25,
+            "mind": -18
+          }
+        }
+      ]
+    },
+    "math": {
+      "title": "数学课：导数与沉默",
+      "board": "导数题：下次再讲",
+      "text": "安K抄了一道导数题：“你们先自己做。”\n\n他念了两句：“先求导，导数大于零就增，小于零就减。”讲到参数分类，粉笔却停住。手机上的小猿搜题还亮着。\n\n“这一题下次再讲。”他把粉笔一放。最关键的一步依然空着。",
+      "choices": [
+        {
+          "label": "举手：我来试试",
+          "next": "solve",
+          "effects": {
+            "mind": 10,
+            "dignity": 5
+          }
+        },
+        {
+          "label": "低头把题自己写完",
+          "next": "mathIgnoreResult",
+          "effects": {
+            "mind": 0,
+            "dignity": 0
+          }
+        },
+        {
+          "label": "小声说：小猿也没搜出来？",
+          "next": "mathWhisperResult",
+          "effects": {
+            "mind": -10,
+            "dignity": -10
+          }
+        }
+      ]
+    },
+    "mathIgnoreResult": {
+      "title": "低头继续看书",
+      "board": "你是不是对我的教学有意见",
+      "text": "你低头把题写完了。\n\n下课后，安K在后门叫住你：“你是不是对我的教学有意见？”\n\n题做对了，抬头做错了。",
+      "photo": "低头看书：题做完了，但人被盯上了。",
+      "choices": [
+        {
+          "label": "回到走廊",
+          "next": "corridor"
+        }
+      ]
+    },
+    "mathWhisperResult": {
+      "title": "小猿也没搜出来？",
+      "board": "一起罚站",
+      "text": "你小声说：“小猿也没搜出来？”同桌没忍住笑了一下。\n\n安K转身：“你们两个站起来。会做你们上来讲。”\n\n你们一起罚站。那道题还是没讲。",
+      "photo": "偷偷吐槽：笑声很小，后果很大。",
+      "choices": [
+        {
+          "label": "回到走廊",
+          "next": "corridor"
+        }
+      ]
+    },
+    "solve": {
+      "title": "上黑板",
+      "board": "学生解法：三分钟",
+      "text": "你三分钟把题讲完了。\n\n安K沉默几秒：“思路还行，但格式不够成熟。”\n\n他又晃了一下表：“周末补课费，下周别忘了。”\n\n题是你讲的，钱还是他收。",
+      "choices": [
+        {
+          "label": "先交 200，买一周清静",
+          "next": "corridor",
+          "effects": {
+            "money": -200,
+            "mind": 6,
+            "dignity": 3
+          },
+          "item": "收据边角"
+        },
+        {
+          "label": "问：这题我讲的，课费能给我吗？",
+          "next": "office",
+          "effects": {
+            "mind": -14,
+            "dignity": -18
+          }
+        },
+        {
+          "label": "说家里要确认收费明细",
+          "next": "receipt",
+          "effects": {
+            "dignity": 8
+          },
+          "item": "收费疑问"
+        }
+      ]
+    },
+    "hairCheck": {
+      "title": "女生头发检查",
+      "board": "头发也归数学管",
+      "text": "安K扫了一眼女生头发：“女生头发过肩要扎，否则学不正经。”\n\n你看了看黑板：今天没讲函数，先讲发型。",
+      "photo": "题目还没检查，头发先检查了。",
+      "choices": [
+        {
+          "label": "遵守，不出声",
+          "next": "seatByFee",
+          "effects": {
+            "mind": -5,
+            "dignity": -5
+          }
+        },
+        {
+          "label": "反抗：头发扎起来，分数也能扎上去？",
+          "next": "office",
+          "effects": {
+            "mind": -15,
+            "dignity": -18
+          },
+          "item": "头发质疑"
+        },
+        {
+          "label": "家长接回来时再说",
+          "next": "parentComplaint",
+          "effects": {
+            "mind": 2,
+            "dignity": 4
+          },
+          "item": "家长沟通计划"
+        },
+        {
+          "label": "举手问：老师，那如果我喜欢的是别的班的呢？",
+          "next": "office",
+          "effects": {
+            "mind": -10,
+            "dignity": 14
+          },
+          "item": "别的班反问"
+        },
+        {
+          "label": "后排稳龙突然笑了一声",
+          "next": "longLaugh",
+          "effects": {
+            "mind": -3
+          },
+          "item": "稳龙课堂目击"
+        },
+        {
+          "label": "晚上宿舍突然查寝",
+          "next": "dormCheck",
+          "effects": {
+            "mind": -4
+          },
+          "item": "查寝预感"
+        },
+        {
+          "label": "走廊尽头突然传来动静",
+          "next": "kickOffice",
+          "effects": {
+            "mind": -4
+          },
+          "item": "办公室异响"
+        }
+      ]
+    },
+    "corridor": {
+      "title": "走廊随机事件",
+      "board": "课间十分钟",
+      "text": "走廊里电瓶车铃声从远处飘来。安K戴着粉色头盔缓缓经过，耐克袖口一露，他又晃了晃表，反光扫过墙上的“文明校园”。\n\n下一件事会发生什么？",
+      "choices": [
+        {
+          "label": "补课收费线",
+          "next": "fee"
+        },
+        {
+          "label": "课堂考试线",
+          "next": "phoneInClass"
+        },
+        {
+          "label": "纪律体罚线",
+          "next": "hairCheck"
+        },
+        {
+          "label": "语言羞辱线",
+          "next": "verbalDeny"
+        },
+        {
+          "label": "装备推销线",
+          "next": "phoneCard"
+        },
+        {
+          "label": "校园怪论线",
+          "next": "resonance"
+        },
+        {
+          "label": "又有人被要求抬头",
+          "next": "headUpRule"
+        },
+        {
+          "label": "检查男女一米距离",
+          "next": "distanceRule"
+        },
+        {
+          "label": "班会突然讲起早恋",
+          "next": "romanceRule"
+        }
+      ]
+    },
+    "headUpRule": {
+      "title": "抬头！",
+      "board": "笔记先别写",
+      "text": "你刚低头补上一行笔记，安K就敲了敲讲台：“抬头！我讲课你们低什么头？”\n\n全班望过去。他自己却低着头，拇指还在手机屏幕上划。",
+      "photo": "全班抬头，讲台上却有人低头。",
+      "choices": [
+        {
+          "label": "抬头，先把笔放下",
+          "next": "distanceRule",
+          "effects": {
+            "mind": -2,
+            "dignity": -2
+          }
+        },
+        {
+          "label": "小声说：笔记靠脑补了",
+          "next": "distanceRule",
+          "effects": {
+            "mind": 2,
+            "dignity": -3
+          }
+        },
+        {
+          "label": "举手：您看手机也算低头吗？",
+          "next": "headUpReply",
+          "effects": {
+            "mind": -4,
+            "dignity": 8
+          },
+          "item": "抬头反击记录"
+        }
+      ]
+    },
+    "headUpReply": {
+      "title": "抬头提问",
+      "board": "手机先收一收",
+      "text": "安K把手机往讲台里一收：“聪明可以，但不要自以为聪明。”\n\n你刚抬起头，他又低头看了眼手机。",
+      "choices": [
+        {
+          "label": "听听下一条规矩",
+          "next": "distanceRule"
+        }
+      ]
+    },
+    "distanceRule": {
+      "title": "一米安全距离",
+      "board": "同桌变远桌",
+      "text": "“男女之间保持一米的安全距离！”\n\n你看了看同桌，又看了看这张半米多宽的课桌。椅子再往外挪，就要坐进过道了。",
+      "photo": "安全距离够了，过道没了。",
+      "choices": [
+        {
+          "label": "把椅子挪进过道",
+          "next": "romanceRule",
+          "effects": {
+            "mind": -2,
+            "dignity": -2
+          }
+        },
+        {
+          "label": "小声说：同桌变远桌了",
+          "next": "romanceRule",
+          "effects": {
+            "mind": 2,
+            "dignity": -3
+          }
+        },
+        {
+          "label": "举手：老师，先罚这张桌子？",
+          "next": "distanceReply",
+          "effects": {
+            "mind": -4,
+            "dignity": 8
+          },
+          "item": "一米规则记录"
+        }
+      ]
+    },
+    "distanceReply": {
+      "title": "先罚桌子？",
+      "board": "人挪，桌子不挪",
+      "text": "安K看了看桌子：“人挪！谁叫你管桌子？”\n\n你把椅子挪进过道。他走过来，又嫌你挡了路。",
+      "choices": [
+        {
+          "label": "继续听班会",
+          "next": "romanceRule"
+        }
+      ]
+    },
+    "romanceRule": {
+      "title": "谈恋爱是乱伦？",
+      "board": "花名册变家谱",
+      "text": "“你们在一个班里，就像兄弟姐妹一样。跟兄弟姐妹谈恋爱，那不叫乱伦吗？”\n\n你看了看花名册。开学才几天，亲戚倒是一下多了几十个。",
+      "photo": "刚进班，先认亲。",
+      "choices": [
+        {
+          "label": "点头，先认下这门亲戚",
+          "next": "afterFirstExam",
+          "effects": {
+            "mind": -2,
+            "dignity": -2
+          }
+        },
+        {
+          "label": "小声说：花名册变家谱了",
+          "next": "afterFirstExam",
+          "effects": {
+            "mind": 2,
+            "dignity": -3
+          }
+        },
+        {
+          "label": "举手：转班能解除亲属关系吗？",
+          "next": "romanceReply",
+          "effects": {
+            "mind": -4,
+            "dignity": 8
+          },
+          "item": "转班亲属关系疑问"
+        }
+      ]
+    },
+    "romanceReply": {
+      "title": "转班能退亲吗？",
+      "board": "问那么多干什么",
+      "text": "安K停了两秒：“问那么多干什么？”\n\n你收起转班申请。原来这门亲戚，只能认，不能退。",
+      "choices": [
+        {
+          "label": "熬到第一次月考",
+          "next": "afterFirstExam"
+        }
+      ]
+    }
+  }
+}
